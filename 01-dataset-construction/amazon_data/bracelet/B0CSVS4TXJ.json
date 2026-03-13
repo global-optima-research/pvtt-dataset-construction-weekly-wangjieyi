@@ -1,0 +1,47 @@
+{
+  "asin": "B0CSVS4TXJ",
+  "url": "https://www.amazon.com/dp/B0CSVS4TXJ",
+  "title": "2 Pack Charm Bracelets Pink and Gold Heart Silver Plated Charm Bracelet, DIY Jewelry for Women Gifts, with Beads, Crystal, Charms, Love and Adjustable Snake Chain, Fits 7.5\"+1.5\"",
+  "price": "20,721",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71YDpLQlxdL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71YDpLQlxdL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71YDpLQlxdL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61EO8IrBikL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61EO8IrBikL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61EO8IrBikL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61NFkmdJ-UL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61NFkmdJ-UL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61NFkmdJ-UL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ycDbs2cPL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ycDbs2cPL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ycDbs2cPL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61y3CBkATbL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61y3CBkATbL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61y3CBkATbL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71lxi59BPhL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71lxi59BPhL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71lxi59BPhL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71PVd7Vh2uL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71PVd7Vh2uL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71PVd7Vh2uL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71m9QdOJmqL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71m9QdOJmqL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71m9QdOJmqL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/617gvaBJNkL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/617gvaBJNkL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/617gvaBJNkL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bdd7e9e8-cdda-4fcf-9117-0c602232111c/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "charm bracelet",
+  "scraped_at": "2026-03-08T14:24:15.552015",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

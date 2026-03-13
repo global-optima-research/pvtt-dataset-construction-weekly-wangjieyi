@@ -1,0 +1,41 @@
+{
+  "asin": "B0C538SC27",
+  "url": "https://www.amazon.com/dp/B0C538SC27",
+  "title": "YADOCA 8Pcs 1MM 2MM Stainless Steel Rings for Women Men Minimalist Fashion Dainty Plain Thin Knuckle Stacking Midi Thumb Rings Stackable Statement Band Rings Set Silver Gold Tone Size 4-12",
+  "price": "12.",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71KOoPLKRkL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71KOoPLKRkL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71KOoPLKRkL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ab0HwnB7L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ab0HwnB7L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ab0HwnB7L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qZ0C5T0KL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qZ0C5T0KL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qZ0C5T0KL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ab0HwnB7L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ab0HwnB7L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ab0HwnB7L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qZ0C5T0KL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qZ0C5T0KL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qZ0C5T0KL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/714h+YhX7UL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/714h+YhX7UL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/714h+YhX7UL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61freITlJnL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61freITlJnL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61freITlJnL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a8e4c222-ee8f-4bb8-8b6c-5d4c8f2f5ca5/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "silver stackable ring",
+  "scraped_at": "2026-03-10T17:26:40.821152",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

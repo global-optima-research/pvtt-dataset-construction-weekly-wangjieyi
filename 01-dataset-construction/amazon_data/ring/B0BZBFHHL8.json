@@ -1,0 +1,47 @@
+{
+  "asin": "B0BZBFHHL8",
+  "url": "https://www.amazon.com/dp/B0BZBFHHL8",
+  "title": "ADRAMATA 1-8mm 14K Gold Plated Rings Stacking Rings for Women Stackable Rings Thin Band Rings Plain Pinky Thumb Finger Rings Trendy Mid Statement Rings Comfort Knuckle Rings Set",
+  "price": "14,800",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71qYBwGtDvL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qYBwGtDvL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71qYBwGtDvL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+ZX5FpBjL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+ZX5FpBjL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+ZX5FpBjL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61qTllrre7L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61qTllrre7L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61qTllrre7L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/712epjdgosL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/712epjdgosL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/712epjdgosL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/510cEcicpaL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/510cEcicpaL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/510cEcicpaL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61bQSAsw-eL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61bQSAsw-eL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61bQSAsw-eL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61j-94h955L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61j-94h955L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61j-94h955L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/6188qFXqulL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/6188qFXqulL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/6188qFXqulL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+3HMYc7IL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+3HMYc7IL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+3HMYc7IL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9d45a4c0-bb55-4d9f-a1fa-10b0b3f66a9f/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "gold band ring",
+  "scraped_at": "2026-03-12T22:55:21.602407",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

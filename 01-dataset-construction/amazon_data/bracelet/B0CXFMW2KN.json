@@ -1,0 +1,29 @@
+{
+  "asin": "B0CXFMW2KN",
+  "url": "https://www.amazon.com/dp/B0CXFMW2KN",
+  "title": "PAVOI 14K Yellow Gold Plated Gemstone Beaded Bracelets for Women - Adjustable Slider Dainty Pearl Bracelet - Boho Festival Pearls, Labradorite, Sodalite, Red Jade, Amazonite Beads - Gold Jewelry Gifts",
+  "price": "29,549",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61IRfHJMQDL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61IRfHJMQDL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61IRfHJMQDL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Rkm9e1LdS._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Rkm9e1LdS._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Rkm9e1LdS._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51lgBav6WNL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51lgBav6WNL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51lgBav6WNL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0ff66786-cac8-43b1-bb3e-6203c1840c8e/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "beaded bracelet",
+  "scraped_at": "2026-03-08T14:27:45.603158",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

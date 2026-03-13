@@ -1,0 +1,47 @@
+{
+  "asin": "B0FGCY9NXS",
+  "url": "https://www.amazon.com/dp/B0FGCY9NXS",
+  "title": "Dangle Earrings for Women,14k Gold Plated Triple Huggie Stud Earrings Cute Statement Chain Earring Dainty Drop Earrings for Women Trendy Gold Plated Jewelry",
+  "price": "19,370",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51WBRJeqhZL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51WBRJeqhZL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51WBRJeqhZL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61H2JxOnZDL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61H2JxOnZDL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61H2JxOnZDL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7194fVWPwRL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7194fVWPwRL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7194fVWPwRL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51c-gJxlb0L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51c-gJxlb0L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51c-gJxlb0L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51i6do2Ch+L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51i6do2Ch+L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51i6do2Ch+L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51cMualYGJL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51cMualYGJL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51cMualYGJL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OJnA9kaEL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OJnA9kaEL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OJnA9kaEL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51liYOmI3vL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51liYOmI3vL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51liYOmI3vL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51T6B4N2KtL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51T6B4N2KtL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51T6B4N2KtL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4fab9c4f-f9bf-483e-8350-1fc32a947f5c/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "dangle earrings women",
+  "scraped_at": "2026-03-14T00:02:04.871391",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

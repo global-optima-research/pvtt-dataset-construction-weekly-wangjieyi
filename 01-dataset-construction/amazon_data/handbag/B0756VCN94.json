@@ -1,0 +1,41 @@
+{
+  "asin": "B0756VCN94",
+  "url": "https://www.amazon.com/dp/B0756VCN94",
+  "title": "Realer Hobo Crossbody Bags for Women Designer Faux Leather Hobo Handbags Retro Large Size Shoulder Bag Bucket Purse",
+  "price": "44,575",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71vzgpOjEhL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71vzgpOjEhL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71vzgpOjEhL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717Q7gdwWRL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717Q7gdwWRL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717Q7gdwWRL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71BtsUIsiaL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71BtsUIsiaL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71BtsUIsiaL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/91Kf-r3i2fL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/91Kf-r3i2fL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/91Kf-r3i2fL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717Yoc6p-vL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717Yoc6p-vL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717Yoc6p-vL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61VZ4p+1w6L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61VZ4p+1w6L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61VZ4p+1w6L._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/3a66d727-e7bc-525c-a430-f21cf58bac3c/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b660e495-9ba8-4172-8781-d5848ec49010/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/abd19777-8a8c-4b1c-8a68-e03f23fed808/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b1e11f38-4c96-4a75-bd8d-c713d5c70752/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:21:37.325451",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

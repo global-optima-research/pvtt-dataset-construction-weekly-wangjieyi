@@ -1,0 +1,38 @@
+{
+  "asin": "B0BKSKCYX7",
+  "url": "https://www.amazon.com/dp/B0BKSKCYX7",
+  "title": "FEIDUSUN Sunglasses Men Polarized Sunglasses for Mens and Womens,Black Retro Sun Glasses Driving Fishing UV Protection",
+  "price": "14,800",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61KQXq71FJL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KQXq71FJL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KQXq71FJL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51mBLfd7LXL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51mBLfd7LXL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51mBLfd7LXL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71uj3g0flUL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71uj3g0flUL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71uj3g0flUL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/614PJ2ECztL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/614PJ2ECztL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/614PJ2ECztL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51f00ZTK+ML._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51f00ZTK+ML._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51f00ZTK+ML._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/716V6deKomL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/716V6deKomL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/716V6deKomL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7d4fd439-8a35-4f53-8791-96fe25f673fe/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "polarized sunglasses",
+  "scraped_at": "2026-03-12T22:20:45.663833",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

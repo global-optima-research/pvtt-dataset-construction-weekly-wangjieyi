@@ -1,0 +1,19 @@
+{
+  "asin": "B0F38HG4NB",
+  "url": "https://www.amazon.com/dp/B0F38HG4NB",
+  "title": "CHESKY 14K Gold Plated Chunky Necklace for Women, Trendy Paperclip Chain Necklace Thick Cross Heart Pendant Necklace Layered Herringbone Cuban Link Chain Toggle Necklaces Non Tarnish Jewelry",
+  "price": "19,225",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d66b2774-eafc-4e9a-8da5-3f402456bf67/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "gold necklace",
+  "scraped_at": "2026-03-08T13:15:44.585982",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

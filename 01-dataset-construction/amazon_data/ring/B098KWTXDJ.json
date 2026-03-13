@@ -1,0 +1,50 @@
+{
+  "asin": "B098KWTXDJ",
+  "url": "https://www.amazon.com/dp/B098KWTXDJ",
+  "title": "925 Sterling Silver Shiny Full Diamond Ring Cubic Zirconia Cocktail Rings CZ Eternity Engagement Wedding Band Ring for Women (US Code 7)",
+  "price": "22,044",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/619afjOB9+L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/619afjOB9+L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/619afjOB9+L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71M13E0M-CL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71M13E0M-CL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71M13E0M-CL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61MIZaM0ytL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61MIZaM0ytL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61MIZaM0ytL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/8146byN1HVL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/8146byN1HVL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/8146byN1HVL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71RHl4S3m0L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71RHl4S3m0L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71RHl4S3m0L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61XQIdN9S4L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61XQIdN9S4L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61XQIdN9S4L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61s3b-MRDBL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61s3b-MRDBL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61s3b-MRDBL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Szzw5OCBS._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Szzw5OCBS._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Szzw5OCBS._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71iLUVvyvpS._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71iLUVvyvpS._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71iLUVvyvpS._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a459b0bf-7725-45a1-9e13-25f535654a00/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2a4ad056-f59a-4e33-99e2-7b254f7b2231/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/862a937a-6972-4752-8553-3cae47747058/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/eccdf5a8-8391-4514-9e68-c9144486d91e/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "engagement ring",
+  "scraped_at": "2026-03-12T22:22:33.420729",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 4,
+    "images_skipped": 0
+  }
+}

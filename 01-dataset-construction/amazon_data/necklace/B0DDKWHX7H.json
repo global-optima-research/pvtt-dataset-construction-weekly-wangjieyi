@@ -1,0 +1,42 @@
+{
+  "asin": "B0DDKWHX7H",
+  "url": "https://www.amazon.com/dp/B0DDKWHX7H",
+  "title": "KRKC Moissanite Pendant Necklace for Women, 0.5CT/1CT/2CT/3CT/4CT Lab Created Diamond Solitaire Pendant, VVS1 Clarity D Color, Adjustable 14K White Gold Plated S925 Sterling Silver Chain, Jewelry Gift for Anniversary Valentines Christmas Day",
+  "price": "104,365",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61l2LF9teXL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61l2LF9teXL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61l2LF9teXL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71wocX-lLQL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71wocX-lLQL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71wocX-lLQL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/613d9thncaL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/613d9thncaL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/613d9thncaL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JQj7jPauL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JQj7jPauL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JQj7jPauL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61rguFRL31L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61rguFRL31L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61rguFRL31L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51CKHY+L-HL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51CKHY+L-HL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51CKHY+L-HL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ELutmJe0L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ELutmJe0L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ELutmJe0L._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6f3d2b4a-b9c2-47b8-a3c6-f529dc842c58/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/079fda40-23e9-4047-b1e6-169e4ccb413e/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "diamond pendant necklace",
+  "scraped_at": "2026-03-13T22:36:46.342357",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

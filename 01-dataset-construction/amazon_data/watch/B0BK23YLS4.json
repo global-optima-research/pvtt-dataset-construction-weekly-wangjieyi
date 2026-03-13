@@ -1,0 +1,38 @@
+{
+  "asin": "B0BK23YLS4",
+  "url": "https://www.amazon.com/dp/B0BK23YLS4",
+  "title": "Timex Men's Expedition 41mm Watch - Black Strap Digital Dial Green Case",
+  "price": "60,484",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71MUT8CyDxL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71MUT8CyDxL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71MUT8CyDxL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71NqkjQdHoL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71NqkjQdHoL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71NqkjQdHoL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81su97MHzNL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81su97MHzNL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81su97MHzNL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Qs-IvBErL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Qs-IvBErL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Qs-IvBErL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51VBpfkAeGL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51VBpfkAeGL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51VBpfkAeGL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UacTdRJ4L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UacTdRJ4L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UacTdRJ4L._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9d7700a7-4ac2-4d7a-b730-2427b66da5f3/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "sport digital watch",
+  "scraped_at": "2026-03-09T23:36:37.393269",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

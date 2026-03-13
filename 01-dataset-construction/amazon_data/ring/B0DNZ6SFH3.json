@@ -1,0 +1,45 @@
+{
+  "asin": "B0DNZ6SFH3",
+  "url": "https://www.amazon.com/dp/B0DNZ6SFH3",
+  "title": "Luxury LED Lighted Engagement Ring Box - Heart Shaped Elegant Black Ring Case for Wedding Rings, Perfect for Proposal, Anniversary, Ceremony, and Gift Giving",
+  "price": "14,652",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51DqafaiKLL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51DqafaiKLL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51DqafaiKLL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71bATDixzsL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71bATDixzsL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71bATDixzsL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/616pu5VbF5L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/616pu5VbF5L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/616pu5VbF5L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QIIWfTpxL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QIIWfTpxL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QIIWfTpxL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61nf0l1ydxL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61nf0l1ydxL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61nf0l1ydxL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/619Drpw5YiL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/619Drpw5YiL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/619Drpw5YiL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717TJaXZUIL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717TJaXZUIL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/717TJaXZUIL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61u9YI+WJjL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61u9YI+WJjL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61u9YI+WJjL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2721b0a0-0e7f-4232-8ab0-2d69b620fbb6/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8e1127bc-650e-4fa2-ab73-d9886254c89b/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "engagement ring",
+  "scraped_at": "2026-03-12T22:26:15.422150",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "asin": "B07MRD7118",
+  "url": "https://www.amazon.com/dp/B07MRD7118",
+  "title": "KALIYADI Polarized Sunglasses for Men and Women Matte Finish Sun glasses Color Mirror Lens UV Blocking (3 Pack)",
+  "price": "25,170",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71uj3g0flUL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71uj3g0flUL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71uj3g0flUL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71LouOP0WBL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71LouOP0WBL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71LouOP0WBL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61741W37lIL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61741W37lIL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61741W37lIL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UDupj9CWL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UDupj9CWL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UDupj9CWL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ijUBufLNL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ijUBufLNL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ijUBufLNL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/712ymVTiIvL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/712ymVTiIvL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/712ymVTiIvL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/aplus-media/sc/c4f81b5a-5bd7-4928-8acc-00313a799bc9.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/94673e1f-9140-41ec-b84d-191948b00903/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c5fd26f8-d806-4bfd-a00f-497cfd0e9eee/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/669968d9-b94f-4068-bfa9-52670403ffef/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/290761c7-cc59-4130-acd1-a919b93a99df/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "polarized sunglasses",
+  "scraped_at": "2026-03-12T22:16:08.107105",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 4,
+    "images_skipped": 0
+  }
+}

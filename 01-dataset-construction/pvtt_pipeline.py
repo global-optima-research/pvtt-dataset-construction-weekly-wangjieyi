@@ -47,13 +47,20 @@ GITHUB_BRANCH = "main"
 
 # Categories
 CATEGORIES = {
-    "necklace":   ["gold necklace", "silver pendant necklace", "pearl necklace"],
-    "bracelet":   ["charm bracelet", "gold bangle bracelet", "beaded bracelet"],
-    "earring":    ["drop earrings", "stud earrings gold", "hoop earrings silver"],
-    "watch":      ["men automatic watch", "women dress watch", "sport digital watch"],
-    "handbag":    ["leather crossbody bag", "women tote handbag", "clutch purse evening"],
-    "sunglasses": ["polarized sunglasses", "aviator sunglasses", "cat eye sunglasses"],
-    "ring":       ["engagement ring", "gold band ring", "silver stackable ring"],
+    "necklace":   ["gold necklace", "silver pendant necklace", "pearl necklace",
+                   "choker necklace", "diamond pendant necklace", "layered necklace"],
+    "bracelet":   ["charm bracelet", "gold bangle bracelet", "beaded bracelet",
+                   "tennis bracelet", "cuff bracelet women", "chain bracelet gold"],
+    "earring":    ["drop earrings", "stud earrings gold", "hoop earrings silver",
+                   "dangle earrings women", "pearl earrings", "clip on earrings"],
+    "watch":      ["men automatic watch", "women dress watch", "sport digital watch",
+                   "luxury watch men", "chronograph watch", "minimalist watch women"],
+    "handbag":    ["leather crossbody bag", "women tote handbag", "clutch purse evening",
+                   "shoulder bag women", "mini crossbody bag", "hobo bag leather"],
+    "sunglasses": ["polarized sunglasses", "aviator sunglasses", "cat eye sunglasses",
+                   "oversized sunglasses women", "sport sunglasses men", "round sunglasses retro"],
+    "ring":       ["engagement ring", "gold band ring", "silver stackable ring",
+                   "cocktail ring women", "signet ring men", "wedding band set"],
 }
 
 SAMPLES_PER_CATEGORY = 3

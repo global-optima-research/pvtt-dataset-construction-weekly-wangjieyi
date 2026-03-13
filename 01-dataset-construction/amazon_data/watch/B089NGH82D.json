@@ -1,0 +1,40 @@
+{
+  "asin": "B089NGH82D",
+  "url": "https://www.amazon.com/dp/B089NGH82D",
+  "title": "Mens Digital Watch Sports Military Watches Waterproof Outdoor Chronograph Wrist Watches for Men with LED Back Ligh/Alarm/Date",
+  "price": "22,733",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/7103K-BokKL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7103K-BokKL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7103K-BokKL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615a0wQdsrL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615a0wQdsrL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615a0wQdsrL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71OtsjyB9FL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71OtsjyB9FL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71OtsjyB9FL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/616ZpI9EadL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/616ZpI9EadL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/616ZpI9EadL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61TMFRJjPWS._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61TMFRJjPWS._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61TMFRJjPWS._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71klBL3eefL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71klBL3eefL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71klBL3eefL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/13ed080b-55e2-4cd3-a9dd-0e5909a7ad0f/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bd6568bf-6b75-47fb-a7bc-baa324d1cd49/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1738b66d-096d-48c1-b4a2-581b67fe9602/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "sport digital watch",
+  "scraped_at": "2026-03-09T23:46:14.023193",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 3,
+    "images_skipped": 0
+  }
+}

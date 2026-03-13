@@ -1,0 +1,39 @@
+{
+  "asin": "B00P9L2NVO",
+  "url": "https://www.amazon.com/dp/B00P9L2NVO",
+  "title": "Swarovski Una Angelic Bracelet with White Crystals on a Rhodium Plated Setting",
+  "price": "177,997",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/81NnZmD3JoL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81NnZmD3JoL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81NnZmD3JoL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UE3-bsfAL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UE3-bsfAL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UE3-bsfAL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81gr1nZUupL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81gr1nZUupL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81gr1nZUupL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51W-f5HJdAL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51W-f5HJdAL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51W-f5HJdAL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/715-yfGy9KL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/715-yfGy9KL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/715-yfGy9KL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71FCxiEUpqL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71FCxiEUpqL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71FCxiEUpqL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7cdb8cec-cc10-4efe-a495-970291af7426/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/06383763-9025-4b25-9859-9239740687a4/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "tennis bracelet",
+  "scraped_at": "2026-03-13T23:09:01.197245",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

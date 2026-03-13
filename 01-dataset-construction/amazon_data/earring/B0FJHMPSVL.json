@@ -1,0 +1,44 @@
+{
+  "asin": "B0FJHMPSVL",
+  "url": "https://www.amazon.com/dp/B0FJHMPSVL",
+  "title": "PAVOI 14K Gold Plated Cubic Zirconia Dangle Earrings for Women - Crystal Long Linear Bridal Drop Earrings - Cluster CZ Pearl Simulated Diamond Drop Dangle Wedding Jewelry for Brides & Bridesmaid",
+  "price": "28,068",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61qMDuTV3rL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61qMDuTV3rL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61qMDuTV3rL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61A6dNuV6FL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61A6dNuV6FL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61A6dNuV6FL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61mzLh+khfL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61mzLh+khfL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61mzLh+khfL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61f5VMw8HPL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61f5VMw8HPL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61f5VMw8HPL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61R0cEs-KSL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61R0cEs-KSL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61R0cEs-KSL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61NLd0rLqDL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61NLd0rLqDL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61NLd0rLqDL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61R2OBhufhL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61R2OBhufhL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61R2OBhufhL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0f845fbc-d96c-41a7-8005-714dbd5d6a70/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "drop earrings",
+  "scraped_at": "2026-03-08T14:37:01.807976",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

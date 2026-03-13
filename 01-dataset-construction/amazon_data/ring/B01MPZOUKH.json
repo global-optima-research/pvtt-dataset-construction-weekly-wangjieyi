@@ -1,0 +1,28 @@
+{
+  "asin": "B01MPZOUKH",
+  "url": "https://www.amazon.com/dp/B01MPZOUKH",
+  "title": "PAVOI 14K Gold Plated Solid 925 Sterling Silver CZ Simulated Diamond Stackable Ring Eternity Bands for Women",
+  "price": "18.",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61OmckZxTuL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OmckZxTuL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OmckZxTuL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61peluWYLaL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61peluWYLaL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61peluWYLaL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/8654f7aa-9884-5fd5-8249-2d9680f2079e/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9fff6743-9979-489d-a44f-912a65d69155/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/806ae3b1-e600-4d47-9825-ae6c6591c529/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "silver stackable ring",
+  "scraped_at": "2026-03-10T17:13:04.113553",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

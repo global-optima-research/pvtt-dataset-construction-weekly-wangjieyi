@@ -1,0 +1,27 @@
+{
+  "asin": "B00CW8SZE6",
+  "url": "https://www.amazon.com/dp/B00CW8SZE6",
+  "title": "VIKI LYNN Freshwater Cultured Pearl Necklace Set Includes Stunning Bracelet and Stud Earrings Jewelry for Women Gift for Mother's Day, Anniversary, Birthday, Wedding",
+  "price": "236,971",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71mjkZTd8rL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mjkZTd8rL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mjkZTd8rL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71xMrAK7cNL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71xMrAK7cNL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71xMrAK7cNL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/514595b3-f4ed-51da-9263-0fbc70532cf6/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/aa920fa2-1695-4560-be16-9ae7db76a25c/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "pearl necklace",
+  "scraped_at": "2026-03-08T13:49:41.553908",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asin": "B08PC58G7R",
+  "url": "https://www.amazon.com/dp/B08PC58G7R",
+  "title": "PAVOI 14K Gold Plated Paperclip/Curb/Figaro Chain Adjustable Bracelet for Women",
+  "price": "25,275",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/615uWhm5HsS._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615uWhm5HsS._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615uWhm5HsS._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Rkm9e1LdS._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Rkm9e1LdS._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Rkm9e1LdS._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/87d1d2dd-8ce3-450b-a223-6fe1b06eb9d8/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "chain bracelet gold",
+  "scraped_at": "2026-03-13T23:26:24.506722",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

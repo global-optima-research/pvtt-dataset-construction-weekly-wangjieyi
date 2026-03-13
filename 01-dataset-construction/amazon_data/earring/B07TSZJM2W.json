@@ -1,0 +1,27 @@
+{
+  "asin": "B07TSZJM2W",
+  "url": "https://www.amazon.com/dp/B07TSZJM2W",
+  "title": "FUNEIA 6 Pairs Drop Dangle Earrings for Women Long Bar Double Twist Wave Curved Threader Cut Out Leaf Lightweight Earrings Set",
+  "price": "13,390",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61-PT8slueL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61-PT8slueL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61-PT8slueL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81YJYnzo0fL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81YJYnzo0fL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81YJYnzo0fL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61pdZNY1LYL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61pdZNY1LYL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61pdZNY1LYL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "dangle earrings women",
+  "scraped_at": "2026-03-14T00:04:33.886492",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

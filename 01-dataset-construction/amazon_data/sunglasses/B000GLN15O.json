@@ -1,0 +1,36 @@
+{
+  "asin": "B000GLN15O",
+  "url": "https://www.amazon.com/dp/B000GLN15O",
+  "title": "Ray-Ban RB3025 Classic Aviator Sunglasses",
+  "price": "282,961",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41ewYNrgp7L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41ewYNrgp7L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41ewYNrgp7L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51WQwSHeDwL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51WQwSHeDwL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51WQwSHeDwL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/31qvvoh0+UL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/31qvvoh0+UL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/31qvvoh0+UL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51OT-Rl83WL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51OT-Rl83WL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51OT-Rl83WL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61GaI7nHH5L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61GaI7nHH5L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61GaI7nHH5L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/519EjRxXhdL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/519EjRxXhdL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/519EjRxXhdL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "aviator sunglasses",
+  "scraped_at": "2026-03-12T22:36:54.399571",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "asin": "B01N18UU4X",
+  "url": "https://www.amazon.com/dp/B01N18UU4X",
+  "title": "sqlp Large Work Tote Bag for Women Designer Purses and Handbags Big Bucket bags Ladies Travel Crossbody Purse",
+  "price": "57,971",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/713Q4cAWaPL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/713Q4cAWaPL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/713Q4cAWaPL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71615wtG0zL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71615wtG0zL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71615wtG0zL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/711GdOKIaeL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/711GdOKIaeL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/711GdOKIaeL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jO19BPenL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jO19BPenL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jO19BPenL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71cQRqkZ-8L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71cQRqkZ-8L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71cQRqkZ-8L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/91O-gcY5+OL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/91O-gcY5+OL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/91O-gcY5+OL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4419435f-455c-46e9-91f0-47de39b012b8/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7caf885b-8080-4428-9d54-cba0c3793179/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:04:16.211134",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

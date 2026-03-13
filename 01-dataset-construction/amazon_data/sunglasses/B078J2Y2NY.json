@@ -1,0 +1,17 @@
+{
+  "asin": "B078J2Y2NY",
+  "url": "https://www.amazon.com/dp/B078J2Y2NY",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "cat eye sunglasses",
+  "scraped_at": "2026-03-12T22:29:04.755855",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

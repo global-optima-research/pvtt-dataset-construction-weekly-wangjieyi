@@ -1,0 +1,33 @@
+{
+  "asin": "B0CF1B79N7",
+  "url": "https://www.amazon.com/dp/B0CF1B79N7",
+  "title": "RLMOON 8PCS 14K Gold/Silver Rings Set for Women Non Tarnish Dainty CZ Simulated Diamond Ring Eternity Wedding Band Gold Stackable Thumb Rings Size 4-12",
+  "price": "14.",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/7150can8UTL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7150can8UTL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7150can8UTL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61cTnNjzzAL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61cTnNjzzAL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61cTnNjzzAL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Pen8WGpRL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Pen8WGpRL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Pen8WGpRL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710VzId4HoL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710VzId4HoL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710VzId4HoL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/aplus-media/sc/923baee7-3f5f-4fdf-bd8f-112ec5867489.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5c332685-cd1d-4b1e-a147-37141e31bfb7/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "silver stackable ring",
+  "scraped_at": "2026-03-10T17:24:18.370108",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

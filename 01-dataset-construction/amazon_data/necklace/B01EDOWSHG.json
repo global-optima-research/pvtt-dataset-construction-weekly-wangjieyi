@@ -1,0 +1,27 @@
+{
+  "asin": "B01EDOWSHG",
+  "url": "https://www.amazon.com/dp/B01EDOWSHG",
+  "title": "925 Sterling Silver Cubic Zirconia Pave Disc Round Pendant Necklace 18 inch",
+  "price": "29,808",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61+RbigvyEL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+RbigvyEL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61+RbigvyEL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Cx2rWJ4mL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Cx2rWJ4mL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Cx2rWJ4mL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/c6b82ce9-9253-5481-87ad-91f325e82bee/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c2986360-1761-44c5-a188-6651bcb7f701/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "silver pendant necklace",
+  "scraped_at": "2026-03-13T22:06:45.087907",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

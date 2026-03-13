@@ -1,0 +1,20 @@
+{
+  "asin": "B000JQJS6M",
+  "url": "https://www.amazon.com/dp/B000JQJS6M",
+  "title": "Invicta Men's Pro Diver Collection Coin-Edge Automatic Watch",
+  "price": "128,624",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/5f8fd01a-7171-5b95-aa1c-81fa70088dcd/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/a32870c0-0719-5712-8fa5-711a75d2760d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4"
+  ],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "men automatic watch",
+  "scraped_at": "2026-03-08T22:49:42.081286",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "asin": "B0DNYL998P",
+  "url": "https://www.amazon.com/dp/B0DNYL998P",
+  "title": "Italian Charms Bracelet Sets with 1Pcs Starter Brascelet 9Pcs Charms 9mm Italian Modular Charm Bracelet DIY Module Jewelry Gifts",
+  "price": "28,127",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71LjacMh7mL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71LjacMh7mL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71LjacMh7mL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/813IRrDseZL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/813IRrDseZL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/813IRrDseZL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/518UoPYX6mL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/518UoPYX6mL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/518UoPYX6mL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71OlhCOHPwL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71OlhCOHPwL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71OlhCOHPwL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ji4+6IjHL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ji4+6IjHL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ji4+6IjHL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81-B6uuHJUL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81-B6uuHJUL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81-B6uuHJUL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6fe9c097-c611-4c0f-9c98-ddf5146503a7/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2bf1cfe9-ec70-4856-8bb9-0b336c2ca0a2/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "charm bracelet",
+  "scraped_at": "2026-03-08T14:18:05.203683",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

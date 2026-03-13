@@ -1,0 +1,23 @@
+{
+  "asin": "B07XCQ2W3V",
+  "url": "https://www.amazon.com/dp/B07XCQ2W3V",
+  "title": "KALIYADI Classic Aviator Sunglasses for Men Women Driving Sun glasses Polarized Lens UV Blocking",
+  "price": "29,615",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/03ed8ca2-31a4-48c1-8081-5813aabe7dae/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/02d262db-3cd6-4d31-b686-eec45263cce9/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1a155865-b1ef-4442-80f2-56f1da885f02/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/06139993-75a3-457e-96b2-69aac4883997/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1de3c868-1e8e-42de-a737-2149b7e86492/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "aviator sunglasses",
+  "scraped_at": "2026-03-12T22:21:19.361157",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 5,
+    "images_skipped": 0
+  }
+}

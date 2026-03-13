@@ -1,0 +1,17 @@
+{
+  "asin": "B0BY8BFM43",
+  "url": "https://www.amazon.com/dp/B0BY8BFM43",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "gold necklace",
+  "scraped_at": "2026-03-08T13:15:32.877766",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

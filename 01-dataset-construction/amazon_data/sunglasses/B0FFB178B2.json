@@ -1,0 +1,39 @@
+{
+  "asin": "B0FFB178B2",
+  "url": "https://www.amazon.com/dp/B0FFB178B2",
+  "title": "kimorn Polarized Aviator Sunglasses for Women Retro Square Frame Sun Glasses UV400 Protection Shades",
+  "price": "23,689",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51TvnTUISOL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51TvnTUISOL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51TvnTUISOL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51elK8A-m5L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51elK8A-m5L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51elK8A-m5L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61hKfLOBwaL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61hKfLOBwaL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61hKfLOBwaL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61WyKNRybJL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61WyKNRybJL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61WyKNRybJL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61i3BGf8B0L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61i3BGf8B0L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61i3BGf8B0L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51B7TY31XSL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51B7TY31XSL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51B7TY31XSL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/53b2cdf6-e5d8-436e-a33e-9e8a52437e45/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/47156ce0-bd55-449e-b4b0-2893ccf571a4/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "aviator sunglasses",
+  "scraped_at": "2026-03-12T22:32:46.216407",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

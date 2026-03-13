@@ -1,0 +1,36 @@
+{
+  "asin": "B01ANI22LS",
+  "url": "https://www.amazon.com/dp/B01ANI22LS",
+  "title": "Swarovski Emily Tennis Bracelet Jewelry Collection",
+  "price": "161,401",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51GSqjUurzL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51GSqjUurzL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51GSqjUurzL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51ztG61FMnL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51ztG61FMnL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51ztG61FMnL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51W-f5HJdAL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51W-f5HJdAL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51W-f5HJdAL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Ai0yQ7UgL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Ai0yQ7UgL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Ai0yQ7UgL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71FCxiEUpqL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71FCxiEUpqL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71FCxiEUpqL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71P8kVuNsgL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71P8kVuNsgL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71P8kVuNsgL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "tennis bracelet",
+  "scraped_at": "2026-03-13T23:06:17.464055",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

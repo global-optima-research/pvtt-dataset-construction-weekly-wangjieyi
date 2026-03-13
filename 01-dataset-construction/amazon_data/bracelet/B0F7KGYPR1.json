@@ -1,0 +1,17 @@
+{
+  "asin": "B0F7KGYPR1",
+  "url": "https://www.amazon.com/dp/B0F7KGYPR1",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "beaded bracelet",
+  "scraped_at": "2026-03-08T14:25:33.616804",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

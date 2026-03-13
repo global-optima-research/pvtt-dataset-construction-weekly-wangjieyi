@@ -1,0 +1,44 @@
+{
+  "asin": "B075VSR5CZ",
+  "url": "https://www.amazon.com/dp/B075VSR5CZ",
+  "title": "cuero Leather Messenger Bag for Men, 18 Inch Laptop Crossbody, Handmade Leather Shoulder Satchel Bag for Men, Full Grain Business Briefcase for Office/Work/Travel - Vintage Brown",
+  "price": "104,063",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/719e2F-KZlL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/719e2F-KZlL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/719e2F-KZlL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61q8OmNOOXL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61q8OmNOOXL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61q8OmNOOXL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81tKjz1LLXL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81tKjz1LLXL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81tKjz1LLXL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81EPTX8VhwL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81EPTX8VhwL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81EPTX8VhwL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81Zr2-SGgYL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81Zr2-SGgYL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81Zr2-SGgYL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81v+1Oo8wiL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81v+1Oo8wiL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81v+1Oo8wiL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/aplus-media/sc/9ed78ad3-7b15-40f1-af40-988acfadbd1d.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0cb109db-c0cc-4798-b48f-a0536492c429/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bab196b2-5333-4a26-b5cb-5f750a6eab43/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2934f90c-f720-4474-adef-9bef5dcb1da6/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4362133b-8637-4c5f-81c4-8965d0f08e1a/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9150a9c2-8650-494c-9619-728164c7b5ef/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/00e52bd8-9ed3-434c-9976-a3b981b1cffd/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "leather crossbody bag",
+  "scraped_at": "2026-03-09T23:47:53.992749",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 6,
+    "images_skipped": 0
+  }
+}

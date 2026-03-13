@@ -1,0 +1,36 @@
+{
+  "asin": "B0GGZTMDNJ",
+  "url": "https://www.amazon.com/dp/B0GGZTMDNJ",
+  "title": "KALIYADI Polarized Sports Sunglasses Sunglasses-for-Men: Mens Sun Glasses for Running Fishing Golf with UV400",
+  "price": "29,615",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71pqHiqf31L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71pqHiqf31L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71pqHiqf31L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81QAAUuobZL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81QAAUuobZL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81QAAUuobZL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71QF7wr0t7L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71QF7wr0t7L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71QF7wr0t7L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mTYUeSc+L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mTYUeSc+L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mTYUeSc+L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71XTvLp4LBL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71XTvLp4LBL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71XTvLp4LBL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61eZLW+qVPL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61eZLW+qVPL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61eZLW+qVPL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "polarized sunglasses",
+  "scraped_at": "2026-03-12T22:09:49.931490",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

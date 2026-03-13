@@ -1,0 +1,20 @@
+{
+  "asin": "B01KP0VO4A",
+  "url": "https://www.amazon.com/dp/B01KP0VO4A",
+  "title": "Swarovski Una Angelic Crystal Tennis Bracelet Collection",
+  "price": "208,760",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7cdb8cec-cc10-4efe-a495-970291af7426/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fac19961-a4d1-4455-a9db-a3ab7c430708/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "tennis bracelet",
+  "scraped_at": "2026-03-13T23:06:24.643621",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

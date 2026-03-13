@@ -1,0 +1,19 @@
+{
+  "asin": "B07CS2TXK6",
+  "url": "https://www.amazon.com/dp/B07CS2TXK6",
+  "title": "Dreubea Women's Soft Faux Leather Tote Shoulder Bag from, Big Capacity Tassel Handbag",
+  "price": "26,748",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7b708560-cac8-425d-8d9e-eb2e7f54260a/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:20:26.849242",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

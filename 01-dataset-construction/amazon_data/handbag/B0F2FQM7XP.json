@@ -1,0 +1,36 @@
+{
+  "asin": "B0F2FQM7XP",
+  "url": "https://www.amazon.com/dp/B0F2FQM7XP",
+  "title": "KALIDI PVC Tote Bag Women’s Kraft Paper Work Handbags Purses with Top Handle",
+  "price": "34,182",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/81hgbuPOyIL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81hgbuPOyIL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81hgbuPOyIL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71jd9KgrbpL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71jd9KgrbpL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71jd9KgrbpL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51HK1WoTaSL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51HK1WoTaSL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51HK1WoTaSL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61vCQvrEWbL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61vCQvrEWbL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61vCQvrEWbL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Eye3L6ffL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Eye3L6ffL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71Eye3L6ffL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71kSCMwfI+L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71kSCMwfI+L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71kSCMwfI+L._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:05:56.523836",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

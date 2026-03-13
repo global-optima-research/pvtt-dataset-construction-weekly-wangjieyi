@@ -1,0 +1,38 @@
+{
+  "asin": "B0D5YHH94V",
+  "url": "https://www.amazon.com/dp/B0D5YHH94V",
+  "title": "3 Pairs 14k Gold Stud Earrings for Women Hypoallergenic 925 Sterling Silver Post Dainty Silver Cartilage Tragus Earrings Stacks Set Trendy Small Diamond Heart Multiple Piercing Jewelry for Men",
+  "price": "9.",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61lI+PyZ1ZL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61lI+PyZ1ZL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61lI+PyZ1ZL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jWBhOBUCL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jWBhOBUCL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jWBhOBUCL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Df3lnQYfL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Df3lnQYfL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Df3lnQYfL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/611HbE+3ytL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/611HbE+3ytL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/611HbE+3ytL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Nh+2lQLPL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Nh+2lQLPL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Nh+2lQLPL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61TdWUHb0mL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61TdWUHb0mL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61TdWUHb0mL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/16560842-a68f-473b-be46-3ae992689be5/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "stud earrings gold",
+  "scraped_at": "2026-03-08T22:45:20.323908",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "asin": "B0BKXK8ZB9",
+  "url": "https://www.amazon.com/dp/B0BKXK8ZB9",
+  "title": "AIEYEZO Square Sunglasses for Women Men Square Thick Frame Sun Glasses Simple Designer Style Shades",
+  "price": "17,726",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/518LQQLLCOL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/518LQQLLCOL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/518LQQLLCOL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/517YnHgQUKL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/517YnHgQUKL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/517YnHgQUKL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51gv+cpzFpL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51gv+cpzFpL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51gv+cpzFpL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51EHLc50+uL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51EHLc50+uL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51EHLc50+uL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OkqbeC2HL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OkqbeC2HL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OkqbeC2HL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61SjiJ9KddL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61SjiJ9KddL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61SjiJ9KddL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "polarized sunglasses",
+  "scraped_at": "2026-03-12T22:10:21.488121",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "asin": "B0C2P72WY6",
+  "url": "https://www.amazon.com/dp/B0C2P72WY6",
+  "title": "DEARMAY Gold Bracelets for Women Waterproof, 14K Gold Plated Jewelry Sets Trendy Thin Dainty Stackable Cuban Link Paperclip Chain Bracelet Pack Fashion Accessories Gifts for Womens",
+  "price": "20,861",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/81yqoecUy2L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81yqoecUy2L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81yqoecUy2L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ofvD4FSDL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ofvD4FSDL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71ofvD4FSDL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71zCwLjUCBL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71zCwLjUCBL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71zCwLjUCBL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61fzwmxb0qL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61fzwmxb0qL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61fzwmxb0qL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71fAP3cCcIL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71fAP3cCcIL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71fAP3cCcIL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81WABTUqarL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81WABTUqarL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81WABTUqarL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/aplus-media/sc/a5268255-b46d-4884-b9c4-4ee661761d6b.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cf468024-86b9-47d2-9955-3795f5a1f0b2/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "chain bracelet gold",
+  "scraped_at": "2026-03-13T23:15:01.914817",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

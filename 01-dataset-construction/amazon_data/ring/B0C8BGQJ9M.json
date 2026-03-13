@@ -1,0 +1,17 @@
+{
+  "asin": "B0C8BGQJ9M",
+  "url": "https://www.amazon.com/dp/B0C8BGQJ9M",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "gold band ring",
+  "scraped_at": "2026-03-12T23:00:14.498916",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

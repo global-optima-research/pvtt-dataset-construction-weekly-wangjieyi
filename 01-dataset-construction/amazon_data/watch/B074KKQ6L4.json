@@ -1,0 +1,17 @@
+{
+  "asin": "B074KKQ6L4",
+  "url": "https://www.amazon.com/dp/B074KKQ6L4",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "men automatic watch",
+  "scraped_at": "2026-03-08T22:49:22.983995",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

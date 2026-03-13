@@ -1,0 +1,30 @@
+{
+  "asin": "B0C8DC8QMB",
+  "url": "https://www.amazon.com/dp/B0C8DC8QMB",
+  "title": "Freekiss Gold Pendant Necklace for Women, Dainty Diamond Necklaces for Women Simple 14K Gold Plated Paperclip Choker Necklaces Cute Minimalist Open Oval Necklaces Gold Jewelry for Women Gifts",
+  "price": "20,721",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51BGEqFhwTL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51BGEqFhwTL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51BGEqFhwTL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61HfX-rCjwL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61HfX-rCjwL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61HfX-rCjwL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KPcuen7IL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KPcuen7IL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KPcuen7IL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3fba75a8-86ff-4a0c-8325-8678cc467cbc/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1be4196d-17ba-4a8f-ae9c-cb76825bda13/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "gold necklace",
+  "scraped_at": "2026-03-08T13:24:53.441045",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

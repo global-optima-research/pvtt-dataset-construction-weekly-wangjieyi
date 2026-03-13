@@ -1,0 +1,27 @@
+{
+  "asin": "B00933MTOA",
+  "url": "https://www.amazon.com/dp/B00933MTOA",
+  "title": "Amazon Essentials Diamond 3 Stone (1/4 cttw)18\" Pendant Necklace (previously Amazon Collection)",
+  "price": "366,522",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71v45ZaFdBL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71v45ZaFdBL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71v45ZaFdBL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Y3OlvUYFL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Y3OlvUYFL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Y3OlvUYFL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/20586a84-397f-5018-8d61-31e6ae077d2d/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c2b82598-0028-4143-8fcf-0ddbce37b47d/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "diamond pendant necklace",
+  "scraped_at": "2026-03-13T22:43:01.331952",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

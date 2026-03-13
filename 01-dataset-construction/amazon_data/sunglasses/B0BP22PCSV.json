@@ -1,0 +1,39 @@
+{
+  "asin": "B0BP22PCSV",
+  "url": "https://www.amazon.com/dp/B0BP22PCSV",
+  "title": "WOWSUN Retro Polarized Sunglasses Womens 2026 Trendy Round Classic Glasses",
+  "price": "29,615",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/613JnA4A+UL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/613JnA4A+UL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/613JnA4A+UL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UDupj9CWL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UDupj9CWL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UDupj9CWL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/814AA7e9uGL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/814AA7e9uGL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/814AA7e9uGL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71iCZCmhN6L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71iCZCmhN6L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71iCZCmhN6L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615OBg6UKIL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615OBg6UKIL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/615OBg6UKIL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51a1boTY6UL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51a1boTY6UL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51a1boTY6UL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/38994894-2650-4006-89f9-029146b5ce66/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f9f53323-b810-4d7d-a32b-0b4abcc1ab55/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "cat eye sunglasses",
+  "scraped_at": "2026-03-12T22:23:44.402519",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

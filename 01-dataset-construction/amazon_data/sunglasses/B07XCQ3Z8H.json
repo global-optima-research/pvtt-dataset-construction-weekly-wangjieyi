@@ -1,0 +1,42 @@
+{
+  "asin": "B07XCQ3Z8H",
+  "url": "https://www.amazon.com/dp/B07XCQ3Z8H",
+  "title": "KALIYADI Classic Aviator Sunglasses for Men Women Driving Sun glasses Polarized Lens UV Blocking",
+  "price": "26,652",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61U88fNfuEL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61U88fNfuEL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61U88fNfuEL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71MbnXUEPqL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71MbnXUEPqL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71MbnXUEPqL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ChXeifEeL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ChXeifEeL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ChXeifEeL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710ndQKEBjL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710ndQKEBjL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710ndQKEBjL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UxHU89Q9L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UxHU89Q9L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71UxHU89Q9L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/614QvROqqVL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/614QvROqqVL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/614QvROqqVL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3ce2221e-315e-4522-8951-ced227764275/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/8c38ae0c-5885-4188-ad4c-e96150848177/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/193e6b1a-f9fb-4edf-aac8-e44c2cddf00e/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/47ddf16f-56c5-449d-a976-79230902fbb0/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/36792b15-3e91-423e-9d23-aaca689a4b54/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "aviator sunglasses",
+  "scraped_at": "2026-03-12T22:24:12.174491",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 5,
+    "images_skipped": 0
+  }
+}

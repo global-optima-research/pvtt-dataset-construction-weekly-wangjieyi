@@ -1,0 +1,20 @@
+{
+  "asin": "B0D95Y62NG",
+  "url": "https://www.amazon.com/dp/B0D95Y62NG",
+  "title": "RANKEEF Mens Bead Bracelet Set - Adjustable Elastic Rope With 6&8MM Natural Stone Multi-Colored Beads - Tiger Eye Bracelets for Men - Gift",
+  "price": "19,240",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/662741f9-bea0-4deb-bd08-dae70f74d6f1/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5ca91231-11f8-41a3-9020-1e67dd640cbb/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "beaded bracelet",
+  "scraped_at": "2026-03-08T14:25:41.288579",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

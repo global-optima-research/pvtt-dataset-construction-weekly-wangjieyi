@@ -1,0 +1,19 @@
+{
+  "asin": "B085PQJ47W",
+  "url": "https://www.amazon.com/dp/B085PQJ47W",
+  "title": "Nitrogen Polarized Wrap Around Sport Sunglasses for Men Women UV400 Driving Fishing Running Sun Glasses",
+  "price": "25,170",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c5bf21fa-b82a-45ad-9b39-c96610d484b3/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "polarized sunglasses",
+  "scraped_at": "2026-03-12T22:10:29.708975",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

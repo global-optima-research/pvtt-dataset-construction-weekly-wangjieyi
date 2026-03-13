@@ -1,0 +1,40 @@
+{
+  "asin": "B07XDYHMWB",
+  "url": "https://www.amazon.com/dp/B07XDYHMWB",
+  "title": "MEVECCO Bracelet for Women 14K Gold Plated Dainty Chain Simple Jewelry Cute Handmade Minimalist for Her",
+  "price": "20,861",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KPcuen7IL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KPcuen7IL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61KPcuen7IL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51sxAJ0obqL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51sxAJ0obqL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51sxAJ0obqL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mdWxsViYL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mdWxsViYL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mdWxsViYL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51pXF1TfjbL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51pXF1TfjbL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51pXF1TfjbL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61A5i-6MLfL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61A5i-6MLfL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61A5i-6MLfL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/3cd32219-1ac9-403d-bdd7-db75bcde9529/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6033b4ac-fc48-46fe-af0b-6a7315fb5555/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/58162cb7-f080-479c-8cd1-d002951bb249/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "chain bracelet gold",
+  "scraped_at": "2026-03-13T23:24:13.830478",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 3,
+    "images_skipped": 0
+  }
+}

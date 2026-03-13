@@ -1,0 +1,21 @@
+{
+  "asin": "B09P324PHW",
+  "url": "https://www.amazon.com/dp/B09P324PHW",
+  "title": "Natural Freshwater Baroque Pearl Necklace 14K Gold Plated Dainty Choker Necklace for Women Girls Snake Chain/Cuban Link/Paperclip/Ball Beaded Chain/Tennis Chain Fashion Jewelry for Gift",
+  "price": "26,646",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e4e7a9f3-6c65-41b2-a298-28d679c04bbf/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5d659da1-c4ed-4047-9880-0785fe4122ef/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c3e3e65c-6473-47b5-a677-74d9cabf21cb/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "pearl necklace",
+  "scraped_at": "2026-03-08T13:57:34.719061",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 3,
+    "images_skipped": 0
+  }
+}

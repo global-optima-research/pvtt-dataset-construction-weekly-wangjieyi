@@ -1,198 +1,251 @@
 # PVTT Dataset Report
 
-**Product Video Template Transfer** — Amazon Data — 2026-03-12
+**Product Video Template Transfer** — Amazon Scraped Data — 2026-03-14
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Products | 303 |
-| Videos | 230 |
-| Images | 1258 |
-| Size | 1803 MB |
-| Video Rate | 43.9% |
+| Products | 606 |
+| Videos | 593 |
+| Images | 3304 |
+| Total Size | 3807 MB |
+| Categories | 7 |
+| Video Rate | 54.6% (331 products) |
 
-## Video Stats
+## Video Statistics
 
 | Metric | Value |
 |--------|-------|
-| Avg Duration | 39.9s |
-| Range | 5.2s – 267.0s |
-| Total Size | 1790 MB |
+| Total Videos | 593 |
+| Avg Duration | 33.1s |
+| Duration Range | 5.2s – 267.0s |
+| Total Video Size | 3774 MB |
 
-| 1280x720 | 143 videos |
-| 720x1280 | 48 videos |
-| 720x720 | 20 videos |
+| Resolution 1280x720 | 361 videos |
+| Resolution 720x1280 | 113 videos |
+| Resolution 720x720 | 57 videos |
 
-## Categories
 
-| Category | Products | w/Video | Images | Videos | Size |
-|----------|----------|---------|--------|--------|---------|
-| Bracelet | 60 | 17 | 192 | 33 | 259.5MB |
-| Earring | 62 | 28 | 216 | 41 | 221.6MB |
-| Handbag | 38 | 26 | 176 | 75 | 935.5MB |
-| Necklace | 61 | 39 | 364 | 51 | 213.7MB |
-| Ring | 20 | 14 | 150 | 16 | 60.0MB |
-| Sunglasses | 5 | 1 | 32 | 1 | 7.9MB |
-| Watch | 57 | 8 | 128 | 13 | 105.2MB |
-| **Total** | **303** | **133** | **1258** | **230** | **1803.4MB** |
+## Category Breakdown
 
-## Samples
+| Category | Products | w/ Title | w/ Video | Images | Videos | Size (MB) |
+|----------|----------|----------|----------|--------|--------|-----------|
+| Bracelet | 133 | 86 | 63 | 646 | 116 | 572.8 |
+| Earring | 130 | 100 | 77 | 768 | 121 | 600.5 |
+| Handbag | 38 | 38 | 26 | 176 | 75 | 935.5 |
+| Necklace | 122 | 113 | 76 | 774 | 103 | 499.6 |
+| Ring | 62 | 59 | 44 | 436 | 62 | 232.2 |
+| Sunglasses | 64 | 55 | 37 | 376 | 103 | 861.2 |
+| Watch | 57 | 18 | 8 | 128 | 13 | 105.2 |
+| **Total** | **606** | **469** | **331** | **3304** | **593** | **3807.0** |
+
+## Sample Products
 
 ### Bracelet
 
 **Highergo 469 Pcs Bangles Bracelet Making Kit Link Chain Bracelet Charms with OT Toggle Clasp DIY**
-- ASIN: `B08ZS4QK5Y` | 8 imgs, 6 vids
-- ![B08ZS4QK5Y](amazon_data/bracelet/media/images/B08ZS4QK5Y_00.jpg)
-- ![B08ZS4QK5Y](amazon_data/bracelet/media/images/B08ZS4QK5Y_01.jpg)
-- Video: [B08ZS4QK5Y.mp4](amazon_data/bracelet/media/videos/B08ZS4QK5Y.mp4) (5.3MB)
-- Video: [B08ZS4QK5Y_v01.mp4](amazon_data/bracelet/media/videos/B08ZS4QK5Y_v01.mp4) (20.7MB)
+- ASIN: `B08ZS4QK5Y` | Price: 19,240 | Keyword: _charm bracelet_
+- Media: 8 images, 6 videos
+- ![B08ZS4QK5Y](amazon_data/bracelet/media/images/B08ZS4QK5Y_00.jpg) ![B08ZS4QK5Y](amazon_data/bracelet/media/images/B08ZS4QK5Y_01.jpg) ![B08ZS4QK5Y](amazon_data/bracelet/media/images/B08ZS4QK5Y_02.jpg)
+- Video: [B08ZS4QK5Y.mp4](amazon_data/bracelet/media/videos/B08ZS4QK5Y.mp4) (30.1s, 5.3MB)
+- Video: [B08ZS4QK5Y_v01.mp4](amazon_data/bracelet/media/videos/B08ZS4QK5Y_v01.mp4) (75.5s, 20.7MB)
 
-**Beaded Bracelets for Women - Silver and Gold Boho Bracelets, Trendy Jewelry Gifts for Lover, Mom, Friends**
-- ASIN: `B0CNYTHC5V` | 8 imgs, 5 vids
-- ![B0CNYTHC5V](amazon_data/bracelet/media/images/B0CNYTHC5V_00.jpg)
-- ![B0CNYTHC5V](amazon_data/bracelet/media/images/B0CNYTHC5V_01.jpg)
-- Video: [B0CNYTHC5V.mp4](amazon_data/bracelet/media/videos/B0CNYTHC5V.mp4) (21.0MB)
-- Video: [B0CNYTHC5V_v01.mp4](amazon_data/bracelet/media/videos/B0CNYTHC5V_v01.mp4) (23.8MB)
+**PAVOI 14K Gold Plated 3mm Cubic Zirconia Classic Tennis Bracelet | Gold Bracelets for Women | Size 6.5-7.5 Inch**
+- ASIN: `B07TBN9JRJ` | Price: 29,748 | Keyword: _tennis bracelet_
+- Media: 8 images, 5 videos
+- ![B07TBN9JRJ](amazon_data/bracelet/media/images/B07TBN9JRJ_00.jpg) ![B07TBN9JRJ](amazon_data/bracelet/media/images/B07TBN9JRJ_01.jpg) ![B07TBN9JRJ](amazon_data/bracelet/media/images/B07TBN9JRJ_02.jpg)
+- Video: [B07TBN9JRJ.mp4](amazon_data/bracelet/media/videos/B07TBN9JRJ.mp4) (28.6s, 6.2MB)
+- Video: [B07TBN9JRJ_v01.mp4](amazon_data/bracelet/media/videos/B07TBN9JRJ_v01.mp4) (16.1s, 3.4MB)
 
-**CDE Valentine's Day Gift Infinity Heart Birthstone Charm Link Bracelet for Women 925 Sterling Silver Adjustable Mother's Day Christmas Day Gift Anniversary Birthday Jewelry for Wife Girlfriend Her**
-- ASIN: `B086MWDLB9` | 8 imgs, 4 vids
-- ![B086MWDLB9](amazon_data/bracelet/media/images/B086MWDLB9_00.jpg)
-- ![B086MWDLB9](amazon_data/bracelet/media/images/B086MWDLB9_01.jpg)
-- Video: [B086MWDLB9.mp4](amazon_data/bracelet/media/videos/B086MWDLB9.mp4) (3.8MB)
-- Video: [B086MWDLB9_v01.mp4](amazon_data/bracelet/media/videos/B086MWDLB9_v01.mp4) (3.5MB)
+**LANE WOODS Gold Bracelets for Women 14k Gold Plated Chunky Thick Large Link Chain Bracelet**
+- ASIN: `B089NMT2P7` | Price: 19,370 | Keyword: _chain bracelet gold_
+- Media: 8 images, 5 videos
+- ![B089NMT2P7](amazon_data/bracelet/media/images/B089NMT2P7_00.jpg) ![B089NMT2P7](amazon_data/bracelet/media/images/B089NMT2P7_01.jpg) ![B089NMT2P7](amazon_data/bracelet/media/images/B089NMT2P7_02.jpg)
+- Video: [B089NMT2P7.mp4](amazon_data/bracelet/media/videos/B089NMT2P7.mp4) (15.1s, 1.2MB)
+- Video: [B089NMT2P7_v01.mp4](amazon_data/bracelet/media/videos/B089NMT2P7_v01.mp4) (15.2s, 1.7MB)
 
 ### Earring
 
+**Big Simulated Pearl Earrings for Women - Oversized Classic Faux Round Large Ear Studs, Hypoallergenic and Safe for Sensitive Ears**
+- ASIN: `B07GNT1PPH` | Price: 25,185 | Keyword: _pearl earrings_
+- Media: 8 images, 5 videos
+- ![B07GNT1PPH](amazon_data/earring/media/images/B07GNT1PPH_00.jpg) ![B07GNT1PPH](amazon_data/earring/media/images/B07GNT1PPH_01.jpg) ![B07GNT1PPH](amazon_data/earring/media/images/B07GNT1PPH_02.jpg)
+- Video: [B07GNT1PPH.mp4](amazon_data/earring/media/videos/B07GNT1PPH.mp4) (17.5s, 1.9MB)
+- Video: [B07GNT1PPH_v01.mp4](amazon_data/earring/media/videos/B07GNT1PPH_v01.mp4) (17.8s, 2.1MB)
+
+**Gold Hoop Earrings for Women, 14K Gold Plated Hypoallergenic Pearl Drop Dangle Huggie Hoop Earring Stack for Multiple Piercings & Cartilage, Dainty Trendy Womens Jewelry**
+- ASIN: `B0DF72PHP2` | Price: 20,861 | Keyword: _pearl earrings_
+- Media: 8 images, 5 videos
+- ![B0DF72PHP2](amazon_data/earring/media/images/B0DF72PHP2_00.jpg) ![B0DF72PHP2](amazon_data/earring/media/images/B0DF72PHP2_01.jpg) ![B0DF72PHP2](amazon_data/earring/media/images/B0DF72PHP2_02.jpg)
+- Video: [B0DF72PHP2.mp4](amazon_data/earring/media/videos/B0DF72PHP2.mp4) (25.3s, 6.2MB)
+- Video: [B0DF72PHP2_v01.mp4](amazon_data/earring/media/videos/B0DF72PHP2_v01.mp4) (19.0s, 2.7MB)
+
 **6 Pairs Stud Earrings Set, Hypoallergenic Cubic Zirconia 316L Earrings Stainless Steel CZ Earrings 3-8mm**
-- ASIN: `B07S4KJLHY` | 8 imgs, 4 vids
-- ![B07S4KJLHY](amazon_data/earring/media/images/B07S4KJLHY_00.jpg)
-- ![B07S4KJLHY](amazon_data/earring/media/images/B07S4KJLHY_01.jpg)
-- Video: [B07S4KJLHY.mp4](amazon_data/earring/media/videos/B07S4KJLHY.mp4) (4.7MB)
-- Video: [B07S4KJLHY_v01.mp4](amazon_data/earring/media/videos/B07S4KJLHY_v01.mp4) (7.5MB)
-
-**MILACOLATO Cubic Zirconia Stud Earrings for Women Men | 18K Gold Plated Hypoallergenic Sterling Silver Post Earrings | Big Brilliant Simulated Diamond CZ Halo Stud Earrings for Sensitive Ears**
-- ASIN: `B0BQ3486B9` | 8 imgs, 3 vids
-- ![B0BQ3486B9](amazon_data/earring/media/images/B0BQ3486B9_00.jpg)
-- ![B0BQ3486B9](amazon_data/earring/media/images/B0BQ3486B9_01.jpg)
-- Video: [B0BQ3486B9.mp4](amazon_data/earring/media/videos/B0BQ3486B9.mp4) (3.3MB)
-- Video: [B0BQ3486B9_v01.mp4](amazon_data/earring/media/videos/B0BQ3486B9_v01.mp4) (16.1MB)
-
-**Gold Earrings for Women Trendy,14K Gold Stud Earrings Dainty Earrings Simple Minimalist Gold Earrings Hypoallergenic Earring for Women Gifts**
-- ASIN: `B0CXTK7LRG` | 8 imgs, 3 vids
-- ![B0CXTK7LRG](amazon_data/earring/media/images/B0CXTK7LRG_00.jpg)
-- ![B0CXTK7LRG](amazon_data/earring/media/images/B0CXTK7LRG_01.jpg)
-- Video: [B0CXTK7LRG.mp4](amazon_data/earring/media/videos/B0CXTK7LRG.mp4) (7.5MB)
-- Video: [B0CXTK7LRG_v01.mp4](amazon_data/earring/media/videos/B0CXTK7LRG_v01.mp4) (1.0MB)
+- ASIN: `B07S4KJLHY` | Price: 9. | Keyword: _stud earrings gold_
+- Media: 8 images, 4 videos
+- ![B07S4KJLHY](amazon_data/earring/media/images/B07S4KJLHY_00.jpg) ![B07S4KJLHY](amazon_data/earring/media/images/B07S4KJLHY_01.jpg) ![B07S4KJLHY](amazon_data/earring/media/images/B07S4KJLHY_02.jpg)
+- Video: [B07S4KJLHY.mp4](amazon_data/earring/media/videos/B07S4KJLHY.mp4) (28.9s, 4.7MB)
+- Video: [B07S4KJLHY_v01.mp4](amazon_data/earring/media/videos/B07S4KJLHY_v01.mp4) (39.4s, 7.5MB)
 
 ### Handbag
 
 **LOVEVOOK Laptop Tote Bag for Women, 15.6 Inch Large Capacity Vintage Leather Work Computer Bag, Business Casual Shoulder Handbag, Dark Brown**
-- ASIN: `B0BYS7VHMN` | 8 imgs, 7 vids
-- ![B0BYS7VHMN](amazon_data/handbag/media/images/B0BYS7VHMN_00.jpg)
-- ![B0BYS7VHMN](amazon_data/handbag/media/images/B0BYS7VHMN_01.jpg)
-- Video: [B0BYS7VHMN.mp4](amazon_data/handbag/media/videos/B0BYS7VHMN.mp4) (4.8MB)
-- Video: [B0BYS7VHMN_v01.mp4](amazon_data/handbag/media/videos/B0BYS7VHMN_v01.mp4) (4.3MB)
+- ASIN: `B0BYS7VHMN` | Price: 59,458 | Keyword: _women tote handbag_
+- Media: 8 images, 7 videos
+- ![B0BYS7VHMN](amazon_data/handbag/media/images/B0BYS7VHMN_00.jpg) ![B0BYS7VHMN](amazon_data/handbag/media/images/B0BYS7VHMN_01.jpg) ![B0BYS7VHMN](amazon_data/handbag/media/images/B0BYS7VHMN_02.jpg)
+- Video: [B0BYS7VHMN.mp4](amazon_data/handbag/media/videos/B0BYS7VHMN.mp4) (28.2s, 4.8MB)
+- Video: [B0BYS7VHMN_v01.mp4](amazon_data/handbag/media/videos/B0BYS7VHMN_v01.mp4) (24.7s, 4.3MB)
 
 **LOVEVOOK Laptop Tote Bag for Women Work, Teacher Tote Bag Nurse Bag With Large Cup Holder, Utility Professional Computer Bag For Work/Travel/College/Daily, Large Purse Handbag With Multi Pockets**
-- ASIN: `B0D1RBPTVR` | 8 imgs, 7 vids
-- ![B0D1RBPTVR](amazon_data/handbag/media/images/B0D1RBPTVR_00.jpg)
-- ![B0D1RBPTVR](amazon_data/handbag/media/images/B0D1RBPTVR_01.jpg)
-- Video: [B0D1RBPTVR.mp4](amazon_data/handbag/media/videos/B0D1RBPTVR.mp4) (5.9MB)
-- Video: [B0D1RBPTVR_v01.mp4](amazon_data/handbag/media/videos/B0D1RBPTVR_v01.mp4) (5.9MB)
+- ASIN: `B0D1RBPTVR` | Price: 41,616 | Keyword: _women tote handbag_
+- Media: 8 images, 7 videos
+- ![B0D1RBPTVR](amazon_data/handbag/media/images/B0D1RBPTVR_00.jpg) ![B0D1RBPTVR](amazon_data/handbag/media/images/B0D1RBPTVR_01.jpg) ![B0D1RBPTVR](amazon_data/handbag/media/images/B0D1RBPTVR_02.jpg)
+- Video: [B0D1RBPTVR.mp4](amazon_data/handbag/media/videos/B0D1RBPTVR.mp4) (36.7s, 5.9MB)
+- Video: [B0D1RBPTVR_v01.mp4](amazon_data/handbag/media/videos/B0D1RBPTVR_v01.mp4) (37.3s, 5.9MB)
 
 **cuero Leather Messenger Bag for Men, 18 Inch Laptop Crossbody, Handmade Leather Shoulder Satchel Bag for Men, Full Grain Business Briefcase for Office/Work/Travel - Vintage Brown**
-- ASIN: `B075VSR5CZ` | 8 imgs, 6 vids
-- ![B075VSR5CZ](amazon_data/handbag/media/images/B075VSR5CZ_00.jpg)
-- ![B075VSR5CZ](amazon_data/handbag/media/images/B075VSR5CZ_01.jpg)
-- Video: [B075VSR5CZ_v01.mp4](amazon_data/handbag/media/videos/B075VSR5CZ_v01.mp4) (4.1MB)
-- Video: [B075VSR5CZ_v02.mp4](amazon_data/handbag/media/videos/B075VSR5CZ_v02.mp4) (32.3MB)
+- ASIN: `B075VSR5CZ` | Price: 104,063 | Keyword: _leather crossbody bag_
+- Media: 8 images, 6 videos
+- ![B075VSR5CZ](amazon_data/handbag/media/images/B075VSR5CZ_00.jpg) ![B075VSR5CZ](amazon_data/handbag/media/images/B075VSR5CZ_01.jpg) ![B075VSR5CZ](amazon_data/handbag/media/images/B075VSR5CZ_02.jpg)
+- Video: [B075VSR5CZ_v01.mp4](amazon_data/handbag/media/videos/B075VSR5CZ_v01.mp4) (30.2s, 4.1MB)
+- Video: [B075VSR5CZ_v02.mp4](amazon_data/handbag/media/videos/B075VSR5CZ_v02.mp4) (190.4s, 32.3MB)
 
 ### Necklace
 
+**BERISO 14K Gold/Silver Plated Choker Necklace for Women Shining Dots Station Gold Chain Necklace Beads Sparkle Chain Necklace Link Chain Exquisite Jewelry for women**
+- ASIN: `B09YR3194D` | Price: 19,370 | Keyword: _choker necklace_
+- Media: 8 images, 5 videos
+- ![B09YR3194D](amazon_data/necklace/media/images/B09YR3194D_00.jpg) ![B09YR3194D](amazon_data/necklace/media/images/B09YR3194D_01.jpg) ![B09YR3194D](amazon_data/necklace/media/images/B09YR3194D_02.jpg)
+- Video: [B09YR3194D.mp4](amazon_data/necklace/media/videos/B09YR3194D.mp4) (75.8s, 17.9MB)
+- Video: [B09YR3194D_v01.mp4](amazon_data/necklace/media/videos/B09YR3194D_v01.mp4) (61.2s, 11.7MB)
+
 **Gold Necklace for Women, Dainty Gold Long Necklaces 14k Gold Plated Prom Lariat Necklace Cute Choker Necklaces for Women Trendy Stuff Fashion Costume Gold Accessories Christmas Jewelry Gifts**
-- ASIN: `B0BW91BKR4` | 8 imgs, 3 vids
-- ![B0BW91BKR4](amazon_data/necklace/media/images/B0BW91BKR4_00.jpg)
-- ![B0BW91BKR4](amazon_data/necklace/media/images/B0BW91BKR4_01.jpg)
-- Video: [B0BW91BKR4.mp4](amazon_data/necklace/media/videos/B0BW91BKR4.mp4) (1.5MB)
-- Video: [B0BW91BKR4_v01.mp4](amazon_data/necklace/media/videos/B0BW91BKR4_v01.mp4) (1.3MB)
+- ASIN: `B0BW91BKR4` | Price: 19,240 | Keyword: _gold necklace_
+- Media: 8 images, 3 videos
+- ![B0BW91BKR4](amazon_data/necklace/media/images/B0BW91BKR4_00.jpg) ![B0BW91BKR4](amazon_data/necklace/media/images/B0BW91BKR4_01.jpg) ![B0BW91BKR4](amazon_data/necklace/media/images/B0BW91BKR4_02.jpg)
+- Video: [B0BW91BKR4.mp4](amazon_data/necklace/media/videos/B0BW91BKR4.mp4) (14.3s, 1.5MB)
+- Video: [B0BW91BKR4_v01.mp4](amazon_data/necklace/media/videos/B0BW91BKR4_v01.mp4) (12.6s, 1.3MB)
 
 **PAVOI 14K Gold Plated Station Necklace - Simulated Diamond Layering Necklaces - Womens CZ Chain**
-- ASIN: `B094H5S3TY` | 8 imgs, 2 vids
-- ![B094H5S3TY](amazon_data/necklace/media/images/B094H5S3TY_00.jpg)
-- ![B094H5S3TY](amazon_data/necklace/media/images/B094H5S3TY_01.jpg)
-- Video: [B094H5S3TY.mp4](amazon_data/necklace/media/videos/B094H5S3TY.mp4) (6.2MB)
-- Video: [B094H5S3TY_v01.mp4](amazon_data/necklace/media/videos/B094H5S3TY_v01.mp4) (0.7MB)
-
-**Tewiky Dainty 14k Gold Plated/Silver Cubic Zirconia Necklaces for Women, Simple CZ Jewelry Necklaces Trendy Gifts**
-- ASIN: `B09Q33WGZW` | 8 imgs, 2 vids
-- ![B09Q33WGZW](amazon_data/necklace/media/images/B09Q33WGZW_00.jpg)
-- ![B09Q33WGZW](amazon_data/necklace/media/images/B09Q33WGZW_01.jpg)
-- Video: [B09Q33WGZW.mp4](amazon_data/necklace/media/videos/B09Q33WGZW.mp4) (3.4MB)
-- Video: [B09Q33WGZW_v01.mp4](amazon_data/necklace/media/videos/B09Q33WGZW_v01.mp4) (1.0MB)
+- ASIN: `B08VFY8J69` | Price: 22,293 | Keyword: _pearl necklace_
+- Media: 8 images, 2 videos
+- ![B08VFY8J69](amazon_data/necklace/media/images/B08VFY8J69_00.jpg) ![B08VFY8J69](amazon_data/necklace/media/images/B08VFY8J69_01.jpg) ![B08VFY8J69](amazon_data/necklace/media/images/B08VFY8J69_02.jpg)
+- Video: [B08VFY8J69.mp4](amazon_data/necklace/media/videos/B08VFY8J69.mp4) (15.1s, 1.2MB)
+- Video: [B08VFY8J69_v01.mp4](amazon_data/necklace/media/videos/B08VFY8J69_v01.mp4) (50.5s, 3.2MB)
 
 ### Ring
 
-**Sterling Silver Ring for Women, 4PCS Thin Stackable Rings Cubic Zirconia Thumb Ring Set Engagement Statement Wedding Bands for Women Size 5-10**
-- ASIN: `B0FMF4Y3X5` | 8 imgs, 2 vids
-- ![B0FMF4Y3X5](amazon_data/ring/media/images/B0FMF4Y3X5_00.jpg)
-- ![B0FMF4Y3X5](amazon_data/ring/media/images/B0FMF4Y3X5_01.jpg)
-- Video: [B0FMF4Y3X5.mp4](amazon_data/ring/media/videos/B0FMF4Y3X5.mp4) (9.6MB)
-- Video: [B0FMF4Y3X5_v01.mp4](amazon_data/ring/media/videos/B0FMF4Y3X5_v01.mp4) (3.0MB)
+**925 Sterling Silver Shiny Full Diamond Ring Cubic Zirconia Cocktail Rings CZ Eternity Engagement Wedding Band Ring for Women (US Code 7)**
+- ASIN: `B098KWTXDJ` | Price: 22,044 | Keyword: _engagement ring_
+- Media: 8 images, 4 videos
+- ![B098KWTXDJ](amazon_data/ring/media/images/B098KWTXDJ_00.jpg) ![B098KWTXDJ](amazon_data/ring/media/images/B098KWTXDJ_01.jpg) ![B098KWTXDJ](amazon_data/ring/media/images/B098KWTXDJ_02.jpg)
+- Video: [B098KWTXDJ.mp4](amazon_data/ring/media/videos/B098KWTXDJ.mp4) (18.4s, 1.7MB)
+- Video: [B098KWTXDJ_v01.mp4](amazon_data/ring/media/videos/B098KWTXDJ_v01.mp4) (103.4s, 20.3MB)
 
-**PAVOI 14K Gold Plated Solid 925 Sterling Silver CZ Simulated Diamond Stackable Ring Eternity Bands for Women**
-- ASIN: `B01MPZOUKH` | 6 imgs, 2 vids
-- ![B01MPZOUKH](amazon_data/ring/media/images/B01MPZOUKH_00.jpg)
-- ![B01MPZOUKH](amazon_data/ring/media/images/B01MPZOUKH_01.jpg)
-- Video: [B01MPZOUKH_v01.mp4](amazon_data/ring/media/videos/B01MPZOUKH_v01.mp4) (1.2MB)
-- Video: [B01MPZOUKH_v02.mp4](amazon_data/ring/media/videos/B01MPZOUKH_v02.mp4) (2.6MB)
+**NOKMIT 3mm 14K Gold Filled Rings for Women Dainty Gold Stacking Stackable Band Thin Gold Thumb Pinky Finger Ring Non Tarnish Comfort Fit Size 4 to 11**
+- ASIN: `B08P5H7ZCR` | Price: 22,207 | Keyword: _gold band ring_
+- Media: 8 images, 3 videos
+- ![B08P5H7ZCR](amazon_data/ring/media/images/B08P5H7ZCR_00.jpg) ![B08P5H7ZCR](amazon_data/ring/media/images/B08P5H7ZCR_01.jpg) ![B08P5H7ZCR](amazon_data/ring/media/images/B08P5H7ZCR_02.jpg)
+- Video: [B08P5H7ZCR_v01.mp4](amazon_data/ring/media/videos/B08P5H7ZCR_v01.mp4) (8.1s, 0.7MB)
+- Video: [B08P5H7ZCR_v02.mp4](amazon_data/ring/media/videos/B08P5H7ZCR_v02.mp4) (8.1s, 0.8MB)
 
-**YADOCA 8Pcs 1MM 2MM Stainless Steel Rings for Women Men Minimalist Fashion Dainty Plain Thin Knuckle Stacking Midi Thumb Rings Stackable Statement Band Rings Set Silver Gold Tone Size 4-12**
-- ASIN: `B0C538SC27` | 8 imgs, 1 vids
-- ![B0C538SC27](amazon_data/ring/media/images/B0C538SC27_00.jpg)
-- ![B0C538SC27](amazon_data/ring/media/images/B0C538SC27_01.jpg)
-- Video: [B0C538SC27.mp4](amazon_data/ring/media/videos/B0C538SC27.mp4) (3.5MB)
+**NOKMIT 5mm 14K Gold Filled Rings for Women Girls Dainty Thick Wedding Band Couple Anniversary Engagement Thumb Ring Gifts High Polished Plain Flat Cigar Band Tarnish Resistant Comfort Fit Size 4 to 11**
+- ASIN: `B096M888FC` | Price: 22,207 | Keyword: _gold band ring_
+- Media: 8 images, 3 videos
+- ![B096M888FC](amazon_data/ring/media/images/B096M888FC_00.jpg) ![B096M888FC](amazon_data/ring/media/images/B096M888FC_01.jpg) ![B096M888FC](amazon_data/ring/media/images/B096M888FC_02.jpg)
+- Video: [B096M888FC.mp4](amazon_data/ring/media/videos/B096M888FC.mp4) (18.9s, 1.2MB)
+- Video: [B096M888FC_v01.mp4](amazon_data/ring/media/videos/B096M888FC_v01.mp4) (19.2s, 2.1MB)
 
 ### Sunglasses
 
-**Sunglasses Womens Polarized Sunglasses-Women: Retro Round Sun Glasses with UV400 Protecion Trendy 3 Pack**
-- ASIN: `B0DZHFGYNQ` | 8 imgs, 1 vids
-- ![B0DZHFGYNQ](amazon_data/sunglasses/media/images/B0DZHFGYNQ_00.jpg)
-- ![B0DZHFGYNQ](amazon_data/sunglasses/media/images/B0DZHFGYNQ_01.jpg)
-- Video: [B0DZHFGYNQ.mp4](amazon_data/sunglasses/media/videos/B0DZHFGYNQ.mp4) (7.5MB)
+**Polarized Sports Sunglasses for Men Women Unbreakable Frame Cycling Fishing Wrap Around Sunglasses UV400 Protection**
+- ASIN: `B0C13T4WVL` | Price: 28,133 | Keyword: _polarized sunglasses_
+- Media: 8 images, 9 videos
+- ![B0C13T4WVL](amazon_data/sunglasses/media/images/B0C13T4WVL_00.jpg) ![B0C13T4WVL](amazon_data/sunglasses/media/images/B0C13T4WVL_01.jpg) ![B0C13T4WVL](amazon_data/sunglasses/media/images/B0C13T4WVL_02.jpg)
+- Video: [B0C13T4WVL.mp4](amazon_data/sunglasses/media/videos/B0C13T4WVL.mp4) (96.6s, 21.3MB)
+- Video: [B0C13T4WVL_v01.mp4](amazon_data/sunglasses/media/videos/B0C13T4WVL_v01.mp4) (17.4s, 3.8MB)
 
-**KALIYADI Polarized Sunglasses for Men, Lightweight Sun Glasses with UV Protection for Driving Fishing Golf**
-- ASIN: `B0BWTW5DX2` | 8 imgs, 0 vids
-- ![B0BWTW5DX2](amazon_data/sunglasses/media/images/B0BWTW5DX2_00.jpg)
-- ![B0BWTW5DX2](amazon_data/sunglasses/media/images/B0BWTW5DX2_01.jpg)
+**Lamicall 24g Polarized Sports Sunglasses for Men Women - UV400 Protection Sun Glasses Gifts for Running Cycling Baseball**
+- ASIN: `B0DYV736NT` | Price: 32,578 | Keyword: _polarized sunglasses_
+- Media: 8 images, 6 videos
+- ![B0DYV736NT](amazon_data/sunglasses/media/images/B0DYV736NT_00.jpg) ![B0DYV736NT](amazon_data/sunglasses/media/images/B0DYV736NT_01.jpg) ![B0DYV736NT](amazon_data/sunglasses/media/images/B0DYV736NT_02.jpg)
+- Video: [B0DYV736NT.mp4](amazon_data/sunglasses/media/videos/B0DYV736NT.mp4) (28.8s, 8.5MB)
+- Video: [B0DYV736NT_v01.mp4](amazon_data/sunglasses/media/videos/B0DYV736NT_v01.mp4) (139.9s, 30.4MB)
 
-**KALIYADI Polarized Mens Sun-Glasses Sunglasses-Men : Classic Sunglasses with UV Protection for Fishing Driving Golf**
-- ASIN: `B0DFGY8M7J` | 8 imgs, 0 vids
-- ![B0DFGY8M7J](amazon_data/sunglasses/media/images/B0DFGY8M7J_00.jpg)
-- ![B0DFGY8M7J](amazon_data/sunglasses/media/images/B0DFGY8M7J_01.jpg)
+**KALIYADI Polarized Sunglasses for Men and Women Semi-Rimless Frame Driving Sun glasses UV Blocking**
+- ASIN: `B07MW4R1X3` | Price: 26,652 | Keyword: _polarized sunglasses_
+- Media: 8 images, 5 videos
+- ![B07MW4R1X3](amazon_data/sunglasses/media/images/B07MW4R1X3_00.jpg) ![B07MW4R1X3](amazon_data/sunglasses/media/images/B07MW4R1X3_01.jpg) ![B07MW4R1X3](amazon_data/sunglasses/media/images/B07MW4R1X3_02.jpg)
+- Video: [B07MW4R1X3_v01.mp4](amazon_data/sunglasses/media/videos/B07MW4R1X3_v01.mp4) (15.0s, 4.8MB)
+- Video: [B07MW4R1X3_v02.mp4](amazon_data/sunglasses/media/videos/B07MW4R1X3_v02.mp4) (20.1s, 6.6MB)
 
 ### Watch
 
 **Mens Digital Watch Sports Military Watches Waterproof Outdoor Chronograph Wrist Watches for Men with LED Back Ligh/Alarm/Date**
-- ASIN: `B089NGH82D` | 8 imgs, 3 vids
-- ![B089NGH82D](amazon_data/watch/media/images/B089NGH82D_00.jpg)
-- ![B089NGH82D](amazon_data/watch/media/images/B089NGH82D_01.jpg)
-- Video: [B089NGH82D.mp4](amazon_data/watch/media/videos/B089NGH82D.mp4) (4.8MB)
-- Video: [B089NGH82D_v01.mp4](amazon_data/watch/media/videos/B089NGH82D_v01.mp4) (21.9MB)
+- ASIN: `B089NGH82D` | Price: 22,733 | Keyword: _sport digital watch_
+- Media: 8 images, 3 videos
+- ![B089NGH82D](amazon_data/watch/media/images/B089NGH82D_00.jpg) ![B089NGH82D](amazon_data/watch/media/images/B089NGH82D_01.jpg) ![B089NGH82D](amazon_data/watch/media/images/B089NGH82D_02.jpg)
+- Video: [B089NGH82D.mp4](amazon_data/watch/media/videos/B089NGH82D.mp4) (37.9s, 4.8MB)
+- Video: [B089NGH82D_v01.mp4](amazon_data/watch/media/videos/B089NGH82D_v01.mp4) (109.4s, 21.9MB)
 
 **CakCity Mens Digital Watch Military Waterproof Outdoor Large Face Sports Watches with Stopwatch Back Light Alarm Date LED Display,Black**
-- ASIN: `B018HTGSN8` | 8 imgs, 2 vids
-- ![B018HTGSN8](amazon_data/watch/media/images/B018HTGSN8_00.jpg)
-- ![B018HTGSN8](amazon_data/watch/media/images/B018HTGSN8_01.jpg)
-- Video: [B018HTGSN8.mp4](amazon_data/watch/media/videos/B018HTGSN8.mp4) (12.1MB)
-- Video: [B018HTGSN8_v01.mp4](amazon_data/watch/media/videos/B018HTGSN8_v01.mp4) (19.9MB)
+- ASIN: `B018HTGSN8` | Price: 25,165 | Keyword: _sport digital watch_
+- Media: 8 images, 2 videos
+- ![B018HTGSN8](amazon_data/watch/media/images/B018HTGSN8_00.jpg) ![B018HTGSN8](amazon_data/watch/media/images/B018HTGSN8_01.jpg) ![B018HTGSN8](amazon_data/watch/media/images/B018HTGSN8_02.jpg)
+- Video: [B018HTGSN8.mp4](amazon_data/watch/media/videos/B018HTGSN8.mp4) (77.9s, 12.1MB)
+- Video: [B018HTGSN8_v01.mp4](amazon_data/watch/media/videos/B018HTGSN8_v01.mp4) (171.1s, 19.9MB)
 
 **Seiko Automatic Watch for Men - Presage Collection - with Date Calendar - 50M Water Resistant**
-- ASIN: `B074KL4SP6` | 8 imgs, 2 vids
-- ![B074KL4SP6](amazon_data/watch/media/images/B074KL4SP6_00.jpg)
-- ![B074KL4SP6](amazon_data/watch/media/images/B074KL4SP6_01.jpg)
-- Video: [B074KL4SP6_v01.mp4](amazon_data/watch/media/videos/B074KL4SP6_v01.mp4) (4.2MB)
-- Video: [B074KL4SP6_v02.mp4](amazon_data/watch/media/videos/B074KL4SP6_v02.mp4) (5.6MB)
+- ASIN: `B074KL4SP6` | Price: 533,188 | Keyword: _men automatic watch_
+- Media: 8 images, 2 videos
+- ![B074KL4SP6](amazon_data/watch/media/images/B074KL4SP6_00.jpg) ![B074KL4SP6](amazon_data/watch/media/images/B074KL4SP6_01.jpg) ![B074KL4SP6](amazon_data/watch/media/images/B074KL4SP6_02.jpg)
+- Video: [B074KL4SP6_v01.mp4](amazon_data/watch/media/videos/B074KL4SP6_v01.mp4) (24.8s, 4.2MB)
+- Video: [B074KL4SP6_v02.mp4](amazon_data/watch/media/videos/B074KL4SP6_v02.mp4) (25.1s, 5.6MB)
+
+## Data Quality
+
+| Metric | Value |
+|--------|-------|
+| Missing title | 137 |
+| Missing images | 190 |
+| Video rate | 54.6% |
+| Avg images/product | 7.9 |
+| Avg video duration | 33.1s |
+
+## Directory Structure
+
+```
+amazon_data/
+  bracelet/
+    *.json              (133 files)
+    media/images/       (646 files)
+    media/videos/       (116 files)
+  earring/
+    *.json              (130 files)
+    media/images/       (768 files)
+    media/videos/       (121 files)
+  handbag/
+    *.json              (38 files)
+    media/images/       (176 files)
+    media/videos/       (75 files)
+  necklace/
+    *.json              (122 files)
+    media/images/       (774 files)
+    media/videos/       (103 files)
+  ring/
+    *.json              (62 files)
+    media/images/       (436 files)
+    media/videos/       (62 files)
+  sunglasses/
+    *.json              (64 files)
+    media/images/       (376 files)
+    media/videos/       (103 files)
+  watch/
+    *.json              (57 files)
+    media/images/       (128 files)
+    media/videos/       (13 files)
+```
 
 ---
-*PVTT — 2026-03-12 — CVPR 2027*
+*PVTT Dataset Report — Product Video Template Transfer (CVPR 2027)*

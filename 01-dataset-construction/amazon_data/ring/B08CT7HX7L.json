@@ -1,0 +1,29 @@
+{
+  "asin": "B08CT7HX7L",
+  "url": "https://www.amazon.com/dp/B08CT7HX7L",
+  "title": "PAVOI 14K Gold Plated Eternity Ring for Women - Square-Cut Cubic Zirconia Rings - Stackable Love Wedding Band",
+  "price": "22,148",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71WOSeuBNNL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71WOSeuBNNL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71WOSeuBNNL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61npoHPNLHL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61npoHPNLHL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61npoHPNLHL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/610VsCaFMXL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/81333c99-9de6-4501-91c1-25eb72731c64/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "gold band ring",
+  "scraped_at": "2026-03-12T22:53:25.019852",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

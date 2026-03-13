@@ -1,0 +1,17 @@
+{
+  "asin": "B000GAWSDG",
+  "url": "https://www.amazon.com/dp/B000GAWSDG",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "sport digital watch",
+  "scraped_at": "2026-03-08T23:01:22.579181",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

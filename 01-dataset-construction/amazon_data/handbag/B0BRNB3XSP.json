@@ -1,0 +1,20 @@
+{
+  "asin": "B0BRNB3XSP",
+  "url": "https://www.amazon.com/dp/B0BRNB3XSP",
+  "title": "FOXLOVER Large Capacity Tote Handbags for Women, Women's Top-handle Bags Fashion Shoulder Bags Purses Minimalist design",
+  "price": "163,535",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c98151d7-787e-4295-9967-f1c7564c52bc/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/2a2d6222-180f-4b1f-a964-ac7c4df3fa24/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:21:14.498356",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

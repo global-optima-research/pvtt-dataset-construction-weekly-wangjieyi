@@ -1,0 +1,29 @@
+{
+  "asin": "B0BTP3X44N",
+  "url": "https://www.amazon.com/dp/B0BTP3X44N",
+  "title": "TUHE Moissanite Tennis Bracelet 5.0-21.0CT 18K Gold Plated 925 Sterling Silver Bracelets 3/4/5MM D Color VVS1 Round Lab Created Moissanite Bracelet for Women Men 6-8.5 Inch Jewelry Valentines Gifts",
+  "price": "402,593",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71XkLwlXEQL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71XkLwlXEQL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71XkLwlXEQL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7102PHF9XRL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7102PHF9XRL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/7102PHF9XRL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jJ49Ca7DL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jJ49Ca7DL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61jJ49Ca7DL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/65eb6823-4157-4882-88a6-d9d959129efd/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "bracelet",
+  "keyword": "tennis bracelet",
+  "scraped_at": "2026-03-13T23:08:05.293109",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

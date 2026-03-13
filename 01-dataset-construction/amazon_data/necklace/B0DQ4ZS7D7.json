@@ -1,0 +1,29 @@
+{
+  "asin": "B0DQ4ZS7D7",
+  "url": "https://www.amazon.com/dp/B0DQ4ZS7D7",
+  "title": "Swarovski Ariana Grande Collection, Clear Crystal & Pearls, Rhodium Finish, Necklaces, Earrings and Bracelets",
+  "price": "307,011",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51NEh0HQz+L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51NEh0HQz+L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51NEh0HQz+L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OU8iQzZGL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OU8iQzZGL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61OU8iQzZGL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41L+ndjhHQL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41L+ndjhHQL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41L+ndjhHQL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ac85e031-304d-4711-b346-efc2c574afa1/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "choker necklace",
+  "scraped_at": "2026-03-13T22:26:49.630747",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

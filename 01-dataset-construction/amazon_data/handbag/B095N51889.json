@@ -1,0 +1,19 @@
+{
+  "asin": "B095N51889",
+  "url": "https://www.amazon.com/dp/B095N51889",
+  "title": "Angelkiss Small Womens Crossbody Bag Leather Shoulder Purse for Women Hobo Bag with Adjustable Shoulder Strap",
+  "price": "49,050",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/db9a4d0a-7521-49ef-8084-846214bead0d/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "leather crossbody bag",
+  "scraped_at": "2026-03-09T23:58:46.106443",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

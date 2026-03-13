@@ -1,0 +1,40 @@
+{
+  "asin": "B0F18M1LB5",
+  "url": "https://www.amazon.com/dp/B0F18M1LB5",
+  "title": "Dangle Pearl Drop Earrings For Women Trendy Long Threader Chain Dainty Flower Wedding Earrings For Brides CZ Cute 14K Gold Statement Sparkly Jewelry",
+  "price": "14,896",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51FcR7fBNtL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51FcR7fBNtL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51FcR7fBNtL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51oTfqygLoL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51oTfqygLoL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51oTfqygLoL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41bz1KXswfL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41bz1KXswfL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41bz1KXswfL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51C9usnh49L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51C9usnh49L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51C9usnh49L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61umJ+GY93L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61umJ+GY93L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61umJ+GY93L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/5135aqh3wcL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/5135aqh3wcL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/5135aqh3wcL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0db62d90-ae2b-436c-b264-4e0d01920a92/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/5f7ca7fa-98c8-49b0-a756-8d630160267b/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ce9d1329-3f94-40a2-8844-fb0e0d85da50/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "dangle earrings women",
+  "scraped_at": "2026-03-14T00:03:34.759669",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 3,
+    "images_skipped": 0
+  }
+}

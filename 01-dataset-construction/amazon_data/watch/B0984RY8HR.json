@@ -1,0 +1,27 @@
+{
+  "asin": "B0984RY8HR",
+  "url": "https://www.amazon.com/dp/B0984RY8HR",
+  "title": "Men's Digital Sports Watch Military Waterproof Tactical Watch with LED Backlight Watches for Men",
+  "price": "14,782",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61DbHZ9Ug4L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61DbHZ9Ug4L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61DbHZ9Ug4L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61wDjyamtnL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61wDjyamtnL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61wDjyamtnL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mE50uxdLL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mE50uxdLL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71mE50uxdLL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "sport digital watch",
+  "scraped_at": "2026-03-09T20:03:25.900203",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "asin": "B0D1RBPTVR",
+  "url": "https://www.amazon.com/dp/B0D1RBPTVR",
+  "title": "LOVEVOOK Laptop Tote Bag for Women Work, Teacher Tote Bag Nurse Bag With Large Cup Holder, Utility Professional Computer Bag For Work/Travel/College/Daily, Large Purse Handbag With Multi Pockets",
+  "price": "41,616",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71liq1C7q1L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71liq1C7q1L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71liq1C7q1L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71DjLl5vexL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71DjLl5vexL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71DjLl5vexL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61kVBpPMtUL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61kVBpPMtUL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61kVBpPMtUL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51mmnGBGHVL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51mmnGBGHVL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51mmnGBGHVL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61VKzMz-+GL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61VKzMz-+GL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61VKzMz-+GL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61mQCjXcmXL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61mQCjXcmXL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61mQCjXcmXL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4e571454-9c44-4ecc-934c-90266284be3f/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d5607f59-707b-4559-a795-2c3ea6d8b72e/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0259d7d9-c091-42fe-8b87-16f17c8449d1/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e1324d10-0c1f-4827-9da5-675d53751b09/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/982a3ac2-99d6-4b19-aa4d-ecbb94cb6cdb/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b39db929-0e27-4b50-90ec-7c52339b98f4/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4f2b128c-096e-44ba-8bfe-6ddea3f1b6b9/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:06:16.333726",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 7,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "asin": "B0DC683R54",
+  "url": "https://www.amazon.com/dp/B0DC683R54",
+  "title": "Valentines Day Gifts Upgraded Crown Cross Necklace for Women, 14K Gold Plated Crown Cross Pendant Necklace, Non-Tarnish Faith Jewelry for Women, Christian Religious Gifts for Her",
+  "price": "20,721",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0b529122-c2ac-4a62-ae67-3cfd9c9fcb04/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ed244913-911c-4329-8fce-23a82c802938/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "silver pendant necklace",
+  "scraped_at": "2026-03-08T13:25:28.684795",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "asin": "B004X4Y9ME",
+  "url": "https://www.amazon.com/dp/B004X4Y9ME",
+  "title": "",
+  "price": "",
+  "images": [],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "women dress watch",
+  "scraped_at": "2026-03-08T23:00:47.330503",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

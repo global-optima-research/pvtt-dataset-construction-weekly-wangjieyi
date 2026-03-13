@@ -1,0 +1,24 @@
+{
+  "asin": "B08R37FV7D",
+  "url": "https://www.amazon.com/dp/B08R37FV7D",
+  "title": "Kyerlyn Cubic Zirconia Choker Heart Shaped Diamond Choker Solitaire Necklace for Women Dainty Gold Filled Tiny CZ Diamond Choker Necklace…",
+  "price": "19,370",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51QqvPIQoPL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QqvPIQoPL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QqvPIQoPL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51a5q1vPJYL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51a5q1vPJYL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51a5q1vPJYL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "diamond pendant necklace",
+  "scraped_at": "2026-03-13T22:45:13.251914",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

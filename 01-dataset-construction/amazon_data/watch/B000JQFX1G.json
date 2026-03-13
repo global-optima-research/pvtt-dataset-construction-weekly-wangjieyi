@@ -1,0 +1,38 @@
+{
+  "asin": "B000JQFX1G",
+  "url": "https://www.amazon.com/dp/B000JQFX1G",
+  "title": "Invicta Men's 5053 Pro Diver Collection Automatic Watch",
+  "price": "129,042",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61Q8Hc8RZUL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Q8Hc8RZUL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Q8Hc8RZUL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61xIWEIKGnL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61xIWEIKGnL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61xIWEIKGnL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71JeCqxixYL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71JeCqxixYL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71JeCqxixYL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71zBHF2tlYL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71zBHF2tlYL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71zBHF2tlYL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71eE8yGap7L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71eE8yGap7L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71eE8yGap7L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71p-eJgiHuL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71p-eJgiHuL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71p-eJgiHuL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/50aa3e81-b9f7-5de0-a801-7719fc1ecd90/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4"
+  ],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "men automatic watch",
+  "scraped_at": "2026-03-05T22:54:00.901008",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

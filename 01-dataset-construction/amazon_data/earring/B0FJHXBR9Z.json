@@ -1,0 +1,29 @@
+{
+  "asin": "B0FJHXBR9Z",
+  "url": "https://www.amazon.com/dp/B0FJHXBR9Z",
+  "title": "PAVOI 14K Gold Plated Pearl Drop Earrings for Women - 925 Sterling Silver Posts Large Dangle Pearl Wedding Earrings for Brides & Bridesmaids - Linear Statement Bridal Jewelry Gifts",
+  "price": "29,003",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51lvvXHpo1L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51lvvXHpo1L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51lvvXHpo1L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JFFqz7oqL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JFFqz7oqL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JFFqz7oqL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61SctTs6J-S._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61SctTs6J-S._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61SctTs6J-S._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/688cde7d-023b-4ad3-bd6d-38cbbd282bb1/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "pearl earrings",
+  "scraped_at": "2026-03-14T00:14:21.759034",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

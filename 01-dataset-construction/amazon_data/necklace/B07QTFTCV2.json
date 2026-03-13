@@ -1,0 +1,27 @@
+{
+  "asin": "B07QTFTCV2",
+  "url": "https://www.amazon.com/dp/B07QTFTCV2",
+  "title": "PAVOI 14K Gold Plated Crystal Solitaire 1.5 Carat (7.3mm) Cubic Zirconia Dainty Choker Necklace | Gold Necklaces for Women",
+  "price": "22,143",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61X-F7dVj7L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61X-F7dVj7L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61X-F7dVj7L._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QhbOsrfpL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QhbOsrfpL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51QhbOsrfpL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/v2/bb44f901-e5d1-500d-8c99-faad373bf64f/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d2f99e85-51f1-467c-b872-2f82386640fe/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "silver pendant necklace",
+  "scraped_at": "2026-03-08T13:26:00.285389",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

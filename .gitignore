@@ -1,0 +1,49 @@
+# Data files (large formats not from dataset)
+*.avi
+*.mov
+*.mkv
+
+# Checkpoints & models
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.eggs/
+*.egg-info/
+
+# Environment
+.env
+*.env
+credentials*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data directories (track structure, not content)
+data/
+processed/
+!**/README.md
+
+# Amazon/platform scraped media (images + videos are too large for git)
+01-dataset-construction/amazon_data/*/media/
+01-dataset-construction/etsy_data/*/media/
+01-dataset-construction/*_data/*/media/
+
+# Spider logs
+01-dataset-construction/amazon_data/*.log
+01-dataset-construction/*_data/*.log

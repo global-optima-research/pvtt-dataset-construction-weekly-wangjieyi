@@ -1,0 +1,29 @@
+{
+  "asin": "B0DY4HLSPQ",
+  "url": "https://www.amazon.com/dp/B0DY4HLSPQ",
+  "title": "Luxval Lariat Gold Necklace for Women, Dainty Long Necklace 14k Gold Plated/Silver Y-Shaped Pendant Necklaces Trendy Beaded Chain Drop Necklaces Jewelry for Women Gifts",
+  "price": "14,896",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41uP-nksGJL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41uP-nksGJL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/41uP-nksGJL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61xVdm-NwCL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61xVdm-NwCL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61xVdm-NwCL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61EGGI2cK9L._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61EGGI2cK9L._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61EGGI2cK9L._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a15b5af3-af09-45d6-a95f-8d480f774a25/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "layered necklace",
+  "scraped_at": "2026-03-13T22:50:01.101297",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "asin": "B095CC27QT",
+  "url": "https://www.amazon.com/dp/B095CC27QT",
+  "title": "White 8mm Faux Hand Knotted Glass Imitation Pearls Necklace Earring Jewelry 3 Set for Women and Girls",
+  "price": "14,896",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51exSt1hrmL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51exSt1hrmL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51exSt1hrmL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ei2Cs+2iL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ei2Cs+2iL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ei2Cs+2iL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61nxaqNMQIL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61nxaqNMQIL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61nxaqNMQIL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51Of56uT4wL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51Of56uT4wL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51Of56uT4wL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "necklace",
+  "keyword": "pearl necklace",
+  "scraped_at": "2026-03-13T22:26:20.349826",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

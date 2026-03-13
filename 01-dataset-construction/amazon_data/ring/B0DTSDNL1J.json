@@ -1,0 +1,27 @@
+{
+  "asin": "B0DTSDNL1J",
+  "url": "https://www.amazon.com/dp/B0DTSDNL1J",
+  "title": "3CT/5CT Elongated Cushion Cut Engagement Ring for Women, Promise Wedding Cubic Zirconia White Gold Plated Band Size 5-9",
+  "price": "34,059",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/710maXH8VEL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710maXH8VEL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/710maXH8VEL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/617he-VYN-L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/617he-VYN-L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/617he-VYN-L._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1c536256-84c4-4143-be0e-a6cfe3bcb9a3/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6b56d755-9160-47d2-bad7-3ee20eff7721/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "engagement ring",
+  "scraped_at": "2026-03-12T22:27:59.317981",
+  "download_stats": {
+    "images_downloaded": 6,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

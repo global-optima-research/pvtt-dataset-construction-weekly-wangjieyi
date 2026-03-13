@@ -1,0 +1,19 @@
+{
+  "asin": "B07MT5VRTF",
+  "url": "https://www.amazon.com/dp/B07MT5VRTF",
+  "title": "Kattee Genuine Leather Women Tote Bag Soft Handbags Vintage Shoulder Purses Fashion Top Handle Bag Large Capacity",
+  "price": "96,643",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9e61ee36-421f-444e-83f1-e56eda89e785/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:20:53.078991",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

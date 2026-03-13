@@ -1,0 +1,42 @@
+{
+  "asin": "B0DG1TQPVT",
+  "url": "https://www.amazon.com/dp/B0DG1TQPVT",
+  "title": "Retro Oval Sunglasses for Women Chic Cat Eye 90s Sunnies Lightweight Narrow Shades Trendy UV protection Sun Glasses",
+  "price": "26,652",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/61Y3uR6NaeL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Y3uR6NaeL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Y3uR6NaeL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61YIkBidCgL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61YIkBidCgL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61YIkBidCgL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51gTVHW+JDL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51gTVHW+JDL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51gTVHW+JDL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Uh0Ua7mTL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Uh0Ua7mTL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Uh0Ua7mTL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ekJbUOV2L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ekJbUOV2L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61ekJbUOV2L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51UPm3X5bAL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51UPm3X5bAL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51UPm3X5bAL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0443c564-9d66-472e-8f51-168b2067c499/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e542c3e4-2f70-4b53-a2cc-d1dbe38bdea6/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7540d6d2-a39a-4aba-8c7d-47a018944a06/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d7c38728-4cb5-4cb9-b7a1-2c7f7db2f465/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/61886b67-4be7-40cd-9e5e-19b8572fd8ca/default.vertical.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "cat eye sunglasses",
+  "scraped_at": "2026-03-12T22:21:23.867792",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 5,
+    "images_skipped": 0
+  }
+}

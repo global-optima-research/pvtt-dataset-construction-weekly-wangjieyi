@@ -1,0 +1,27 @@
+{
+  "asin": "B0G6XVQ32P",
+  "url": "https://www.amazon.com/dp/B0G6XVQ32P",
+  "title": "6 Pairs Stud Earrings Set, Hypoallergenic Cubic Zirconia Earrings, Silver 14K Gold Plated 316L Stainless Steel CZ Earring for Women Men 3-8mm",
+  "price": "8,932",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/81FbcWMYqRL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81FbcWMYqRL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81FbcWMYqRL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/612tQxCqBVL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/612tQxCqBVL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/612tQxCqBVL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61uaObOaZUS._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61uaObOaZUS._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61uaObOaZUS._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "stud earrings gold",
+  "scraped_at": "2026-03-13T23:41:53.790970",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

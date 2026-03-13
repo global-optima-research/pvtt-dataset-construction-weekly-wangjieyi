@@ -1,0 +1,20 @@
+{
+  "asin": "B088WDWBY9",
+  "url": "https://www.amazon.com/dp/B088WDWBY9",
+  "title": "Women Fashion Synthetic Leather Handbags Tote Bag Shoulder Bag Top Handle Satchel Purse Set 4pcs",
+  "price": "51,726",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/aplus-media/sc/12806b19-c1b6-4a42-999b-336b8d929814.mp4",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/1d7e072a-d962-428e-82fb-6177de3abb94/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "handbag",
+  "keyword": "women tote handbag",
+  "scraped_at": "2026-03-10T00:19:03.091462",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

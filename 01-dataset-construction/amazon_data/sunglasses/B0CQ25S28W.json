@@ -1,0 +1,19 @@
+{
+  "asin": "B0CQ25S28W",
+  "url": "https://www.amazon.com/dp/B0CQ25S28W",
+  "title": "FEISEDY Retro Square Aviator Sunglasses Women Men 70s Vintage Trendy Plastic Frame Sun Glasses B2835",
+  "price": "25,155",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/62060ca8-7284-4972-b805-18d03cf5f44d/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "sunglasses",
+  "keyword": "aviator sunglasses",
+  "scraped_at": "2026-03-12T22:32:17.286968",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}

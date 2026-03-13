@@ -1,0 +1,27 @@
+{
+  "asin": "B07VN8M5JG",
+  "url": "https://www.amazon.com/dp/B07VN8M5JG",
+  "title": "Stuhrling Original Mens Skeleton Automatic Dress Watch with Alligator Embossed Leather Strap Skeleton Dial",
+  "price": "162,302",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/819PDYFA6ML._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/819PDYFA6ML._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/819PDYFA6ML._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71NjYKeyjkL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71NjYKeyjkL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71NjYKeyjkL._AC_UL348_SR348,348_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81-JPPOwtEL._AC_UL116_SR116,116_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81-JPPOwtEL._AC_UL232_SR232,232_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/81-JPPOwtEL._AC_UL348_SR348,348_.jpg"
+  ],
+  "video_urls": [],
+  "platform": "amazon",
+  "category": "watch",
+  "keyword": "men automatic watch",
+  "scraped_at": "2026-03-05T23:13:03.942756",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 0,
+    "images_skipped": 0
+  }
+}

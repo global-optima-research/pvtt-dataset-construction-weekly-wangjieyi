@@ -1,0 +1,41 @@
+{
+  "asin": "B07S4KJLHY",
+  "url": "https://www.amazon.com/dp/B07S4KJLHY",
+  "title": "6 Pairs Stud Earrings Set, Hypoallergenic Cubic Zirconia 316L Earrings Stainless Steel CZ Earrings 3-8mm",
+  "price": "9.",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/71DgbwSA+4L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71DgbwSA+4L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71DgbwSA+4L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71GNOCzxMsL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71GNOCzxMsL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71GNOCzxMsL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JFTsjQSnL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JFTsjQSnL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61JFTsjQSnL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71TGRjrkLpL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71TGRjrkLpL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71TGRjrkLpL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71QH3sr2HLL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71QH3sr2HLL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71QH3sr2HLL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Cnfvu9WQL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Cnfvu9WQL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61Cnfvu9WQL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a89bdf38-d76d-4d73-98ff-09619cce927a/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bc78c68f-6059-4241-b10b-5f4dea1c116f/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9c3427d9-c18a-417b-aa5e-15eb3efb952c/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/716b4291-df7d-4847-a8a0-b1b543bb0dea/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "stud earrings gold",
+  "scraped_at": "2026-03-08T14:40:38.239957",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 4,
+    "images_skipped": 0
+  }
+}

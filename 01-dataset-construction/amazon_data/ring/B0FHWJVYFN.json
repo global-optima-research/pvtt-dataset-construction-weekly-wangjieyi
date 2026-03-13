@@ -1,0 +1,33 @@
+{
+  "asin": "B0FHWJVYFN",
+  "url": "https://www.amazon.com/dp/B0FHWJVYFN",
+  "title": "LOLIAS 14K Gold Plated Stackable Rings for Women Non Tarnish - Dainty Cubic Zirconia Wedding Bands Ring Set Minimalist Trendy Statement Engagement Promise Thumb Rings Stacking Size 5-10",
+  "price": "20,726",
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51oS307zgjL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51oS307zgjL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51oS307zgjL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71hNPL7W7EL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71hNPL7W7EL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/71hNPL7W7EL._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61pyekEuO9L._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61pyekEuO9L._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/61pyekEuO9L._AC_UL495_SR495,495_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51xiSHh0KEL._AC_UL165_SR165,165_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51xiSHh0KEL._AC_UL330_SR330,330_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/I/51xiSHh0KEL._AC_UL495_SR495,495_.jpg"
+  ],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/38903315-0dda-48f8-89d3-512007f14dd5/default.vertical.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9e319595-5069-4cab-9a4e-5420799787ae/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "ring",
+  "keyword": "gold band ring",
+  "scraped_at": "2026-03-12T22:20:09.006236",
+  "download_stats": {
+    "images_downloaded": 8,
+    "videos_downloaded": 2,
+    "images_skipped": 0
+  }
+}

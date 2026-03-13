@@ -1,0 +1,19 @@
+{
+  "asin": "B08YNNF5TZ",
+  "url": "https://www.amazon.com/dp/B08YNNF5TZ",
+  "title": "Obidos 14K Gold Plated Illusion Stud Earrings for Women | Triple Huggie Hoop Earrings for One Hole| Trendy Simple Hypoallergenic Fashion Accessories Gold Jewelry Gifts for Womens",
+  "price": "12.",
+  "images": [],
+  "video_urls": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a7304051-2da0-4c50-b2af-e3d48e30071d/default.jobtemplate.hls.m3u8"
+  ],
+  "platform": "amazon",
+  "category": "earring",
+  "keyword": "stud earrings gold",
+  "scraped_at": "2026-03-08T22:44:40.070563",
+  "download_stats": {
+    "images_downloaded": 0,
+    "videos_downloaded": 1,
+    "images_skipped": 0
+  }
+}
