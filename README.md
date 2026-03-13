@@ -8,19 +8,19 @@
 
 | 目录 | 说明 |
 |------|------|
-| `01-dataset-construction/` | 数据采集Pipeline、爬虫代码、数据报告 |
-| `02-teacher-model-training/` | Teacher模型训练（待开展） |
-| `03-dmd-distillation/` | DMD蒸馏（待开展） |
-| `docs/` | 文献综述与技术调研 |
+| `scripts/` | 采集代码（爬虫、Pipeline编排器）和各平台采集计划 |
+| `reports/` | 数据质量报告、平台可行性分析 |
+| `weekly-reports/` | 每周工作周报 |
 
 ## 周报
 
 | 周次 | 文件 | 主要内容 |
 |------|------|----------|
-| Week 03 (03-08 ~ 03-14) | [`week03_dataset_report.ipynb`](week03_dataset_report.ipynb) | Amazon数据扩展至600+，多平台调研，Pipeline完善 |
+| Week 03 (03-02 ~ 03-08) | [`weekly-reports/week03_report_wjy.md`](weekly-reports/week03_report_wjy.md) | Pipeline搭建，Amazon爬虫启动，服务器端处理验证 |
 
 ## 当前进度
 
-- Amazon数据：622+ 产品，3432张图片，603个视频，3.8GB
+- Amazon数据：640+ 产品，3568张图片，615个视频，3.9GB
 - 爬虫仍在运行中，目标800+产品
-- 详见 [`01-dataset-construction/README.md`](01-dataset-construction/README.md)
+- 数据质量报告：[`reports/pvtt_dataset_report.html`](reports/pvtt_dataset_report.html)（含可播放视频）
+- 12平台分析：[`reports/platform_analysis_report.md`](reports/platform_analysis_report.md)

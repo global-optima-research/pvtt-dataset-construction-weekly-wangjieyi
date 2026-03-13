@@ -1,4 +1,4 @@
-# Data files (large formats not from dataset)
+# Data files (large formats)
 *.avi
 *.mov
 *.mkv
@@ -34,26 +34,29 @@ credentials*.json
 .DS_Store
 Thumbs.db
 
-# Data directories (track structure, not content)
+# Local data (not for git)
 data/
 processed/
-!**/README.md
 
-# Amazon/platform scraped media (images + videos are too large for git)
-01-dataset-construction/amazon_data/*/media/
-01-dataset-construction/etsy_data/*/media/
-01-dataset-construction/*_data/*/media/
+# Local-only files in old structure (kept locally, not uploaded)
+01-dataset-construction/
 
-# Spider logs
-01-dataset-construction/amazon_data/*.log
-01-dataset-construction/*_data/*.log
+# Internal tools (kept locally)
+scripts/ecommerce-scraper/
+scripts/data_pipeline.py
+scripts/launch_spider.py
+scripts/build_notebook.py
+scripts/generate_charts.py
+scripts/generate_dataset_report.py
+scripts/upload_to_server.py
+scripts/server-scripts/
+scripts/etsy_spider.py
+scripts/etsy_data/
+scripts/amazon_data/
+scripts/DIRECTORY_STRUCTURE.md
 
-# Internal tools (not for teammates)
-01-dataset-construction/ecommerce-scraper/
-01-dataset-construction/data_pipeline.py
-01-dataset-construction/launch_spider.py
-01-dataset-construction/build_notebook.py
-01-dataset-construction/generate_charts.py
-01-dataset-construction/server-scripts/
-01-dataset-construction/etsy_spider.py
-01-dataset-construction/etsy_data/
+# Presentation notes (local only)
+*_presentation_notes.md
+
+# Week 04 report (pending review)
+weekly-reports/week04_report_wjy.ipynb
