@@ -47,3 +47,13 @@ processed/
 # Spider logs
 01-dataset-construction/amazon_data/*.log
 01-dataset-construction/*_data/*.log
+
+# Internal tools (not for teammates)
+01-dataset-construction/ecommerce-scraper/
+01-dataset-construction/data_pipeline.py
+01-dataset-construction/launch_spider.py
+01-dataset-construction/build_notebook.py
+01-dataset-construction/generate_charts.py
+01-dataset-construction/server-scripts/
+01-dataset-construction/etsy_spider.py
+01-dataset-construction/etsy_data/

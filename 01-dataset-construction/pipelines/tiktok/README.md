@@ -1,63 +1,63 @@
 # TikTok Shop Pipeline
 
-> PVTT Dataset Construction - TikTok Shop Data Collection
+> PVTT 数据采集 — TikTok Shop 数据收集
 
-## Platform Overview
+## 平台概览
 
-| Field | Details |
-|-------|---------|
-| **Platform** | TikTok Shop |
-| **Status** | Planned |
-| **Collection Method** | Apify TikTok Shop Scraper (3rd party service) |
-| **Priority** | P1 (low cost, high video coverage) |
-| **Estimated Cost** | ~$2/1000 products (Apify free tier covers ~2500 products) |
+| 字段 | 详情 |
+|------|------|
+| **平台** | TikTok Shop |
+| **状态** | 计划中 |
+| **采集方式** | Apify TikTok Shop Scraper（第三方服务） |
+| **优先级** | P1（低成本，高视频覆盖率） |
+| **预估成本** | ~$2/1000 产品（Apify 免费额度可覆盖 ~2500 产品） |
 
-## Collection Method
+## 采集方式
 
-### Primary: Apify TikTok Shop Scraper
+### 首选：Apify TikTok Shop Scraper
 
-- **Service**: [Apify TikTok Shop Scraper](https://apify.com/store)
-- **Pricing**: $2/1000 results (pay-per-result) or $20/month flat
-- **Alternative**: sovereigntaylor variant at $1.80/1000 products
-- **Free tier**: $5/month credit (~2500 products)
-- **Data fields**: Title, price, discount, sales count, rating, images, variants, seller info
+- **服务**：[Apify TikTok Shop Scraper](https://apify.com/store)
+- **定价**：$2/1000 条结果（按量付费）或 $20/月包月
+- **替代方案**：sovereigntaylor 版本，$1.80/1000 产品
+- **免费额度**：$5/月（约 2500 产品）
+- **数据字段**：标题、价格、折扣、销量、评分、图片、规格、卖家信息
 
-### Alternative Methods
+### 替代方案
 
-1. **TikTok Research API** (academic channel)
-   - Free for US/EU non-profit universities
-   - Requires faculty endorsement letter
-   - Supports querying TikTok Shop product and shop info
-   - Apply at: https://developers.tiktok.com/products/research-api/
-   - Note: Researchers report incomplete/inconsistent data delivery (SAGE 2025)
+1. **TikTok Research API**（学术通道）
+   - 美国/欧盟非营利高校免费
+   - 需要导师推荐信
+   - 支持查询 TikTok Shop 产品和店铺信息
+   - 申请地址：https://developers.tiktok.com/products/research-api/
+   - 注意：有研究者反映数据交付不完整/不一致（SAGE 2025）
 
-2. **Bright Data TikTok Scraper**: $2.50/1000 requests (more stable, built-in anti-bot bypass)
+2. **Bright Data TikTok Scraper**：$2.50/1000 请求（更稳定，内置反爬绕过）
 
-3. **Direct scraping** (not recommended)
-   - Encrypted request headers require reverse engineering
-   - Real-time fraud scoring system detects automation
-   - Must use US residential proxies
-   - Signature algorithms change frequently
+3. **直接爬取**（不推荐）
+   - 加密请求头需要逆向工程
+   - 实时反欺诈评分系统检测自动化
+   - 必须使用美国住宅代理
+   - 签名算法频繁更新
 
-## Anti-Bot Protection
+## 反爬机制
 
-| Mechanism | Severity | Notes |
-|-----------|----------|-------|
-| Encrypted headers | High | Custom encryption, needs reverse engineering |
-| Behavioral detection | High | Real-time fraud scoring |
-| IP restrictions | High | Data center IPs blocked, US residential proxy required |
-| Regional restrictions | Medium | TikTok Shop US requires US IP |
+| 机制 | 严重程度 | 说明 |
+|------|----------|------|
+| 加密请求头 | 高 | 自定义加密，需逆向工程 |
+| 行为检测 | 高 | 实时反欺诈评分 |
+| IP 限制 | 高 | 数据中心 IP 被封，需美国住宅代理 |
+| 地区限制 | 中 | TikTok Shop 美国站需美国 IP |
 
-**Conclusion**: Self-scraping is impractical. Apify or Bright Data is the recommended approach.
+**结论**：自行爬取不可行。推荐使用 Apify 或 Bright Data。
 
-## Data Format
+## 数据格式
 
-Output must conform to the unified PVTT data format:
+输出必须符合 PVTT 统一数据格式：
 
 ```
 tiktok_data/
   {category}/                        # bracelet, earring, handbag, necklace, ring, sunglasses, watch
-    {PRODUCT_ID}.json                # Product metadata
+    {PRODUCT_ID}.json                # 产品元数据
     media/
       images/
         {PRODUCT_ID}_01.jpg
@@ -67,7 +67,7 @@ tiktok_data/
         {PRODUCT_ID}.mp4
 ```
 
-### Metadata JSON
+### 元数据 JSON
 
 ```json
 {
@@ -94,42 +94,42 @@ tiktok_data/
 }
 ```
 
-## Estimated Data Volume
+## 预估数据量
 
-| Category | Est. Products | Est. Videos | Notes |
-|----------|--------------|-------------|-------|
-| bracelet | 50+ | 45+ | Popular category on TikTok Shop |
-| earring | 50+ | 45+ | High engagement |
-| handbag | 40+ | 35+ | Fashion category |
-| necklace | 50+ | 45+ | Popular |
-| ring | 40+ | 35+ | Growing category |
-| sunglasses | 40+ | 35+ | Seasonal peaks |
-| watch | 30+ | 25+ | Moderate volume |
-| **Total** | **300+** | **265+** | |
+| 品类 | 预估产品数 | 预估视频数 | 备注 |
+|------|-----------|-----------|------|
+| bracelet | 50+ | 45+ | TikTok Shop 热门品类 |
+| earring | 50+ | 45+ | 互动率高 |
+| handbag | 40+ | 35+ | 时尚品类 |
+| necklace | 50+ | 45+ | 热门品类 |
+| ring | 40+ | 35+ | 增长中品类 |
+| sunglasses | 40+ | 35+ | 有季节性高峰 |
+| watch | 30+ | 25+ | 中等体量 |
+| **合计** | **300+** | **265+** | |
 
-**Video coverage**: ~90%+ (TikTok is natively a video platform)
-**Video quality**: 720p-1080p, short-form style (9:16 portrait orientation)
-**Video duration**: 15-60 seconds
+**视频覆盖率**：~90%+（TikTok 是原生视频平台）
+**视频质量**：720p-1080p，短视频风格（9:16 竖屏）
+**视频时长**：15-60 秒
 
-## Important Notes
+## 重要说明
 
-- TikTok videos are predominantly **portrait (9:16)** orientation -- post-processing crop/resize needed for PVTT
-- Video style leans toward influencer/sales content rather than traditional product showcase
-- Jewelry is a hot category on TikTok Shop (GMV $1.2B in 2025, +94% YoY)
-- 2026 update: US TikTok operations transferred to USDS joint venture (Oracle-managed), data access policies may change
+- TikTok 视频以 **竖屏（9:16）** 为主 -- 用于 PVTT 需要后期裁剪/缩放处理
+- 视频风格偏向达人带货/种草内容，而非传统产品展示
+- 珠宝是 TikTok Shop 热门品类（2025 年 GMV 达 $1.2B，同比增长 94%）
+- 2026 年更新：美国 TikTok 运营已转交 USDS 合资企业（Oracle 管理），数据访问政策可能变化
 
-## Legal Considerations
+## 法律合规
 
-- Public data scraping is generally legal in the US (hiQ v. LinkedIn precedent)
-- TikTok TOS prohibits unauthorized automated access
-- Using Apify (3rd party service) reduces direct legal exposure
-- Academic research purpose provides additional protection
-- Recommend applying for TikTok Research API for full compliance
+- 在美国，公开数据爬取通常合法（hiQ v. LinkedIn 判例）
+- TikTok 服务条款禁止未授权的自动化访问
+- 使用 Apify（第三方服务）降低直接法律风险
+- 学术研究目的提供额外保护
+- 建议申请 TikTok Research API 以确保完全合规
 
-## Next Steps
+## 下一步计划
 
-1. Register Apify free account
-2. Test TikTok Shop Scraper with 50-100 products using free credits
-3. Validate video quality and relevance for PVTT
-4. If successful, expand to 300+ products across all categories
-5. Build post-processing script for portrait-to-landscape conversion
+1. 注册 Apify 免费账号
+2. 使用免费额度测试 TikTok Shop Scraper（50-100 产品）
+3. 验证视频质量和与 PVTT 的相关性
+4. 如测试成功，扩展至 300+ 产品覆盖所有品类
+5. 开发竖屏转横屏的后处理脚本

@@ -1,71 +1,71 @@
-# Taobao/Tmall Pipeline
+# 淘宝/天猫 Pipeline
 
-> PVTT Dataset Construction - Taobao/Tmall Data Collection
+> PVTT 数据采集 — 淘宝/天猫数据收集
 
-## Platform Overview
+## 平台概览
 
-| Field | Details |
-|-------|---------|
-| **Platform** | Taobao/Tmall (淘宝/天猫) |
-| **Status** | Planned |
-| **Collection Method** | 3rd party data service (China local vendors) |
-| **Priority** | P2 (highest quality videos, requires budget) |
-| **Estimated Cost** | CNY 100-250 (~$15-35) for 500+ products |
+| 字段 | 详情 |
+|------|------|
+| **平台** | 淘宝/天猫（Taobao/Tmall） |
+| **状态** | 计划中 |
+| **采集方式** | 第三方数据服务（国内供应商） |
+| **优先级** | P2（视频质量最高，需要预算） |
+| **预估成本** | ¥100-250（约 $15-35），可获取 500+ 产品 |
 
-## Collection Method
+## 采集方式
 
-### Primary: 3rd Party Data Service (Recommended)
+### 首选：第三方数据服务（推荐）
 
-Chinese local data service vendors offer the most reliable and cost-effective access to Taobao data:
+国内数据服务商提供最可靠、最具性价比的淘宝数据获取方式：
 
-- **Price**: CNY 0.01-0.05 per product record (bulk pricing)
-- **Coverage**: Full data fields including video URLs
-- **Compliance**: Vendors handle platform access; researchers purchase processed data
-- **Budget estimate**: CNY 100-250 for 500+ products with complete metadata, images, and video URLs
+- **价格**：¥0.01-0.05/条产品记录（批量价）
+- **覆盖范围**：完整数据字段，包括视频 URL
+- **合规性**：服务商处理平台访问；研究者购买处理后的数据
+- **预算估算**：¥100-250 可获取 500+ 产品的完整元数据、图片和视频 URL
 
-### Why NOT Self-Scraping
+### 为什么不自行爬取
 
-Taobao has the most aggressive anti-bot system among all platforms evaluated:
+淘宝拥有所有评估平台中最强的反爬系统：
 
-| Mechanism | Severity | Details |
-|-----------|----------|---------|
-| Behavioral fingerprinting | Extreme | Mouse trajectory, scroll patterns, click intervals analyzed by AI |
-| Dynamic signatures | Extreme | Cookie expires every ~10 minutes, API signatures rotate frequently |
-| IP detection | Extreme | Ultra-low frequency threshold, data center IPs instantly blocked |
-| Slider/CAPTCHA | High | Triggered at very low request rates |
-| Login gating | High | Most product details and videos require login |
+| 机制 | 严重程度 | 详情 |
+|------|----------|------|
+| 行为指纹 | 极高 | AI 分析鼠标轨迹、滚动模式、点击间隔 |
+| 动态签名 | 极高 | Cookie 约 10 分钟过期，API 签名频繁轮换 |
+| IP 检测 | 极高 | 极低频率阈值，数据中心 IP 立即封禁 |
+| 滑块/验证码 | 高 | 极低请求频率即触发 |
+| 登录门控 | 高 | 大部分产品详情和视频需要登录 |
 
-**Tested and failed**:
-- `requests` / `curl_cffi`: Signature validation fails immediately
-- `DrissionPage` / `Selenium`: Cookie expires too fast, constant re-login needed
-- Full anti-detection browser + proxy pool + CAPTCHA solver needed for any scale
+**已测试且失败**：
+- `requests` / `curl_cffi`：签名验证立即失败
+- `DrissionPage` / `Selenium`：Cookie 过期太快，需不断重新登录
+- 需要完整反检测浏览器 + 代理池 + 验证码解决方案才能达到任何规模
 
-### Why NOT Official API
+### 为什么不用官方 API
 
-**Taobao Open Platform** (https://open.taobao.com/):
-- Requires **business license** (企业资质) -- individual/academic developers cannot get product data API access
-- International version (https://open.taobao.global/) has lower registration barrier but limited data scope
-- API calls are free once approved, but approval is the bottleneck
-- No academic research program available
+**淘宝开放平台** (https://open.taobao.com/)：
+- 需要 **企业资质（营业执照）** -- 个人/学术开发者无法获取产品数据 API 权限
+- 国际版 (https://open.taobao.global/) 注册门槛较低但数据范围有限
+- API 调用审批通过后免费，但审批是瓶颈
+- 无学术研究计划
 
-### Alternative: Paid Scraping Services
+### 替代方案：付费爬取服务
 
-| Service | Price | Notes |
-|---------|-------|-------|
-| Oxylabs Taobao Scraper API | $49/month ($1.6/1K results) | Product details, images, pricing |
-| ZenRows | Custom pricing | Taobao-specific scraper |
-| Crawlbase | Custom pricing | CAPTCHA bypass, proxy rotation |
-| RapidAPI | Per-call pricing | Taobao/Tmall Scraper V2 |
-| Apify | **Deprecated** (Taobao Tmall Scraper Pro taken down) | No longer available |
+| 服务 | 价格 | 说明 |
+|------|------|------|
+| Oxylabs Taobao Scraper API | $49/月（$1.6/1K 条结果） | 产品详情、图片、价格 |
+| ZenRows | 定制价格 | 淘宝专用爬虫 |
+| Crawlbase | 定制价格 | 验证码绕过、代理轮换 |
+| RapidAPI | 按次付费 | Taobao/Tmall Scraper V2 |
+| Apify | **已下架**（Taobao Tmall Scraper Pro 已移除） | 不再可用 |
 
-## Data Format
+## 数据格式
 
-Output must conform to the unified PVTT data format:
+输出必须符合 PVTT 统一数据格式：
 
 ```
 taobao_data/
   {category}/                        # bracelet, earring, handbag, necklace, ring, sunglasses, watch
-    {PRODUCT_ID}.json                # Product metadata
+    {PRODUCT_ID}.json                # 产品元数据
     media/
       images/
         {PRODUCT_ID}_01.jpg
@@ -75,7 +75,7 @@ taobao_data/
         {PRODUCT_ID}.mp4
 ```
 
-### Metadata JSON
+### 元数据 JSON
 
 ```json
 {
@@ -107,46 +107,46 @@ taobao_data/
 }
 ```
 
-## Estimated Data Volume
+## 预估数据量
 
-| Category | Est. Products | Est. Videos | Notes |
-|----------|--------------|-------------|-------|
-| bracelet | 80+ | 65+ | Very high video rate |
-| earring | 80+ | 65+ | Professional model videos |
-| handbag | 60+ | 50+ | High quality brand videos |
-| necklace | 80+ | 65+ | 360-degree display common |
-| ring | 60+ | 50+ | Detail close-ups |
-| sunglasses | 60+ | 50+ | Model wearing videos |
-| watch | 80+ | 65+ | Brand flagship stores |
-| **Total** | **500+** | **410+** | |
+| 品类 | 预估产品数 | 预估视频数 | 备注 |
+|------|-----------|-----------|------|
+| bracelet | 80+ | 65+ | 视频率非常高 |
+| earring | 80+ | 65+ | 专业模特视频 |
+| handbag | 60+ | 50+ | 高质量品牌视频 |
+| necklace | 80+ | 65+ | 常见 360 度展示 |
+| ring | 60+ | 50+ | 细节特写 |
+| sunglasses | 60+ | 50+ | 模特佩戴视频 |
+| watch | 80+ | 65+ | 品牌旗舰店 |
+| **合计** | **500+** | **410+** | |
 
-**Video coverage**: ~70-80% (jewelry/accessories category has near-universal main video)
-**Video quality**: 1080p MP4, professionally produced, model wearing demonstrations
-**Video duration**: 15-60 seconds, product showcase style
-**Video style**: 360-degree rotation, wearing demos, detail close-ups -- ideal for PVTT template transfer
+**视频覆盖率**：~70-80%（珠宝/配饰品类几乎所有商品都有主图视频）
+**视频质量**：1080p MP4，专业拍摄，模特佩戴展示
+**视频时长**：15-60 秒，产品展示风格
+**视频风格**：360 度旋转、佩戴演示、细节特写 -- 非常适合 PVTT 模板迁移
 
-## Why Taobao Data is Valuable for PVTT
+## 为什么淘宝数据对 PVTT 有价值
 
-1. **Highest video quality** across all evaluated platforms
-2. **Professional production**: Standard white-background images + scene images + model videos
-3. **Jewelry specialization**: Chinese e-commerce has the most developed jewelry video ecosystem
-4. **Video style match**: Product showcase videos (rotation, wearing, close-up) are exactly what PVTT needs for template transfer
-5. **Landscape orientation**: 16:9 horizontal videos (unlike TikTok's 9:16), directly usable for PVTT
-6. **Chinese language data**: Adds bilingual diversity to the dataset (reviewer bonus for cross-lingual generalization)
+1. **所有评估平台中视频质量最高**
+2. **专业制作**：标准白底图 + 场景图 + 模特视频
+3. **珠宝专业化**：中国电商拥有最成熟的珠宝视频生态
+4. **视频风格匹配**：产品展示视频（旋转、佩戴、特写）正是 PVTT 模板迁移所需
+5. **横屏**：16:9 横屏视频（不同于 TikTok 的 9:16），可直接用于 PVTT
+6. **中文数据**：为数据集增加双语多样性（跨语言泛化对审稿人是加分项）
 
-## Legal Considerations
+## 法律合规
 
-- **Chinese Data Protection Laws**: Strictly protected by Cybersecurity Law, Data Security Law, and Personal Information Protection Law
-- **Taobao TOS**: Explicitly prohibits unauthorized scraping
-- **Academic exemption**: Less clear than US Fair Use doctrine
-- **Recommended approach**: Purchase data through compliant 3rd party services to avoid direct scraping risks
-- **Paper compliance**: Clearly annotate data source and academic-only usage in publications
+- **中国数据保护法律**：受《网络安全法》《数据安全法》《个人信息保护法》严格保护
+- **淘宝服务条款**：明确禁止未授权爬取
+- **学术豁免**：不如美国 Fair Use 原则清晰
+- **推荐方案**：通过合规的第三方数据服务购买数据，避免直接爬取风险
+- **论文合规**：在论文中明确标注数据来源和仅限学术使用
 
-## Next Steps
+## 下一步计划
 
-1. Complete Amazon data expansion first (P0 priority)
-2. Research and contact Chinese local data service vendors for quotes
-3. Request sample data (10-20 products) to validate quality and format
-4. If quality meets requirements, purchase 500+ products across all categories
-5. Build format conversion script to match unified PVTT data format
-6. Can potentially bundle with JD.com (京东) data from same vendor for additional coverage
+1. 先完成 Amazon 数据扩展（P0 优先级）
+2. 调研并联系国内数据服务商获取报价
+3. 申请样本数据（10-20 产品）验证质量和格式
+4. 如质量符合要求，购买 500+ 产品覆盖所有品类
+5. 开发格式转换脚本以匹配 PVTT 统一数据格式
+6. 可考虑与同一服务商捆绑购买京东数据以增加覆盖范围

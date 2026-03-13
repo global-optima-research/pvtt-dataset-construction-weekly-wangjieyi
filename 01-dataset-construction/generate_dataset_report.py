@@ -204,7 +204,7 @@ h.append(f"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PVTT Dataset Report</title>
+<title>PVTT 数据集报告</title>
 <style>
 :root {{ --bg:#f8f9fa; --card:#fff; --text:#212529; --muted:#6c757d; --border:#dee2e6; --accent:#4E79A7; --red:#E15759; }}
 *{{margin:0;padding:0;box-sizing:border-box}}
@@ -272,34 +272,34 @@ footer{{margin-top:2.5rem;padding-top:.8rem;border-top:1px solid var(--border);c
 <body>
 <div class="container">
 
-<h1>PVTT Dataset Report</h1>
-<p class="sub">Product Video Template Transfer &mdash; Amazon Scraped Data &mdash; {REPORT_DATE}</p>
+<h1>PVTT 数据集报告</h1>
+<p class="sub">Product Video Template Transfer &mdash; Amazon 采集数据 &mdash; {REPORT_DATE}</p>
 
-<!-- Summary -->
-<h2>Summary</h2>
+<!-- 概览 -->
+<h2>数据概览</h2>
 <div class="sg">
-  <div class="sc"><div class="v">{tot_prods}</div><div class="l">Products</div></div>
-  <div class="sc red"><div class="v">{tot_vid}</div><div class="l">Videos</div></div>
-  <div class="sc"><div class="v">{tot_img}</div><div class="l">Images</div></div>
-  <div class="sc"><div class="v">{tot_size:.0f} MB</div><div class="l">Total Size</div></div>
-  <div class="sc"><div class="v">{len(CATEGORIES)}</div><div class="l">Categories</div></div>
-  <div class="sc"><div class="v">{tot_w_vid/tot_prods*100:.0f}%</div><div class="l">Video Rate</div></div>
+  <div class="sc"><div class="v">{tot_prods}</div><div class="l">产品数</div></div>
+  <div class="sc red"><div class="v">{tot_vid}</div><div class="l">视频数</div></div>
+  <div class="sc"><div class="v">{tot_img}</div><div class="l">图片数</div></div>
+  <div class="sc"><div class="v">{tot_size:.0f} MB</div><div class="l">总大小</div></div>
+  <div class="sc"><div class="v">{len(CATEGORIES)}</div><div class="l">类别数</div></div>
+  <div class="sc"><div class="v">{tot_w_vid/tot_prods*100:.0f}%</div><div class="l">视频覆盖率</div></div>
 </div>
 
-<!-- Video Stats -->
-<h2>Video Analysis</h2>
+<!-- 视频统计 -->
+<h2>视频分析</h2>
 <div class="sg">
-  <div class="sc red"><div class="v">{tot_vid}</div><div class="l">Total Videos</div></div>
-  <div class="sc red"><div class="v">{avg_dur:.1f}s</div><div class="l">Avg Duration</div></div>
-  <div class="sc red"><div class="v">{min_dur:.1f}s–{max_dur:.1f}s</div><div class="l">Duration Range</div></div>
-  <div class="sc red"><div class="v">{tot_vid_size:.0f} MB</div><div class="l">Video Size</div></div>
-  <div class="sc"><div class="v" style="font-size:1rem">{'<br>'.join(f'{r}: {c}' for r,c in top_res[:3])}</div><div class="l">Top Resolutions</div></div>
+  <div class="sc red"><div class="v">{tot_vid}</div><div class="l">视频总数</div></div>
+  <div class="sc red"><div class="v">{avg_dur:.1f}s</div><div class="l">平均时长</div></div>
+  <div class="sc red"><div class="v">{min_dur:.1f}s–{max_dur:.1f}s</div><div class="l">时长范围</div></div>
+  <div class="sc red"><div class="v">{tot_vid_size:.0f} MB</div><div class="l">视频总大小</div></div>
+  <div class="sc"><div class="v" style="font-size:1rem">{'<br>'.join(f'{r}: {c}' for r,c in top_res[:3])}</div><div class="l">主要分辨率</div></div>
 </div>
 
-<!-- Category Table -->
-<h2>Category Breakdown</h2>
+<!-- 类别统计 -->
+<h2>各类别统计</h2>
 <table>
-<thead><tr><th>Category</th><th>Products</th><th>w/ Title</th><th>w/ Video</th><th>Images</th><th>Videos</th><th>Size (MB)</th><th>Keywords</th></tr></thead>
+<thead><tr><th>类别</th><th>产品数</th><th>有标题</th><th>有视频</th><th>图片数</th><th>视频数</th><th>大小 (MB)</th><th>搜索关键词</th></tr></thead>
 <tbody>
 """)
 
@@ -310,12 +310,12 @@ for cat in CATEGORIES:
              f'<td>{s["n_img"]}</td><td>{s["n_vid"]}</td><td>{s["size_mb"]:.1f}</td>'
              f'<td style="font-size:.75rem">{kw}</td></tr>')
 
-h.append(f'<tr class="trow"><td>Total</td><td>{tot_prods}</td><td>{T("with_title")}</td>'
+h.append(f'<tr class="trow"><td>合计</td><td>{tot_prods}</td><td>{T("with_title")}</td>'
          f'<td>{tot_w_vid}</td><td>{tot_img}</td><td>{tot_vid}</td><td>{tot_size:.1f}</td><td></td></tr>')
 h.append("</tbody></table>")
 
 # Chart
-h.append('<h2>Distribution</h2><div class="cc">')
+h.append('<h2>数据分布</h2><div class="cc">')
 for cat in CATEGORIES:
     s = stats[cat]; c = CAT_COLORS[cat]
     vp = s["n_vid"]/max_chart*100 if max_chart else 0
@@ -324,14 +324,13 @@ for cat in CATEGORIES:
              f'<div class="b bv" style="width:{max(vp,3):.1f}%;background:{c}">{s["n_vid"]} vid</div>'
              f'<div class="b bi" style="width:{max(ip,3):.1f}%;background:{c}">{s["n_img"]} img</div>'
              f'</div></div>')
-h.append('<div class="cleg"><div class="cli"><div class="csw" style="background:#555;opacity:.9"></div>Videos</div>'
-         '<div class="cli"><div class="csw" style="background:#555;opacity:.5"></div>Images</div></div></div>')
+h.append('<div class="cleg"><div class="cli"><div class="csw" style="background:#555;opacity:.9"></div>视频</div>'
+         '<div class="cli"><div class="csw" style="background:#555;opacity:.5"></div>图片</div></div></div>')
 
 # ── Sample Products ───────────────────────────────────────────────────────────
-h.append("<h2>Sample Products</h2>")
+h.append("<h2>样本展示</h2>")
 h.append('<p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem">'
-         'Top 3 products per category (sorted by video availability). '
-         'Click play to watch videos directly.</p>')
+         '每类别展示前3个产品（按视频数排序），点击播放按钮可直接观看视频。</p>')
 
 vid_count = 0
 for cat in CATEGORIES:
@@ -341,7 +340,7 @@ for cat in CATEGORIES:
              f'{cat} &mdash; {ss["n_prods"]} products, {ss["n_vid"]} videos</h3>')
 
     if not samples[cat]:
-        h.append('<p style="color:#999;font-style:italic">No sample products available.</p>')
+        h.append('<p style="color:#999;font-style:italic">暂无样本产品。</p>')
     else:
         for p in samples[cat]:
             asin = p.get("asin", "?")
@@ -401,20 +400,20 @@ for cat in CATEGORIES:
 no_title = tot_prods - T("with_title")
 no_media = tot_prods - T("with_images")
 h.append(f"""
-<h2>Data Quality</h2>
+<h2>数据质量</h2>
 <table>
-<thead><tr><th>Metric</th><th>Value</th><th>Notes</th></tr></thead>
+<thead><tr><th>指标</th><th>数值</th><th>说明</th></tr></thead>
 <tbody>
-<tr><td>Products missing title</td><td>{no_title}</td><td>Page load failed during scraping</td></tr>
-<tr><td>Products missing images</td><td>{no_media}</td><td>No images downloaded</td></tr>
-<tr><td>Products with video</td><td>{tot_w_vid} ({tot_w_vid/tot_prods*100:.1f}%)</td><td>Video availability rate</td></tr>
-<tr><td>Avg images/product</td><td>{tot_img/max(tot_w_img,1):.1f}</td><td>Among products with media</td></tr>
-<tr><td>Avg video duration</td><td>{avg_dur:.1f}s</td><td>Range: {min_dur:.1f}s – {max_dur:.1f}s</td></tr>
-<tr><td>Videos in report</td><td>{vid_count}</td><td>Playable via relative path (open HTML from its directory)</td></tr>
+<tr><td>缺少标题的产品</td><td>{no_title}</td><td>爬取时页面加载失败</td></tr>
+<tr><td>缺少图片的产品</td><td>{no_media}</td><td>未下载到图片</td></tr>
+<tr><td>含视频的产品</td><td>{tot_w_vid} ({tot_w_vid/tot_prods*100:.1f}%)</td><td>视频覆盖率</td></tr>
+<tr><td>平均图片数/产品</td><td>{tot_img/max(tot_w_img,1):.1f}</td><td>含媒体的产品</td></tr>
+<tr><td>平均视频时长</td><td>{avg_dur:.1f}s</td><td>范围：{min_dur:.1f}s – {max_dur:.1f}s</td></tr>
+<tr><td>报告中可播放视频</td><td>{vid_count}</td><td>通过相对路径引用（需从所在目录打开HTML）</td></tr>
 </tbody></table>
 
-<footer>PVTT Dataset Report &mdash; {REPORT_DATE} &mdash; Product Video Template Transfer (CVPR 2027)<br>
-<span style="font-size:.7rem">Open this HTML from <code>01-dataset-construction/</code> directory for videos to play correctly.</span>
+<footer>PVTT 数据集报告 &mdash; {REPORT_DATE} &mdash; Product Video Template Transfer (CVPR 2027)<br>
+<span style="font-size:.7rem">请从 <code>01-dataset-construction/</code> 目录打开此HTML以正常播放视频。</span>
 </footer>
 </div>
 </body>
@@ -430,29 +429,29 @@ print(f"  {vid_count} playable videos (relative paths)")
 
 print("Generating Markdown...")
 m = []
-m.append(f"# PVTT Dataset Report\n\n**Product Video Template Transfer** — Amazon Scraped Data — {REPORT_DATE}\n")
+m.append(f"# PVTT 数据集报告\n\n**Product Video Template Transfer** — Amazon 采集数据 — {REPORT_DATE}\n")
 
-m.append("## Summary\n\n| Metric | Value |\n|--------|-------|\n"
-         f"| Products | {tot_prods} |\n| Videos | {tot_vid} |\n| Images | {tot_img} |\n"
-         f"| Total Size | {tot_size:.0f} MB |\n| Categories | {len(CATEGORIES)} |\n"
-         f"| Video Rate | {tot_w_vid/tot_prods*100:.1f}% ({tot_w_vid} products) |\n")
+m.append("## 数据概览\n\n| 指标 | 数值 |\n|------|------|\n"
+         f"| 产品数 | {tot_prods} |\n| 视频数 | {tot_vid} |\n| 图片数 | {tot_img} |\n"
+         f"| 总大小 | {tot_size:.0f} MB |\n| 类别数 | {len(CATEGORIES)} |\n"
+         f"| 视频覆盖率 | {tot_w_vid/tot_prods*100:.1f}% ({tot_w_vid} 个产品) |\n")
 
-m.append("## Video Statistics\n\n| Metric | Value |\n|--------|-------|\n"
-         f"| Total Videos | {tot_vid} |\n| Avg Duration | {avg_dur:.1f}s |\n"
-         f"| Duration Range | {min_dur:.1f}s – {max_dur:.1f}s |\n"
-         f"| Total Video Size | {tot_vid_size:.0f} MB |\n")
+m.append("## 视频统计\n\n| 指标 | 数值 |\n|------|------|\n"
+         f"| 视频总数 | {tot_vid} |\n| 平均时长 | {avg_dur:.1f}s |\n"
+         f"| 时长范围 | {min_dur:.1f}s – {max_dur:.1f}s |\n"
+         f"| 视频总大小 | {tot_vid_size:.0f} MB |\n")
 for r, c in top_res[:3]:
-    m.append(f"| Resolution {r} | {c} videos |")
+    m.append(f"| 分辨率 {r} | {c} 个视频 |")
 m.append("")
 
-m.append("\n## Category Breakdown\n\n| Category | Products | w/ Title | w/ Video | Images | Videos | Size (MB) |"
-         "\n|----------|----------|----------|----------|--------|--------|-----------|")
+m.append("\n## 各类别统计\n\n| 类别 | 产品数 | 有标题 | 有视频 | 图片数 | 视频数 | 大小 (MB) |"
+         "\n|------|--------|--------|--------|--------|--------|-----------|")
 for cat in CATEGORIES:
     s = stats[cat]
     m.append(f"| {cat.capitalize()} | {s['n_prods']} | {s['with_title']} | {s['with_video']} | {s['n_img']} | {s['n_vid']} | {s['size_mb']:.1f} |")
-m.append(f"| **Total** | **{tot_prods}** | **{T('with_title')}** | **{tot_w_vid}** | **{tot_img}** | **{tot_vid}** | **{tot_size:.1f}** |\n")
+m.append(f"| **合计** | **{tot_prods}** | **{T('with_title')}** | **{tot_w_vid}** | **{tot_img}** | **{tot_vid}** | **{tot_size:.1f}** |\n")
 
-m.append("## Sample Products\n")
+m.append("## 样本展示\n")
 for cat in CATEGORIES:
     m.append(f"### {cat.capitalize()}\n")
     for p in samples[cat]:
@@ -476,19 +475,19 @@ for cat in CATEGORIES:
             m.append(f"- Video: [{os.path.basename(vf)}]({rel(vf)}) ({dur}, {vi['size_mb']:.1f}MB)")
         m.append("")
 
-m.append("## Data Quality\n\n| Metric | Value |\n|--------|-------|\n"
-         f"| Missing title | {no_title} |\n| Missing images | {no_media} |\n"
-         f"| Video rate | {tot_w_vid/tot_prods*100:.1f}% |\n"
-         f"| Avg images/product | {tot_img/max(tot_w_img,1):.1f} |\n"
-         f"| Avg video duration | {avg_dur:.1f}s |\n")
+m.append("## 数据质量\n\n| 指标 | 数值 |\n|------|------|\n"
+         f"| 缺少标题 | {no_title} |\n| 缺少图片 | {no_media} |\n"
+         f"| 视频覆盖率 | {tot_w_vid/tot_prods*100:.1f}% |\n"
+         f"| 平均图片数/产品 | {tot_img/max(tot_w_img,1):.1f} |\n"
+         f"| 平均视频时长 | {avg_dur:.1f}s |\n")
 
-m.append("## Directory Structure\n\n```\namazon_data/")
+m.append("## 目录结构\n\n```\namazon_data/")
 for cat in CATEGORIES:
     s = stats[cat]
     m.append(f"  {cat}/\n    *.json              ({s['n_prods']} files)"
              f"\n    media/images/       ({s['n_img']} files)"
              f"\n    media/videos/       ({s['n_vid']} files)")
-m.append("```\n\n---\n*PVTT Dataset Report — Product Video Template Transfer (CVPR 2027)*\n")
+m.append("```\n\n---\n*PVTT 数据集报告 — Product Video Template Transfer (CVPR 2027)*\n")
 
 md_out = "\n".join(m)
 md_path = OUTPUT_DIR / "pvtt_dataset_report.md"

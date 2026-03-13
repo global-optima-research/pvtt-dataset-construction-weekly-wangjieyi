@@ -1,199 +1,199 @@
-# PVTT Dataset Construction
+# PVTT 数据采集模块
 
-> Product Video Template Transfer (PVTT) - Multi-Platform E-Commerce Dataset Collection
-> Target: CVPR 2027
-> Last updated: 2026-03-14
+> Product Video Template Transfer (PVTT) — 多平台电商产品视频数据采集
+> 目标会议：CVPR 2027
+> 最后更新：2026-03-14
 
-## Overview
+## 概述
 
-This module handles the collection, processing, and curation of e-commerce product video data for the PVTT project. The goal is to build a large-scale dataset of product showcase videos and images across multiple categories (jewelry, accessories) from multiple e-commerce platforms.
+本模块负责电商产品视频数据的采集、处理和管理，用于 PVTT 项目。目标是从多个电商平台收集大规模的产品展示视频和图片数据，涵盖珠宝、配饰等多个品类。
 
-**Target scale**: 1000+ products, 500+ videos across 7 categories and 5+ platforms.
+**目标规模**：1000+ 产品，500+ 视频，覆盖 7 个品类和 5+ 个平台。
 
-## Current Status (2026-03-14)
+## 当前进度（2026-03-14）
 
-### Data Collected
+### 已采集数据
 
-| Platform | Products | Images | Videos | Size | Status |
-|----------|----------|--------|--------|------|--------|
-| **Amazon** | 603+ | 3,304+ | 593+ | 3.8 GB | **Active** (spider running, expanding to 800+) |
-| **Etsy** | small | small | 0 | ~MB | Blocked (Datadome CAPTCHA) |
-| **TikTok Shop** | - | - | - | - | Planned |
-| **eBay** | - | - | - | - | Planned |
-| **Taobao** | - | - | - | - | Planned |
+| 平台 | 产品数 | 图片数 | 视频数 | 数据量 | 状态 |
+|------|--------|--------|--------|--------|------|
+| **Amazon** | 622+ | 3,432+ | 603+ | 3.8 GB | **进行中**（爬虫运行中，扩展至 800+） |
+| **Etsy** | 少量 | 少量 | 0 | ~MB | 已阻断（Datadome CAPTCHA） |
+| **TikTok Shop** | - | - | - | - | 计划中 |
+| **eBay** | - | - | - | - | 计划中 |
+| **淘宝** | - | - | - | - | 计划中 |
 
-### Amazon Data Breakdown
+### Amazon 数据分类明细
 
-7 categories: bracelet (133), earring (127+), handbag (38+), necklace (122), ring (62+), sunglasses (64+), watch (57+)
-*(Spider still running — expanding handbag, sunglasses, watch, ring with additional keywords)*
+7 个品类：bracelet (133)、earring (144)、handbag (38)、necklace (122)、ring (62)、sunglasses (64)、watch (59)
+*（爬虫仍在运行中 — 正在使用更多关键词扩展 handbag、sunglasses、watch、ring 等品类）*
 
-### Server Pipeline
+### 服务器处理Pipeline
 
-Full processing pipeline tested: 53 videos -> 87 clips -> 87 standardized (1280x720, 24fps, H.264)
-- Server: `wangjieyi@111.17.197.107` (RTX-5090-32G-X8)
-- Data location: `/data/wangjieyi/pvtt-dataset/amazon_data/`
+完整处理Pipeline已测试通过：53 个视频 -> 87 个片段 -> 87 个标准化文件（1280x720, 24fps, H.264）
+- 服务器：`wangjieyi@111.17.197.107`（RTX-5090-32G-X8）
+- 数据路径：`/data/wangjieyi/pvtt-dataset/amazon_data/`
 
-## Directory Structure
+## 目录结构
 
-See [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md) for the full planned reorganization.
+完整的目录规划详见 [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md)。
 
-### Current Layout
+### 当前布局
 
 ```
 01-dataset-construction/
-  README.md                          # This file
-  DIRECTORY_STRUCTURE.md             # Planned directory reorganization
+  README.md                          # 本文件
+  DIRECTORY_STRUCTURE.md             # 目录重组规划文档
 
-  # === Active Spider (DO NOT MOVE while running) ===
-  amazon_spider.py                   # Amazon product spider
-  amazon_data/                       # Amazon collected data (active)
+  # === 运行中的爬虫（请勿移动） ===
+  amazon_spider.py                   # Amazon 产品爬虫
+  amazon_data/                       # Amazon 采集数据（运行中）
 
-  # === Platform Spiders ===
-  etsy_spider.py                     # Etsy spider (blocked by Datadome)
-  etsy_data/                         # Etsy data
+  # === 平台爬虫 ===
+  etsy_spider.py                     # Etsy 爬虫（被 Datadome 阻断）
+  etsy_data/                         # Etsy 数据
 
-  # === Pipeline Documentation ===
+  # === Pipeline 文档 ===
   pipelines/
-    tiktok/README.md                 # TikTok Shop pipeline (planned, Apify)
-    ebay/README.md                   # eBay pipeline (planned, Browse API)
-    taobao/README.md                 # Taobao pipeline (planned, 3rd party)
+    tiktok/README.md                 # TikTok Shop Pipeline（计划中，Apify）
+    ebay/README.md                   # eBay Pipeline（计划中，Browse API）
+    taobao/README.md                 # 淘宝 Pipeline（计划中，第三方服务）
 
-  # === Tools ===
-  pvtt_pipeline.py                   # Main orchestrator (crawl -> upload -> process -> report -> push)
-  upload_to_server.py                # Upload data to RTX-5090 server
-  generate_dataset_report.py         # Generate dataset reports
-  generate_charts.py                 # Generate charts for reports
-  build_notebook.py                  # Build report notebooks
+  # === 工具脚本 ===
+  pvtt_pipeline.py                   # 主Pipeline编排器（采集 -> 上传 -> 处理 -> 报告 -> 推送）
+  upload_to_server.py                # 上传数据至 RTX-5090 服务器
+  generate_dataset_report.py         # 生成数据集报告
+  generate_charts.py                 # 生成报告图表
+  build_notebook.py                  # 构建报告 Notebook
 
-  # === Reports ===
-  platform_analysis_report.md        # 12-platform analysis report
-  pvtt_dataset_report.html           # Dataset report (HTML)
-  pvtt_dataset_report.md             # Dataset report (Markdown)
+  # === 报告 ===
+  platform_analysis_report.md        # 12 个平台分析报告
+  pvtt_dataset_report.html           # 数据集报告（HTML）
+  pvtt_dataset_report.md             # 数据集报告（Markdown）
 
-  # === Server ===
-  server-scripts/                    # Server-side processing scripts
+  # === 服务器 ===
+  server-scripts/                    # 服务器端处理脚本
 
-  # === Legacy (to be archived) ===
-  ecommerce-scraper/                 # Old pipeline version
-  data_pipeline.py                   # Old duplicate pipeline
-  launch_spider.py                   # Old spider launcher
+  # === 历史遗留（待归档） ===
+  ecommerce-scraper/                 # 旧版Pipeline
+  data_pipeline.py                   # 旧版重复Pipeline脚本
+  launch_spider.py                   # 旧版爬虫启动器
 ```
 
-## Platform Strategy
+## 平台策略
 
-### Tier 1: Active / In Progress
+### 第一优先级：进行中
 
-| Platform | Method | Cost | Video Rate | Notes |
-|----------|--------|------|------------|-------|
-| **Amazon** | Custom spider (requests + residential IP) | Free | ~40-60% | Must run locally (server gets 503) |
+| 平台 | 采集方式 | 成本 | 视频率 | 备注 |
+|------|----------|------|--------|------|
+| **Amazon** | 自研爬虫（requests + 住宅IP） | 免费 | ~40-60% | 必须本地运行（服务器会被 503） |
 
-### Tier 2: Planned (Next Steps)
+### 第二优先级：计划中（下一步）
 
-| Platform | Method | Cost | Video Rate | Notes |
-|----------|--------|------|------------|-------|
-| **eBay** | Browse API (official, free) | Free | ~10-20% | Register dev account, mainly images |
-| **TikTok Shop** | Apify Scraper | ~$2/1K products | ~90% | Portrait videos need crop/resize |
-| **Etsy** | Open API v3 (images only) | Free | ~10-15% | Videos blocked by Datadome |
+| 平台 | 采集方式 | 成本 | 视频率 | 备注 |
+|------|----------|------|--------|------|
+| **eBay** | Browse API（官方，免费） | 免费 | ~10-20% | 注册开发者账号，以图片为主 |
+| **TikTok Shop** | Apify Scraper | ~$2/1K 产品 | ~90% | 竖屏视频需裁剪/缩放 |
+| **Etsy** | Open API v3（仅图片） | 免费 | ~10-15% | 视频被 Datadome 阻断 |
 
-### Tier 3: Future (Budget Dependent)
+### 第三优先级：未来（视预算而定）
 
-| Platform | Method | Cost | Video Rate | Notes |
-|----------|--------|------|------------|-------|
-| **Taobao/Tmall** | 3rd party data service | CNY 100-250 | ~70-80% | Highest quality, landscape videos |
-| **JD.com** | 3rd party (bundled with Taobao) | CNY 50-100 | ~50-60% | Brand flagship store videos |
+| 平台 | 采集方式 | 成本 | 视频率 | 备注 |
+|------|----------|------|--------|------|
+| **淘宝/天猫** | 第三方数据服务 | ¥100-250 | ~70-80% | 质量最高，横屏视频 |
+| **京东** | 第三方（可与淘宝捆绑） | ¥50-100 | ~50-60% | 品牌旗舰店视频 |
 
-### Not Recommended
+### 不推荐
 
-| Platform | Reason |
-|----------|--------|
-| AliExpress | Akamai Bot Manager, high cost |
-| Xiaohongshu | Legal compliance risk (Chinese data laws) |
-| Pinduoduo | Low video quality, budget products |
-| Shopee | Jewelry not a strong category |
-| Walmart/Target | Brand official videos (not wearing demos) |
+| 平台 | 原因 |
+|------|------|
+| AliExpress | Akamai Bot Manager，成本高 |
+| 小红书 | 法律合规风险（中国数据法律） |
+| 拼多多 | 视频质量低，低价产品为主 |
+| Shopee | 珠宝品类不强 |
+| Walmart/Target | 品牌官方视频（非佩戴演示） |
 
-See [platform_analysis_report.md](platform_analysis_report.md) for the full 12-platform deep analysis.
+完整的 12 平台深度分析详见 [platform_analysis_report.md](platform_analysis_report.md)。
 
-## Unified Data Format
+## 统一数据格式
 
-All platform pipelines must output data in this standardized format:
+所有平台Pipeline必须按以下标准化格式输出数据：
 
 ```
 {platform}_data/
   {category}/                        # bracelet, earring, handbag, necklace, ring, sunglasses, watch
-    {PRODUCT_ID}.json                # Product metadata (JSON)
+    {PRODUCT_ID}.json                # 产品元数据（JSON）
     media/
       images/
-        {PRODUCT_ID}_01.jpg          # Product images
+        {PRODUCT_ID}_01.jpg          # 产品图片
         {PRODUCT_ID}_02.jpg
       videos/
-        {PRODUCT_ID}.mp4             # Product video (if available)
+        {PRODUCT_ID}.mp4             # 产品视频（如有）
 ```
 
-See [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md) for the full JSON schema specification.
+JSON Schema 详见 [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md)。
 
-## Key Scripts
+## 主要脚本
 
-| Script | Purpose |
-|--------|---------|
-| `amazon_spider.py` | Amazon product crawler (categories, images, videos, metadata) |
-| `etsy_spider.py` | Etsy product crawler (blocked by Datadome) |
-| `pvtt_pipeline.py` | Main pipeline orchestrator: crawl -> upload -> process -> report -> push |
-| `upload_to_server.py` | Upload collected data to RTX-5090 server via SSH |
-| `generate_dataset_report.py` | Generate dataset statistics and reports |
-| `generate_charts.py` | Generate visualization charts for reports |
-| `build_notebook.py` | Build Jupyter-style report notebooks |
+| 脚本 | 功能 |
+|------|------|
+| `amazon_spider.py` | Amazon 产品爬虫（品类、图片、视频、元数据） |
+| `etsy_spider.py` | Etsy 产品爬虫（被 Datadome 阻断） |
+| `pvtt_pipeline.py` | 主Pipeline编排器：采集 -> 上传 -> 处理 -> 报告 -> 推送 |
+| `upload_to_server.py` | 通过 SSH 上传采集数据至 RTX-5090 服务器 |
+| `generate_dataset_report.py` | 生成数据集统计和报告 |
+| `generate_charts.py` | 生成可视化图表 |
+| `build_notebook.py` | 构建 Jupyter 风格的报告 Notebook |
 
-## Execution Plan
+## 执行计划
 
-### Phase 1: Amazon Expansion (Current)
-- Expand Amazon data to 600+ products across 7 categories
-- More keywords per category for diversity
-- Spider running in background -- do not interrupt
+### 第一阶段：Amazon 扩展（当前）
+- 将 Amazon 数据扩展至 600+ 产品，覆盖 7 个品类
+- 每个品类使用更多关键词以增加多样性
+- 爬虫后台运行中 -- 请勿中断
 
-### Phase 2: Free Platform APIs (Next)
-- Register eBay Developer Program, build Browse API client
-- Register Etsy developer account, collect images via API v3
-- Register Apify free account, test TikTok Shop Scraper
+### 第二阶段：免费平台 API（下一步）
+- 注册 eBay Developer Program，构建 Browse API 客户端
+- 注册 Etsy 开发者账号，通过 API v3 采集图片
+- 注册 Apify 免费账号，测试 TikTok Shop Scraper
 
-### Phase 3: Paid Data Sources (Future)
-- Contact Chinese data service vendors for Taobao/JD quotes
-- Purchase 500+ products if budget approved
-- Apply for TikTok Research API (needs faculty endorsement)
+### 第三阶段：付费数据源（未来）
+- 联系中国本地数据服务商获取淘宝/京东报价
+- 如预算批准，购买 500+ 产品数据
+- 申请 TikTok Research API（需导师推荐信）
 
-## Server Upload
+## 服务器上传
 
-Data is uploaded to the server for GPU-accelerated processing:
+数据上传至服务器进行 GPU 加速处理：
 
 ```bash
-# Upload command (run from local)
+# 上传命令（本地运行）
 python upload_to_server.py
-# Target: /data/wangjieyi/pvtt-dataset/amazon_data/
+# 目标路径：/data/wangjieyi/pvtt-dataset/amazon_data/
 ```
 
-Server processing pipeline: shot segmentation -> standardization (1280x720, 24fps, H.264)
+服务器处理Pipeline：镜头分割 -> 标准化（1280x720, 24fps, H.264）
 
-## GitHub Repository
+## GitHub 仓库
 
-- Repo: `global-optima-research/pvtt-dataset-construction-weekly-wangjieyi`
-- Branch: `main`
-- Push: `git push origin main` (pull first if rejected)
+- 仓库：`global-optima-research/pvtt-dataset-construction-weekly-wangjieyi`
+- 分支：`main`
+- 推送：`git push origin main`（如被拒绝需先 pull）
 
-## Technical Survey
+## 技术调研
 
-The original technical survey covering the PVTT dataset construction pipeline (video preprocessing, segmentation, inpainting, composition, quality filtering) is preserved below for reference. It covers:
+原始技术调研涵盖 PVTT 数据集构建Pipeline（视频预处理、分割、修复、合成、质量过滤），保留供参考。内容包括：
 
-1. Video Preprocessing and Scene Segmentation (PySceneDetect, TransNetV2, AutoShot)
-2. Video Object Segmentation (SAM2, Grounded-SAM2)
-3. Video Inpainting and Background Recovery (VideoPainter, ProPainter)
-4. Video Object Composition (VideoAnyDoor, InsertAnywhere, GenCompositor)
-5. Data Quality Assessment and Filtering (CLIP-I, DINO-I, MUSIQ, DOVER, VBench)
-6. E-Commerce Video Datasets (VACE, InsViE-1M, OpenVE-3M, VIVID-10M)
-7. Recommended Pipeline Configuration
+1. 视频预处理与场景分割（PySceneDetect, TransNetV2, AutoShot）
+2. 视频对象分割（SAM2, Grounded-SAM2）
+3. 视频修复与背景恢复（VideoPainter, ProPainter）
+4. 视频对象合成（VideoAnyDoor, InsertAnywhere, GenCompositor）
+5. 数据质量评估与过滤（CLIP-I, DINO-I, MUSIQ, DOVER, VBench）
+6. 电商视频数据集（VACE, InsViE-1M, OpenVE-3M, VIVID-10M）
+7. 推荐Pipeline配置
 
-For the full technical survey, see the git history of this README (version prior to 2026-03-14).
+完整技术调研详见本 README 的 git 历史版本（2026-03-14 之前的版本）。
 
 ---
 
-*Document version: 2.0 (2026-03-14)*
-*Previous version: 1.0 (2026-02-11) - Full technical survey*
+*文档版本：2.0（2026-03-14）*
+*上一版本：1.0（2026-02-11）— 完整技术调研*

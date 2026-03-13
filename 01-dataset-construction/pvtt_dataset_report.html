@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PVTT Dataset Report</title>
+<title>PVTT 数据集报告</title>
 <style>
 :root { --bg:#f8f9fa; --card:#fff; --text:#212529; --muted:#6c757d; --border:#dee2e6; --accent:#4E79A7; --red:#E15759; }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -71,56 +71,56 @@ footer{margin-top:2.5rem;padding-top:.8rem;border-top:1px solid var(--border);co
 <body>
 <div class="container">
 
-<h1>PVTT Dataset Report</h1>
-<p class="sub">Product Video Template Transfer &mdash; Amazon Scraped Data &mdash; 2026-03-14</p>
+<h1>PVTT 数据集报告</h1>
+<p class="sub">Product Video Template Transfer &mdash; Amazon 采集数据 &mdash; 2026-03-14</p>
 
-<!-- Summary -->
-<h2>Summary</h2>
+<!-- 概览 -->
+<h2>数据概览</h2>
 <div class="sg">
-  <div class="sc"><div class="v">606</div><div class="l">Products</div></div>
-  <div class="sc red"><div class="v">593</div><div class="l">Videos</div></div>
-  <div class="sc"><div class="v">3304</div><div class="l">Images</div></div>
-  <div class="sc"><div class="v">3807 MB</div><div class="l">Total Size</div></div>
-  <div class="sc"><div class="v">7</div><div class="l">Categories</div></div>
-  <div class="sc"><div class="v">55%</div><div class="l">Video Rate</div></div>
+  <div class="sc"><div class="v">622</div><div class="l">产品数</div></div>
+  <div class="sc red"><div class="v">603</div><div class="l">视频数</div></div>
+  <div class="sc"><div class="v">3432</div><div class="l">图片数</div></div>
+  <div class="sc"><div class="v">3877 MB</div><div class="l">总大小</div></div>
+  <div class="sc"><div class="v">7</div><div class="l">类别数</div></div>
+  <div class="sc"><div class="v">55%</div><div class="l">视频覆盖率</div></div>
 </div>
 
-<!-- Video Stats -->
-<h2>Video Analysis</h2>
+<!-- 视频统计 -->
+<h2>视频分析</h2>
 <div class="sg">
-  <div class="sc red"><div class="v">593</div><div class="l">Total Videos</div></div>
-  <div class="sc red"><div class="v">33.1s</div><div class="l">Avg Duration</div></div>
-  <div class="sc red"><div class="v">5.2s–267.0s</div><div class="l">Duration Range</div></div>
-  <div class="sc red"><div class="v">3774 MB</div><div class="l">Video Size</div></div>
-  <div class="sc"><div class="v" style="font-size:1rem">1280x720: 361<br>720x1280: 113<br>720x720: 57</div><div class="l">Top Resolutions</div></div>
+  <div class="sc red"><div class="v">603</div><div class="l">视频总数</div></div>
+  <div class="sc red"><div class="v">33.1s</div><div class="l">平均时长</div></div>
+  <div class="sc red"><div class="v">5.2s–267.0s</div><div class="l">时长范围</div></div>
+  <div class="sc red"><div class="v">3843 MB</div><div class="l">视频总大小</div></div>
+  <div class="sc"><div class="v" style="font-size:1rem">1280x720: 368<br>720x1280: 115<br>720x720: 58</div><div class="l">主要分辨率</div></div>
 </div>
 
-<!-- Category Table -->
-<h2>Category Breakdown</h2>
+<!-- 类别统计 -->
+<h2>各类别统计</h2>
 <table>
-<thead><tr><th>Category</th><th>Products</th><th>w/ Title</th><th>w/ Video</th><th>Images</th><th>Videos</th><th>Size (MB)</th><th>Keywords</th></tr></thead>
+<thead><tr><th>类别</th><th>产品数</th><th>有标题</th><th>有视频</th><th>图片数</th><th>视频数</th><th>大小 (MB)</th><th>搜索关键词</th></tr></thead>
 <tbody>
 
-<tr><td style="text-transform:capitalize;font-weight:600;color:#4E79A7">bracelet</td><td>133</td><td>86</td><td>63</td><td>646</td><td>116</td><td>572.8</td><td style="font-size:.75rem">gold bangle bracelet, cuff bracelet women, tennis bracelet, chain bracelet gold, beaded bracelet, charm bracelet</td></tr>
-<tr><td style="text-transform:capitalize;font-weight:600;color:#F28E2B">earring</td><td>130</td><td>100</td><td>77</td><td>768</td><td>121</td><td>600.5</td><td style="font-size:.75rem">drop earrings, hoop earrings silver, dangle earrings women, stud earrings gold, clip on earrings, pearl earrings</td></tr>
-<tr><td style="text-transform:capitalize;font-weight:600;color:#E15759">handbag</td><td>38</td><td>38</td><td>26</td><td>176</td><td>75</td><td>935.5</td><td style="font-size:.75rem">women tote handbag, leather crossbody bag</td></tr>
-<tr><td style="text-transform:capitalize;font-weight:600;color:#76B7B2">necklace</td><td>122</td><td>113</td><td>76</td><td>774</td><td>103</td><td>499.6</td><td style="font-size:.75rem">silver pendant necklace, gold necklace, choker necklace, diamond pendant necklace, pearl necklace, layered necklace</td></tr>
-<tr><td style="text-transform:capitalize;font-weight:600;color:#59A14F">ring</td><td>62</td><td>59</td><td>44</td><td>436</td><td>62</td><td>232.2</td><td style="font-size:.75rem">gold band ring, silver stackable ring, engagement ring</td></tr>
-<tr><td style="text-transform:capitalize;font-weight:600;color:#EDC948">sunglasses</td><td>64</td><td>55</td><td>37</td><td>376</td><td>103</td><td>861.2</td><td style="font-size:.75rem">aviator sunglasses, polarized sunglasses, cat eye sunglasses</td></tr>
-<tr><td style="text-transform:capitalize;font-weight:600;color:#B07AA1">watch</td><td>57</td><td>18</td><td>8</td><td>128</td><td>13</td><td>105.2</td><td style="font-size:.75rem">women dress watch, men automatic watch, sport digital watch</td></tr>
-<tr class="trow"><td>Total</td><td>606</td><td>469</td><td>331</td><td>3304</td><td>593</td><td>3807.0</td><td></td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#4E79A7">bracelet</td><td>133</td><td>86</td><td>63</td><td>646</td><td>116</td><td>572.8</td><td style="font-size:.75rem">gold bangle bracelet, charm bracelet, chain bracelet gold, cuff bracelet women, beaded bracelet, tennis bracelet</td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#F28E2B">earring</td><td>144</td><td>114</td><td>85</td><td>872</td><td>129</td><td>669.4</td><td style="font-size:.75rem">drop earrings, clip on earrings, stud earrings gold, hoop earrings silver, pearl earrings, dangle earrings women</td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#E15759">handbag</td><td>38</td><td>38</td><td>26</td><td>176</td><td>75</td><td>935.5</td><td style="font-size:.75rem">leather crossbody bag, women tote handbag</td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#76B7B2">necklace</td><td>122</td><td>113</td><td>76</td><td>774</td><td>103</td><td>499.6</td><td style="font-size:.75rem">layered necklace, silver pendant necklace, choker necklace, pearl necklace, gold necklace, diamond pendant necklace</td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#59A14F">ring</td><td>62</td><td>59</td><td>44</td><td>436</td><td>62</td><td>232.2</td><td style="font-size:.75rem">engagement ring, silver stackable ring, gold band ring</td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#EDC948">sunglasses</td><td>64</td><td>55</td><td>37</td><td>376</td><td>103</td><td>861.2</td><td style="font-size:.75rem">cat eye sunglasses, polarized sunglasses, aviator sunglasses</td></tr>
+<tr><td style="text-transform:capitalize;font-weight:600;color:#B07AA1">watch</td><td>59</td><td>20</td><td>9</td><td>152</td><td>15</td><td>106.7</td><td style="font-size:.75rem">women dress watch, sport digital watch, men automatic watch</td></tr>
+<tr class="trow"><td>合计</td><td>622</td><td>485</td><td>340</td><td>3432</td><td>603</td><td>3877.3</td><td></td></tr>
 </tbody></table>
-<h2>Distribution</h2><div class="cc">
-<div class="cr"><div class="cl" style="color:#4E79A7">bracelet</div><div class="cb"><div class="b bv" style="width:15.0%;background:#4E79A7">116 vid</div><div class="b bi" style="width:83.5%;background:#4E79A7">646 img</div></div></div>
-<div class="cr"><div class="cl" style="color:#F28E2B">earring</div><div class="cb"><div class="b bv" style="width:15.6%;background:#F28E2B">121 vid</div><div class="b bi" style="width:99.2%;background:#F28E2B">768 img</div></div></div>
-<div class="cr"><div class="cl" style="color:#E15759">handbag</div><div class="cb"><div class="b bv" style="width:9.7%;background:#E15759">75 vid</div><div class="b bi" style="width:22.7%;background:#E15759">176 img</div></div></div>
-<div class="cr"><div class="cl" style="color:#76B7B2">necklace</div><div class="cb"><div class="b bv" style="width:13.3%;background:#76B7B2">103 vid</div><div class="b bi" style="width:100.0%;background:#76B7B2">774 img</div></div></div>
-<div class="cr"><div class="cl" style="color:#59A14F">ring</div><div class="cb"><div class="b bv" style="width:8.0%;background:#59A14F">62 vid</div><div class="b bi" style="width:56.3%;background:#59A14F">436 img</div></div></div>
-<div class="cr"><div class="cl" style="color:#EDC948">sunglasses</div><div class="cb"><div class="b bv" style="width:13.3%;background:#EDC948">103 vid</div><div class="b bi" style="width:48.6%;background:#EDC948">376 img</div></div></div>
-<div class="cr"><div class="cl" style="color:#B07AA1">watch</div><div class="cb"><div class="b bv" style="width:3.0%;background:#B07AA1">13 vid</div><div class="b bi" style="width:16.5%;background:#B07AA1">128 img</div></div></div>
-<div class="cleg"><div class="cli"><div class="csw" style="background:#555;opacity:.9"></div>Videos</div><div class="cli"><div class="csw" style="background:#555;opacity:.5"></div>Images</div></div></div>
-<h2>Sample Products</h2>
-<p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem">Top 3 products per category (sorted by video availability). Click play to watch videos directly.</p>
+<h2>数据分布</h2><div class="cc">
+<div class="cr"><div class="cl" style="color:#4E79A7">bracelet</div><div class="cb"><div class="b bv" style="width:13.3%;background:#4E79A7">116 vid</div><div class="b bi" style="width:74.1%;background:#4E79A7">646 img</div></div></div>
+<div class="cr"><div class="cl" style="color:#F28E2B">earring</div><div class="cb"><div class="b bv" style="width:14.8%;background:#F28E2B">129 vid</div><div class="b bi" style="width:100.0%;background:#F28E2B">872 img</div></div></div>
+<div class="cr"><div class="cl" style="color:#E15759">handbag</div><div class="cb"><div class="b bv" style="width:8.6%;background:#E15759">75 vid</div><div class="b bi" style="width:20.2%;background:#E15759">176 img</div></div></div>
+<div class="cr"><div class="cl" style="color:#76B7B2">necklace</div><div class="cb"><div class="b bv" style="width:11.8%;background:#76B7B2">103 vid</div><div class="b bi" style="width:88.8%;background:#76B7B2">774 img</div></div></div>
+<div class="cr"><div class="cl" style="color:#59A14F">ring</div><div class="cb"><div class="b bv" style="width:7.1%;background:#59A14F">62 vid</div><div class="b bi" style="width:50.0%;background:#59A14F">436 img</div></div></div>
+<div class="cr"><div class="cl" style="color:#EDC948">sunglasses</div><div class="cb"><div class="b bv" style="width:11.8%;background:#EDC948">103 vid</div><div class="b bi" style="width:43.1%;background:#EDC948">376 img</div></div></div>
+<div class="cr"><div class="cl" style="color:#B07AA1">watch</div><div class="cb"><div class="b bv" style="width:3.0%;background:#B07AA1">15 vid</div><div class="b bi" style="width:17.4%;background:#B07AA1">152 img</div></div></div>
+<div class="cleg"><div class="cli"><div class="csw" style="background:#555;opacity:.9"></div>视频</div><div class="cli"><div class="csw" style="background:#555;opacity:.5"></div>图片</div></div></div>
+<h2>样本展示</h2>
+<p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem">每类别展示前3个产品（按视频数排序），点击播放按钮可直接观看视频。</p>
 <div class="cat-sec"><h3 style="color:#4E79A7;text-transform:capitalize;border-left:4px solid #4E79A7;padding-left:.5rem">bracelet &mdash; 133 products, 116 videos</h3>
 <div class="pcard" style="border-left-color:#4E79A7"><div class="pbody">
 <div class="ptitle">Highergo 469 Pcs Bangles Bracelet Making Kit Link Chain Bracelet Charms with OT Toggle Clasp DIY</div>
@@ -171,7 +171,7 @@ footer{margin-top:2.5rem;padding-top:.8rem;border-top:1px solid var(--border);co
 </div></div></div>
 </div></div>
 </div>
-<div class="cat-sec"><h3 style="color:#F28E2B;text-transform:capitalize;border-left:4px solid #F28E2B;padding-left:.5rem">earring &mdash; 130 products, 121 videos</h3>
+<div class="cat-sec"><h3 style="color:#F28E2B;text-transform:capitalize;border-left:4px solid #F28E2B;padding-left:.5rem">earring &mdash; 144 products, 129 videos</h3>
 <div class="pcard" style="border-left-color:#F28E2B"><div class="pbody">
 <div class="ptitle">Big Simulated Pearl Earrings for Women - Oversized Classic Faux Round Large Ear Studs, Hypoallergenic and Safe for Sensitive Ears</div>
 <div class="pmeta"><span><b>ASIN:</b> B07GNT1PPH</span><span><b>Price:</b> 25,185</span></div>
@@ -418,7 +418,7 @@ footer{margin-top:2.5rem;padding-top:.8rem;border-top:1px solid var(--border);co
 </div></div></div>
 </div></div>
 </div>
-<div class="cat-sec"><h3 style="color:#B07AA1;text-transform:capitalize;border-left:4px solid #B07AA1;padding-left:.5rem">watch &mdash; 57 products, 13 videos</h3>
+<div class="cat-sec"><h3 style="color:#B07AA1;text-transform:capitalize;border-left:4px solid #B07AA1;padding-left:.5rem">watch &mdash; 59 products, 15 videos</h3>
 <div class="pcard" style="border-left-color:#B07AA1"><div class="pbody">
 <div class="ptitle">Mens Digital Watch Sports Military Watches Waterproof Outdoor Chronograph Wrist Watches for Men with LED Back Ligh/Alarm/Date</div>
 <div class="pmeta"><span><b>ASIN:</b> B089NGH82D</span><span><b>Price:</b> 22,733</span></div>
@@ -463,20 +463,20 @@ footer{margin-top:2.5rem;padding-top:.8rem;border-top:1px solid var(--border);co
 </div></div>
 </div>
 
-<h2>Data Quality</h2>
+<h2>数据质量</h2>
 <table>
-<thead><tr><th>Metric</th><th>Value</th><th>Notes</th></tr></thead>
+<thead><tr><th>指标</th><th>数值</th><th>说明</th></tr></thead>
 <tbody>
-<tr><td>Products missing title</td><td>137</td><td>Page load failed during scraping</td></tr>
-<tr><td>Products missing images</td><td>190</td><td>No images downloaded</td></tr>
-<tr><td>Products with video</td><td>331 (54.6%)</td><td>Video availability rate</td></tr>
-<tr><td>Avg images/product</td><td>7.9</td><td>Among products with media</td></tr>
-<tr><td>Avg video duration</td><td>33.1s</td><td>Range: 5.2s – 267.0s</td></tr>
-<tr><td>Videos in report</td><td>60</td><td>Playable via relative path (open HTML from its directory)</td></tr>
+<tr><td>缺少标题的产品</td><td>137</td><td>爬取时页面加载失败</td></tr>
+<tr><td>缺少图片的产品</td><td>190</td><td>未下载到图片</td></tr>
+<tr><td>含视频的产品</td><td>340 (54.7%)</td><td>视频覆盖率</td></tr>
+<tr><td>平均图片数/产品</td><td>7.9</td><td>含媒体的产品</td></tr>
+<tr><td>平均视频时长</td><td>33.1s</td><td>范围：5.2s – 267.0s</td></tr>
+<tr><td>报告中可播放视频</td><td>60</td><td>通过相对路径引用（需从所在目录打开HTML）</td></tr>
 </tbody></table>
 
-<footer>PVTT Dataset Report &mdash; 2026-03-14 &mdash; Product Video Template Transfer (CVPR 2027)<br>
-<span style="font-size:.7rem">Open this HTML from <code>01-dataset-construction/</code> directory for videos to play correctly.</span>
+<footer>PVTT 数据集报告 &mdash; 2026-03-14 &mdash; Product Video Template Transfer (CVPR 2027)<br>
+<span style="font-size:.7rem">请从 <code>01-dataset-construction/</code> 目录打开此HTML以正常播放视频。</span>
 </footer>
 </div>
 </body>

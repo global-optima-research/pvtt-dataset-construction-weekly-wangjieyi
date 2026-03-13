@@ -1,46 +1,46 @@
-# PVTT Dataset Report
+# PVTT 数据集报告
 
-**Product Video Template Transfer** — Amazon Scraped Data — 2026-03-14
+**Product Video Template Transfer** — Amazon 采集数据 — 2026-03-14
 
-## Summary
+## 数据概览
 
-| Metric | Value |
-|--------|-------|
-| Products | 606 |
-| Videos | 593 |
-| Images | 3304 |
-| Total Size | 3807 MB |
-| Categories | 7 |
-| Video Rate | 54.6% (331 products) |
+| 指标 | 数值 |
+|------|------|
+| 产品数 | 622 |
+| 视频数 | 603 |
+| 图片数 | 3432 |
+| 总大小 | 3877 MB |
+| 类别数 | 7 |
+| 视频覆盖率 | 54.7% (340 个产品) |
 
-## Video Statistics
+## 视频统计
 
-| Metric | Value |
-|--------|-------|
-| Total Videos | 593 |
-| Avg Duration | 33.1s |
-| Duration Range | 5.2s – 267.0s |
-| Total Video Size | 3774 MB |
+| 指标 | 数值 |
+|------|------|
+| 视频总数 | 603 |
+| 平均时长 | 33.1s |
+| 时长范围 | 5.2s – 267.0s |
+| 视频总大小 | 3843 MB |
 
-| Resolution 1280x720 | 361 videos |
-| Resolution 720x1280 | 113 videos |
-| Resolution 720x720 | 57 videos |
+| 分辨率 1280x720 | 368 个视频 |
+| 分辨率 720x1280 | 115 个视频 |
+| 分辨率 720x720 | 58 个视频 |
 
 
-## Category Breakdown
+## 各类别统计
 
-| Category | Products | w/ Title | w/ Video | Images | Videos | Size (MB) |
-|----------|----------|----------|----------|--------|--------|-----------|
+| 类别 | 产品数 | 有标题 | 有视频 | 图片数 | 视频数 | 大小 (MB) |
+|------|--------|--------|--------|--------|--------|-----------|
 | Bracelet | 133 | 86 | 63 | 646 | 116 | 572.8 |
-| Earring | 130 | 100 | 77 | 768 | 121 | 600.5 |
+| Earring | 144 | 114 | 85 | 872 | 129 | 669.4 |
 | Handbag | 38 | 38 | 26 | 176 | 75 | 935.5 |
 | Necklace | 122 | 113 | 76 | 774 | 103 | 499.6 |
 | Ring | 62 | 59 | 44 | 436 | 62 | 232.2 |
 | Sunglasses | 64 | 55 | 37 | 376 | 103 | 861.2 |
-| Watch | 57 | 18 | 8 | 128 | 13 | 105.2 |
-| **Total** | **606** | **469** | **331** | **3304** | **593** | **3807.0** |
+| Watch | 59 | 20 | 9 | 152 | 15 | 106.7 |
+| **合计** | **622** | **485** | **340** | **3432** | **603** | **3877.3** |
 
-## Sample Products
+## 样本展示
 
 ### Bracelet
 
@@ -203,17 +203,17 @@
 - Video: [B074KL4SP6_v01.mp4](amazon_data/watch/media/videos/B074KL4SP6_v01.mp4) (24.8s, 4.2MB)
 - Video: [B074KL4SP6_v02.mp4](amazon_data/watch/media/videos/B074KL4SP6_v02.mp4) (25.1s, 5.6MB)
 
-## Data Quality
+## 数据质量
 
-| Metric | Value |
-|--------|-------|
-| Missing title | 137 |
-| Missing images | 190 |
-| Video rate | 54.6% |
-| Avg images/product | 7.9 |
-| Avg video duration | 33.1s |
+| 指标 | 数值 |
+|------|------|
+| 缺少标题 | 137 |
+| 缺少图片 | 190 |
+| 视频覆盖率 | 54.7% |
+| 平均图片数/产品 | 7.9 |
+| 平均视频时长 | 33.1s |
 
-## Directory Structure
+## 目录结构
 
 ```
 amazon_data/
@@ -222,9 +222,9 @@ amazon_data/
     media/images/       (646 files)
     media/videos/       (116 files)
   earring/
-    *.json              (130 files)
-    media/images/       (768 files)
-    media/videos/       (121 files)
+    *.json              (144 files)
+    media/images/       (872 files)
+    media/videos/       (129 files)
   handbag/
     *.json              (38 files)
     media/images/       (176 files)
@@ -242,10 +242,10 @@ amazon_data/
     media/images/       (376 files)
     media/videos/       (103 files)
   watch/
-    *.json              (57 files)
-    media/images/       (128 files)
-    media/videos/       (13 files)
+    *.json              (59 files)
+    media/images/       (152 files)
+    media/videos/       (15 files)
 ```
 
 ---
-*PVTT Dataset Report — Product Video Template Transfer (CVPR 2027)*
+*PVTT 数据集报告 — Product Video Template Transfer (CVPR 2027)*
