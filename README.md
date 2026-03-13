@@ -17,6 +17,7 @@
 | 周次 | 文件 | 主要内容 |
 |------|------|----------|
 | Week 03 (03-02 ~ 03-08) | [`weekly-reports/week03_report_wjy.md`](weekly-reports/week03_report_wjy.md) | Pipeline搭建，Amazon爬虫启动，服务器端处理验证 |
+| Week 04 (03-09 ~ 03-15) | [`weekly-reports/week04_report_wjy.ipynb`](weekly-reports/week04_report_wjy.ipynb) | Amazon数据扩展至640+，12平台调研，自包含数据报告 |
 
 ## 当前进度
 
