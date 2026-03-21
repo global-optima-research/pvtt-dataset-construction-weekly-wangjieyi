@@ -43,7 +43,7 @@ from bs4 import BeautifulSoup
 # Default: local output; --upload syncs to server
 BASE_OUTPUT = os.environ.get(
     "SPIDER_OUTPUT",
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "amazon_data"),
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "amazon_data"),
 )
 REMOTE_OUTPUT = "/data/wangjieyi/pvtt-dataset/amazon"
 

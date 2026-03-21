@@ -37,6 +37,8 @@ Thumbs.db
 # Local data (not for git)
 data/
 processed/
+amazon_data/
+shopify_data/
 
 # Local-only files in old structure (kept locally, not uploaded)
 01-dataset-construction/
@@ -51,6 +53,9 @@ scripts/generate_dataset_report.py
 scripts/upload_to_server.py
 scripts/server-scripts/
 scripts/etsy_spider.py
+scripts/ebay_spider.py
+scripts/tiktok_spider.py
+scripts/_*.py
 scripts/etsy_data/
 scripts/amazon_data/
 scripts/DIRECTORY_STRUCTURE.md
