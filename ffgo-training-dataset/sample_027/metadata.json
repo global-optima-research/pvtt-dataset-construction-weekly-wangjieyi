@@ -1,0 +1,83 @@
+{
+  "sample_id": "sample_027",
+  "product_name": "FIBO STEEL 10 Pairs Clip On Earrings for Women Non Pierced Ears CZ Pearl Knot Twist Chunky Hoop and ",
+  "product_category": "earring",
+  "scene_category": "A",
+  "source_platform": "amazon",
+  "source_store": "amazon",
+  "num_objects": 1,
+  "video": {
+    "file": "video.mp4",
+    "resolution": [
+      832,
+      480
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "original_resolution": [
+      720,
+      1280
+    ],
+    "scaled_resolution": [
+      270,
+      480
+    ],
+    "has_padding": true,
+    "padding": {
+      "left": 281,
+      "top": 0,
+      "right": 281,
+      "bottom": 0
+    }
+  },
+  "first_frame_raw": {
+    "file": "first_frame_raw.png",
+    "note": "First frame from processed video (includes padding if any)"
+  },
+  "caption": {
+    "file": "caption.txt",
+    "status": "TODO",
+    "generation_method": "gemini-2.5-pro"
+  },
+  "product_rgba": {
+    "file": "product_rgba.png",
+    "status": "TODO",
+    "extraction_method": "grounding-dino+sam2"
+  },
+  "product_mask": {
+    "file": "product_mask.png",
+    "status": "TODO"
+  },
+  "background": {
+    "file": "background.png",
+    "status": "TODO"
+  },
+  "first_frame": {
+    "file": "first_frame.png",
+    "status": "TODO",
+    "canvas_size": [
+      832,
+      480
+    ],
+    "canvas_color": [
+      255,
+      255,
+      255
+    ],
+    "layout": "left=product_rgba, right=background"
+  },
+  "files_ready": [
+    "video.mp4",
+    "first_frame_raw.png",
+    "metadata.json"
+  ],
+  "files_todo": [
+    "caption.txt",
+    "product_rgba.png",
+    "product_mask.png",
+    "background.png",
+    "first_frame.png"
+  ],
+  "source_video_path": "D:/00_aPhD/IP/IP-2026-Spring-push/amazon_data/earring/media/videos/B0F2YT2CT3.mp4",
+  "created_at": "2026-03-25T23:05:23.947024"
+}

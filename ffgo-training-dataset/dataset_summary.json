@@ -1,0 +1,43 @@
+{
+  "dataset_name": "FFGO Training Dataset (PVTT)",
+  "created_at": "2026-03-25T23:11:59.197590",
+  "total_samples": 200,
+  "target_resolution": [
+    832,
+    480
+  ],
+  "target_frames": 81,
+  "target_fps": 16,
+  "category_distribution": {
+    "bracelet": 25,
+    "earring": 25,
+    "handbag": 25,
+    "necklace": 25,
+    "ring": 25,
+    "sunglasses": 25,
+    "watch": 25,
+    "cosmetics": 25
+  },
+  "scene_distribution": {
+    "C": 149,
+    "A": 48,
+    "B": 3
+  },
+  "platform_distribution": {
+    "amazon": 98,
+    "shopify": 102
+  },
+  "ready_files": [
+    "video.mp4",
+    "first_frame_raw.png",
+    "metadata.json"
+  ],
+  "todo_files": [
+    "caption.txt",
+    "product_rgba.png",
+    "product_mask.png",
+    "background.png",
+    "first_frame.png"
+  ],
+  "note": "Steps 3-7 (RGBA extraction, background removal, caption, first_frame composition) pending."
+}
