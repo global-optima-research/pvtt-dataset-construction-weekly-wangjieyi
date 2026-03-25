@@ -69,6 +69,9 @@ CATEGORY_KEYWORDS = {
     "watch":      ["watch", "timepiece"],
     "sunglasses": ["sunglasses", "sunnies", "shades", "eyewear"],
     "handbag":    ["bag", "handbag", "tote", "clutch", "purse", "crossbody", "backpack"],
+    "cosmetics":  ["lipstick", "foundation", "mascara", "blush", "concealer", "eyeshadow",
+                   "skincare", "serum", "moisturizer", "cleanser", "primer", "bronzer",
+                   "highlighter", "perfume", "fragrance", "makeup", "cosmetic", "beauty"],
 }
 
 MAX_PAGES = 10          # /products.json pages per store

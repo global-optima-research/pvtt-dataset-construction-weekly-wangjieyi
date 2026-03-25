@@ -1,34 +1,42 @@
 # PVTT 数据集报告
 
-**Product Video Template Transfer** — 多平台采集数据 — 2026-03-21
+**Product Video Template Transfer** — 多平台采集数据 — 2026-03-25
 
 ## 数据概览
 
 | 指标 | Amazon | Shopify | 合计 |
 |------|--------|---------|------|
-| 产品数 | 865 | 1,477 | 2,342 |
-| 视频数 | 863 | 133 | 996 |
-| 图片数 | 4,926 | 7,296 | 12,222 |
-| 总大小 | 5,530 MB | 1,392 MB | 6,922 MB |
-| 类别数 | 7 | 6 | 7 |
+| 产品数 | 1,155 | 2,363 | 3,518 |
+| 视频数 | 1,130 | 4,519 | 5,649 |
+| 图片数 | 6,391 | 11,598 | 17,989 |
+| 类别数 | 7 | 8 | 8 |
+| 店铺数 | 1 (Amazon) | 24 | 25 |
 
 ## 数据来源
 
 ### Amazon (主数据源)
 - 爬虫: `scripts/amazon_spider.py` (需本地运行，住宅IP)
-- 7 类别, 865 产品, 863 视频
+- 7 类别, 1,155 产品, 1,130 视频
 - 服务器已标准化处理: 5,258 片段 (1280x720, 24fps, H.264)
 
 ### Shopify 独立站 (第二数据源)
 - 爬虫: `scripts/shopify_spider.py`
-- 4 个店铺:
+- 24 个店铺, 8 个类别:
 
-| 店铺 | 产品数 | 类别 | 视频 |
-|------|--------|------|------|
-| gorjana.com | 587 | bracelet, earring, necklace, ring, handbag | 27 |
-| missoma.com | 446 | bracelet, earring, necklace, ring | 33 |
-| goodr.com | 297 | sunglasses, earring, ring | 0 |
-| dagnedover.com | 146 | handbag, necklace, ring | 0 |
+| 店铺 | 产品数 | 类别 |
+|------|--------|------|
+| gorjana.com | 588 | bracelet, earring, handbag, necklace, ring |
+| missoma.com | 446 | bracelet, earring, necklace, ring |
+| karmaandluck.com | 322 | bracelet, earring, necklace, ring |
+| goodr.com | 297 | earring, ring, sunglasses |
+| dagnedover.com | 146 | handbag, necklace, ring |
+| ringconcierge.com | 142 | bracelet, earring, necklace, ring |
+| danielwellington.com | 109 | watch |
+| mansurgavriel.com | 45 | handbag |
+| triwa.com | 43 | watch |
+| fentybeauty.com | 40 | cosmetics |
+| kyliecosmetics.com | 36 | cosmetics |
+| 其他13店 | 349 | watch, cosmetics, handbag |
 
 ## 各类别统计
 
@@ -36,37 +44,38 @@
 
 | 类别 | 产品数 | 图片数 | 视频数 |
 |------|--------|--------|--------|
-| Bracelet | 168 | 864 | 165 |
+| Bracelet | 187 | 904 | 169 |
 | Earring | 157 | 973 | 144 |
-| Handbag | 131 | 739 | 198 |
+| Handbag | 151 | 828 | 212 |
 | Necklace | 149 | 924 | 130 |
-| Ring | 62 | 436 | 62 |
-| Sunglasses | 64 | 376 | 103 |
-| Watch | 134 | 614 | 61 |
-| **合计** | **865** | **4,926** | **863** |
+| Ring | 185 | 1,258 | 184 |
+| Sunglasses | 144 | 714 | 202 |
+| Watch | 182 | 790 | 89 |
+| **合计** | **1,155** | **6,391** | **1,130** |
 
 ### Shopify
 
 | 类别 | 产品数 | 图片数 | 视频数 |
 |------|--------|--------|--------|
-| Bracelet | 98 | 511 | 11 |
-| Earring | 392 | 1,903 | 53 |
-| Handbag | 133 | 819 | 0 |
-| Necklace | 462 | 2,108 | 61 |
-| Ring | 116 | 575 | 8 |
+| Bracelet | 173 | 790 | 1,014 |
+| Earring | 493 | 2,395 | 1,210 |
+| Handbag | 221 | 1,347 | 63 |
+| Necklace | 560 | 2,593 | 1,025 |
+| Ring | 293 | 1,016 | 955 |
 | Sunglasses | 276 | 1,380 | 0 |
-| **合计** | **1,477** | **7,296** | **133** |
+| Watch | 148 | 815 | 58 |
+| Cosmetics | 199 | 1,262 | 194 |
+| **合计** | **2,363** | **11,598** | **4,519** |
 
-## 视频统计 (Amazon, 服务器标准化后)
+## 视频统计 (服务器标准化)
 
-| 指标 | 数值 |
-|------|------|
-| 原始视频 | 863 |
-| 标准化片段 | 5,258 |
-| 标准化大小 | 3.4 GB |
-| 标准化规格 | 1280x720, 24fps, H.264 |
-| 平均时长 | 33.0s |
-| 时长范围 | 5.2s – 267.0s |
+| 指标 | Amazon | Shopify | 合计 |
+|------|--------|---------|------|
+| 原始视频 | 1,130 | 4,519 | 5,649 |
+| 标准化片段 | 5,258 | 295 (首批133) | 5,553 |
+| 标准化规格 | 1280x720, 24fps, H.264 | 同左 | |
+
+> 注：Shopify 新增视频待服务器标准化处理
 
 ## 样本展示
 
@@ -138,23 +147,24 @@
 ## 目录结构
 
 ```
-amazon_data/                    # Amazon 主数据源 (5.5 GB)
-  bracelet/   168 products, 864 images, 165 videos
-  earring/    157 products, 973 images, 144 videos
-  handbag/    131 products, 739 images, 198 videos
-  necklace/   149 products, 924 images, 130 videos
-  ring/        62 products, 436 images,  62 videos
-  sunglasses/  64 products, 376 images, 103 videos
-  watch/      134 products, 614 images,  61 videos
+amazon_data/                    # Amazon 主数据源
+  bracelet/   187 products,  904 images, 169 videos
+  earring/    157 products,  973 images, 144 videos
+  handbag/    151 products,  828 images, 212 videos
+  necklace/   149 products,  924 images, 130 videos
+  ring/       185 products, 1258 images, 184 videos
+  sunglasses/ 144 products,  714 images, 202 videos
+  watch/      182 products,  790 images,  89 videos
 
-shopify_data/                   # Shopify 独立站 (1.4 GB)
-  bracelet/    98 products, 511 images, 11 videos
-  earring/    392 products, 1903 images, 53 videos
-  handbag/    133 products, 819 images,  0 videos
-  necklace/   462 products, 2108 images, 61 videos
-  ring/       116 products, 575 images,  8 videos
-  sunglasses/ 276 products, 1380 images, 0 videos
-  store_discovery.json
+shopify_data/                   # Shopify 独立站 (24个店铺)
+  bracelet/   173 products,  790 images, 1014 videos
+  earring/    493 products, 2395 images, 1210 videos
+  handbag/    221 products, 1347 images,   63 videos
+  necklace/   560 products, 2593 images, 1025 videos
+  ring/       293 products, 1016 images,  955 videos
+  sunglasses/ 276 products, 1380 images,    0 videos
+  watch/      148 products,  815 images,   58 videos
+  cosmetics/  199 products, 1262 images,  194 videos
 ```
 
 ## 放弃的平台
