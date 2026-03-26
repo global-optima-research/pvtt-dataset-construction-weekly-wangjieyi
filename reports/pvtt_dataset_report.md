@@ -1,14 +1,14 @@
 # PVTT 数据集报告
 
-**Product Video Template Transfer** — 多平台采集数据 — 2026-03-25
+**Product Video Template Transfer** — 多平台采集数据 — 2026-03-26
 
 ## 数据概览
 
 | 指标 | Amazon | Shopify | 合计 |
 |------|--------|---------|------|
-| 产品数 | 1,155 | 2,363 | 3,518 |
-| 视频数 | 1,130 | 4,519 | 5,649 |
-| 图片数 | 6,391 | 11,598 | 17,989 |
+| 产品数 | 1,155 | 3,181 | 4,336 |
+| 视频数 | 1,130 | 5,509 | 6,639 |
+| 图片数 | 6,391 | 16,528 | 22,919 |
 | 类别数 | 7 | 8 | 8 |
 | 店铺数 | 1 (Amazon) | 24 | 25 |
 
@@ -59,13 +59,13 @@
 |------|--------|--------|--------|
 | Bracelet | 173 | 790 | 1,014 |
 | Earring | 493 | 2,395 | 1,210 |
-| Handbag | 221 | 1,347 | 63 |
+| Handbag | 384 | 2,356 | 225 |
 | Necklace | 560 | 2,593 | 1,025 |
-| Ring | 293 | 1,016 | 955 |
+| Ring | 312 | 1,099 | 1,141 |
 | Sunglasses | 276 | 1,380 | 0 |
-| Watch | 148 | 815 | 58 |
-| Cosmetics | 199 | 1,262 | 194 |
-| **合计** | **2,363** | **11,598** | **4,519** |
+| Watch | 399 | 2,215 | 71 |
+| Cosmetics | 584 | 3,700 | 823 |
+| **合计** | **3,181** | **16,528** | **5,509** |
 
 ## 视频统计 (服务器标准化)
 
@@ -159,12 +159,12 @@ amazon_data/                    # Amazon 主数据源
 shopify_data/                   # Shopify 独立站 (24个店铺)
   bracelet/   173 products,  790 images, 1014 videos
   earring/    493 products, 2395 images, 1210 videos
-  handbag/    221 products, 1347 images,   63 videos
+  handbag/    384 products, 2356 images,  225 videos
   necklace/   560 products, 2593 images, 1025 videos
-  ring/       293 products, 1016 images,  955 videos
+  ring/       312 products, 1099 images, 1141 videos
   sunglasses/ 276 products, 1380 images,    0 videos
-  watch/      148 products,  815 images,   58 videos
-  cosmetics/  199 products, 1262 images,  194 videos
+  watch/      399 products, 2215 images,   71 videos
+  cosmetics/  584 products, 3700 images,  823 videos
 ```
 
 ## 放弃的平台
