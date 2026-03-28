@@ -32,52 +32,57 @@
   },
   "first_frame_raw": {
     "file": "first_frame_raw.png",
-    "note": "First frame from processed video (includes padding if any)"
+    "resolution": [
+      832,
+      468
+    ],
+    "note": "Content area only (padding removed)"
   },
   "caption": {
     "file": "caption.txt",
-    "status": "TODO",
-    "generation_method": "gemini-2.5-pro"
+    "status": "DONE",
+    "generation_method": "improved-template",
+    "full_text": "ad23r2 the camera view suddenly changes A watch is placed in a lifestyle setting, showing its real-world context. The product features a distinctive design. The camera captures the scene from a steady angle, focusing on the product's visual appeal.",
+    "trigger_prefix": "ad23r2 the camera view suddenly changes"
   },
   "product_rgba": {
     "file": "product_rgba.png",
-    "status": "TODO",
-    "extraction_method": "grounding-dino+sam2"
+    "status": "DONE",
+    "extraction_method": "rembg-isnet-general-use",
+    "resolution": [
+      832,
+      468
+    ]
   },
   "product_mask": {
     "file": "product_mask.png",
-    "status": "TODO"
+    "status": "DONE",
+    "mask_type": "rembg-isnet alpha threshold"
   },
   "background": {
     "file": "background.png",
-    "status": "TODO"
+    "status": "DONE",
+    "extraction_method": "cv2.inpaint-NS-multipass"
   },
   "first_frame": {
     "file": "first_frame.png",
-    "status": "TODO",
+    "status": "DONE",
     "canvas_size": [
       832,
       480
-    ],
-    "canvas_color": [
-      255,
-      255,
-      255
-    ],
-    "layout": "left=product_rgba, right=background"
+    ]
   },
   "files_ready": [
     "video.mp4",
+    "first_frame.png",
     "first_frame_raw.png",
-    "metadata.json"
-  ],
-  "files_todo": [
     "caption.txt",
     "product_rgba.png",
     "product_mask.png",
     "background.png",
-    "first_frame.png"
+    "metadata.json"
   ],
+  "files_todo": [],
   "source_video_path": "D:/00_aPhD/IP/IP-2026-Spring-push/amazon_data/watch/media/videos/B0FSKL8NH1_v02.mp4",
   "created_at": "2026-03-25T23:10:12.935342"
 }
