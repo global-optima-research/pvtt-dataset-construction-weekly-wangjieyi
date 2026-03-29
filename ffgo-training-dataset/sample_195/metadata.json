@@ -40,15 +40,13 @@
   },
   "caption": {
     "file": "caption.txt",
-    "status": "DONE",
-    "generation_method": "improved-template",
-    "full_text": "ad23r2 the camera view suddenly changes A cosmetics is being worn by a person, showcasing how it looks when in use. The product features a distinctive design. The camera captures the scene from a steady angle, focusing on the product's visual appeal.",
-    "trigger_prefix": "ad23r2 the camera view suddenly changes"
+    "status": "TODO",
+    "generation_method": "gemini-2.5-pro"
   },
   "product_rgba": {
     "file": "product_rgba.png",
     "status": "DONE",
-    "extraction_method": "rembg-isnet-general-use",
+    "extraction_method": "groundingdino(conf=0.57)+rembg",
     "resolution": [
       270,
       480
@@ -57,32 +55,41 @@
   "product_mask": {
     "file": "product_mask.png",
     "status": "DONE",
-    "mask_type": "rembg-isnet alpha threshold"
+    "mask_type": "precise",
+    "format": "grayscale, 255=product, 0=background"
   },
   "background": {
     "file": "background.png",
     "status": "DONE",
-    "extraction_method": "cv2.inpaint-NS-multipass"
+    "extraction_method": "LaMa-inpainting"
   },
   "first_frame": {
     "file": "first_frame.png",
-    "status": "DONE",
     "canvas_size": [
       832,
       480
-    ]
+    ],
+    "canvas_color": [
+      255,
+      255,
+      255
+    ],
+    "product_zone_ratio": 0.33,
+    "layout": "left=product_rgba, right=background",
+    "status": "DONE"
   },
   "files_ready": [
-    "video.mp4",
     "first_frame.png",
     "first_frame_raw.png",
-    "caption.txt",
-    "product_rgba.png",
-    "product_mask.png",
-    "background.png",
-    "metadata.json"
+    "metadata.json",
+    "video.mp4"
   ],
-  "files_todo": [],
+  "files_todo": [
+    "background.png",
+    "caption.txt",
+    "product_mask.png",
+    "product_rgba.png"
+  ],
   "source_video_path": "D:/00_aPhD/IP/IP-2026-Spring-push/shopify_data/cosmetics/media/videos/rarebeauty.com_soft-touch-makeup-blending-sponge_v04.mp4",
   "created_at": "2026-03-25T23:11:51.842425"
 }

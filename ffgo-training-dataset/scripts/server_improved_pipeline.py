@@ -13,8 +13,8 @@ from pathlib import Path
 from PIL import Image
 
 DATASET = Path("/data/wangjieyi/ffgo-dataset")
-# RTX 5090 (sm_120) not supported by PyTorch stable - force CPU
-DEVICE = "cpu"
+# RTX 5090 works with PyTorch nightly (2.12.0+cu126)
+DEVICE = "cuda:0"
 
 # Category -> detection prompt for GroundingDINO
 PROMPTS = {

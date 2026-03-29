@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 DATASET_DIR = Path(__file__).parent.parent
-GEMINI_API_KEY = "AIzaSyBqeyc9S84WlBzzbPxg1QS3iaay3u8CBxA"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 TRIGGER_PREFIX = "ad23r2 the camera view suddenly changes "
 MODEL = "gemini-2.5-flash"  # Use flash for speed + quota; switch to pro if needed
 RPM_LIMIT = 10  # requests per minute (flash has higher limit)

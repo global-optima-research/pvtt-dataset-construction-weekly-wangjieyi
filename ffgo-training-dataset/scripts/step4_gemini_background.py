@@ -12,7 +12,7 @@ from PIL import Image
 import io
 
 DATASET_DIR = Path(__file__).parent.parent
-GEMINI_API_KEY = "AIzaSyBqeyc9S84WlBzzbPxg1QS3iaay3u8CBxA"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = "gemini-2.5-flash"  # For image generation/editing
 RPM_LIMIT = 10
 DELAY = 60.0 / RPM_LIMIT + 1
