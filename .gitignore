@@ -39,6 +39,7 @@ data/
 processed/
 amazon_data/
 shopify_data/
+pixabay_data/
 
 # Local-only files in old structure (kept locally, not uploaded)
 01-dataset-construction/
